@@ -1,0 +1,176 @@
+use log::warn;
+use serde::Deserialize;
+use std::collections::HashSet;
+
+const JETBRAINS_VERSIONS: &str = "https://www.jetbrains.com/updates/updates.xml";
+
+const PROCESSED_VERSION_PREFIXES: &[&str] = &["2027.", "2026.", "2025.", "2024.", "2023."];
+
+#[derive(Debug, PartialEq, Eq, Hash, Clone, Copy)]
+pub enum IdeProduct {
+    IntelliJUltimate,
+    IntelliJCommunity,
+    PhpStorm,
+    WebStorm,
+    PyCharmProfessional,
+    PyCharmCommunity,
+    RubyMine,
+    CLion,
+    GoLand,
+    DataGrip,
+    DataSpell,
+    Rider,
+    AndroidStudio,
+    RustRover,
+    Aqua,
+    Writerside,
+    Mps,
+}
+impl IdeProduct {
+    fn try_from_code(code: &str) -> Option<Self> {
+        Some(match code {
+            "IU" => IdeProduct::IntelliJUltimate,
+            "IC" => IdeProduct::IntelliJCommunity,
+            "PS" => IdeProduct::PhpStorm,
+            "WS" => IdeProduct::WebStorm,
+            "PY" => IdeProduct::PyCharmProfessional,
+            "PC" => IdeProduct::PyCharmCommunity,
+            "RM" => IdeProduct::RubyMine,
+            "CL" => IdeProduct::CLion,
+            "GO" => IdeProduct::GoLand,
+            "DB" => IdeProduct::DataGrip,
+            "DS" => IdeProduct::DataSpell,
+            "RD" => IdeProduct::Rider,
+            "AI" => IdeProduct::AndroidStudio,
+            "RR" => IdeProduct::RustRover,
+            "QA" => IdeProduct::Aqua,
+            "WRS" => IdeProduct::Writerside,
+            "MPS" => IdeProduct::Mps,
+            _ => return None,
+        })
+    }
+
+    #[allow(unused)] // maybe useful later
+    pub fn product_code(&self) -> &str {
+        match self {
+            IdeProduct::IntelliJUltimate => "IU",
+            IdeProduct::IntelliJCommunity => "IC",
+            IdeProduct::PhpStorm => "PS",
+            IdeProduct::WebStorm => "WS",
+            IdeProduct::PyCharmProfessional => "PY",
+            IdeProduct::PyCharmCommunity => "PC",
+            IdeProduct::RubyMine => "RM",
+            IdeProduct::CLion => "CL",
+            IdeProduct::GoLand => "GO",
+            IdeProduct::DataGrip => "DB",
+            IdeProduct::DataSpell => "DS",
+            IdeProduct::Rider => "RD",
+            IdeProduct::AndroidStudio => "AI",
+            IdeProduct::RustRover => "RR",
+            IdeProduct::Aqua => "QA",
+            IdeProduct::Writerside => "WRS",
+            IdeProduct::Mps => "MPS",
+        }
+    }
+
+    pub fn nix_key(&self) -> &str {
+        match self {
+            IdeProduct::IntelliJUltimate => "idea-ultimate",
+            IdeProduct::IntelliJCommunity => "idea-community",
+            IdeProduct::PhpStorm => "phpstorm",
+            IdeProduct::WebStorm => "webstorm",
+            IdeProduct::PyCharmProfessional => "pycharm-professional",
+            IdeProduct::PyCharmCommunity => "pycharm-community",
+            IdeProduct::RubyMine => "ruby-mine",
+            IdeProduct::CLion => "clion",
+            IdeProduct::GoLand => "goland",
+            IdeProduct::DataGrip => "datagrip",
+            IdeProduct::DataSpell => "dataspell",
+            IdeProduct::Rider => "rider",
+            IdeProduct::AndroidStudio => "android-studio",
+            IdeProduct::RustRover => "rust-rover",
+            IdeProduct::Aqua => "aqua",
+            IdeProduct::Writerside => "writerside",
+            IdeProduct::Mps => "MPS",
+        }
+    }
+}
+
+#[derive(Debug, PartialEq, Eq, Clone, Hash)]
+pub struct IdeVersion {
+    pub ide: IdeProduct,
+    pub version: String,
+    pub build_number: String,
+}
+
+#[derive(Debug, PartialEq, Deserialize)]
+pub struct Products {
+    product: Vec<Product>,
+}
+
+#[derive(Debug, PartialEq, Deserialize)]
+pub struct Product {
+    code: Vec<String>,
+    channel: Option<Vec<Channel>>,
+}
+
+#[derive(Debug, PartialEq, Deserialize, Clone)]
+pub struct Channel {
+    build: Vec<Build>,
+    id: String,
+}
+
+#[derive(Debug, PartialEq, Deserialize, Clone)]
+pub struct Build {
+    number: String,
+    version: String,
+}
+
+pub async fn collect_ids() -> anyhow::Result<Vec<IdeVersion>> {
+    let products: Products =
+        serde_xml_rs::from_str(&reqwest::get(JETBRAINS_VERSIONS).await?.text().await?)?;
+
+    let mut already_processed = HashSet::new();
+    let mut versions: Vec<IdeVersion> = Vec::new();
+
+    for product in products.product {
+        for code in product.code {
+            if let Some(ideobj) = IdeProduct::try_from_code(&code) {
+                if already_processed.insert(ideobj) {
+                    if let Some(channels) = product.channel.as_ref() {
+                        for channel in channels {
+                            if channel.id.ends_with("RELEASE-licensing-RELEASE") {
+                                for build in &channel.build {
+                                    if allowed_build_version(&build.version) {
+                                        versions.push(IdeVersion {
+                                            ide: ideobj,
+                                            version: build.version.clone(),
+                                            build_number: build.number.clone(),
+                                        })
+                                    } else {
+                                        warn!(
+                                            "Ignoring {} {}: too old",
+                                            ideobj.nix_key(),
+                                            build.version
+                                        );
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    Ok(versions)
+}
+
+fn allowed_build_version(version: &str) -> bool {
+    for allowed in PROCESSED_VERSION_PREFIXES {
+        if version.starts_with(allowed) {
+            return true;
+        }
+    }
+    false
+}
