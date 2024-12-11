@@ -3,8 +3,7 @@ name: Generate
 on:
   workflow_dispatch:
   schedule:
-    # Run this workflow every week at 03:34 am
-    - cron: "34 3 */7 * *"
+    - cron: "0 3 * * 6"
 
 permissions:
   contents: write
