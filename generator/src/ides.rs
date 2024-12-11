@@ -91,7 +91,7 @@ impl IdeProduct {
             IdeProduct::RustRover => "rust-rover",
             IdeProduct::Aqua => "aqua",
             IdeProduct::Writerside => "writerside",
-            IdeProduct::Mps => "MPS",
+            IdeProduct::Mps => "mps",
         }
     }
 }

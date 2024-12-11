@@ -14,6 +14,25 @@ You can find the plugin IDs at the bottom of Marketplace pages.
 
 The plugin list is only updated for IDEs from the current and previous year, for other IDEs the list may be stale.
 
+Supported IDEs:
+- IntelliJ Ultimate (`jetbrains.idea-ultimate`)
+- IntelliJ Community (`jetbrains.idea-community`)
+- PhpStorm (`jetbrains.phpstorm`)
+- WebStorm (`jetbrains.webstorm`)
+- PyCharm Professional (`jetbrains.pycharm-professional`)
+- PyCharm Community (`jetbrains.pycharm-community`)
+- RubyMine (`jetbrains.ruby-mine`)
+- CLion (`jetbrains.clion`)
+- GoLand (`jetbrains.goland`)
+- DataGrip (`jetbrains.datagrip`)
+- DataSpell (`jetbrains.dataspell`)
+- Rider (`jetbrains.rider`)
+- Android Studio (`android-studio`)
+- RustRover (`jetbrains.rust-rover`)
+- Aqua (`jetbrains.aqua`)
+- Writerside (`jetbrains.writerside`)
+- Mps (`jetbrains.mps`)
+
 ## How to setup
 
 ### With Flakes
