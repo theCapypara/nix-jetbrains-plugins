@@ -33,4 +33,3 @@ jobs:
           commit-message: Plugin Updates
           branch: plugin-updates
           delete-branch: true
-          token: ${{ secrets.FLATHUB_GITHUB_TOKEN }}
