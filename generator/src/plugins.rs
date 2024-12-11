@@ -153,7 +153,7 @@ pub async fn db_load_full(out_dir: &Path) -> anyhow::Result<PluginDb> {
             let db_mut = db_mut.clone();
             async move {
                 let Some(ideversion) =
-                    IdeVersion::from_json_filename(&*file.file_name().to_string_lossy())
+                    IdeVersion::from_json_filename(&file.file_name().to_string_lossy())
                 else {
                     warn!(
                         "Invalid JSON file in ide directory skipped: {}",
@@ -461,7 +461,7 @@ pub async fn db_save(output_folder: &Path, db: PluginDb) -> anyhow::Result<()> {
 }
 
 pub async fn db_cleanup(db: &mut PluginDb) -> anyhow::Result<()> {
-    let mut used_keys: HashSet<_> = db
+    let used_keys: HashSet<_> = db
         .ides
         .values()
         .flat_map(|ides| {
