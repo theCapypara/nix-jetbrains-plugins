@@ -23,7 +23,8 @@ jobs:
           nix_path: nixpkgs=channel:nixos-24.11
       - name: Run generator
         run: |
-          nix run '.#_nix-jebrains-plugins-generator' -- --output-path ./generated
+          nix run '.#_nix-jebrains-plugins-generator' -- --output-path ./generated generate
+          nix run '.#_nix-jebrains-plugins-generator' -- --output-path ./generated cleanup
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:

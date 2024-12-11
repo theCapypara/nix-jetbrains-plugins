@@ -12,16 +12,18 @@ use std::borrow::Cow;
 use std::collections::{BTreeMap, HashMap, HashSet};
 use std::fs::exists;
 use std::future;
+use std::mem::take;
 use std::path::{Path, PathBuf};
 use std::process::Stdio;
 use std::sync::Arc;
 use std::time::Duration;
-use tokio::fs::{read_to_string, write};
+use tokio::fs::{read_dir, read_to_string, write};
 use tokio::process::Command;
 use tokio::sync::RwLock;
 use tokio::time::timeout;
 use tokio_retry2::strategy::ExponentialBackoff;
 use tokio_retry2::{Retry, RetryError};
+use tokio_stream::wrappers::ReadDirStream;
 use version_compare::Version;
 use which::which;
 
@@ -41,8 +43,6 @@ impl PluginVersion {
         Self(format!("{}{}{}", name, Self::SEPARATOR, version))
     }
 }
-
-type PluginCache = HashMap<PluginVersion, PluginDbEntry>;
 // Plugins for which download requests have 404ed
 type FourOFourCache = HashSet<PluginVersion>;
 
@@ -50,6 +50,46 @@ pub struct PluginDb {
     // all_plugins caches all entries, ides contains references to them.
     all_plugins: BTreeMap<PluginVersion, &'static PluginDbEntry>,
     ides: HashMap<IdeVersion, BTreeMap<String, String>>,
+}
+
+impl PluginDb {
+    pub fn new() -> Self {
+        Self {
+            all_plugins: Default::default(),
+            ides: Default::default(),
+        }
+    }
+
+    fn init(init: impl IntoIterator<Item = (PluginVersion, PluginDbEntry)>) -> PluginDb {
+        Self {
+            // see insert on why we do this
+            all_plugins: init
+                .into_iter()
+                .map(|(k, v)| {
+                    // see insert on why we do this
+                    let v: &'static _ = Box::leak(Box::new(v));
+                    (k, v)
+                })
+                .collect(),
+            ides: Default::default(),
+        }
+    }
+
+    pub fn insert(
+        &mut self,
+        ideversion: &IdeVersion,
+        name: &str,
+        version: &str,
+        entry: &PluginDbEntry,
+    ) {
+        let version_entry = self.ides.entry(ideversion.clone()).or_default();
+        // We leak here since self-referential structs are otherwise a nightmare and it doesn't
+        // really matter in this CLI app.
+        self.all_plugins
+            .entry(PluginVersion::new(name, version))
+            .or_insert_with(|| Box::leak(Box::new(entry.clone())));
+        version_entry.insert(name.to_string(), version.to_string());
+    }
 }
 
 #[derive(Debug, PartialEq, Deserialize)]
@@ -78,30 +118,6 @@ pub struct PluginDetailsIdeaVersion {
     until_build: Option<String>,
 }
 
-impl PluginDb {
-    pub fn new() -> Self {
-        Self {
-            all_plugins: Default::default(),
-            ides: Default::default(),
-        }
-    }
-    pub fn insert(
-        &mut self,
-        ideversion: &IdeVersion,
-        name: &str,
-        version: &str,
-        entry: &PluginDbEntry,
-    ) {
-        let version_entry = self.ides.entry(ideversion.clone()).or_default();
-        // We leak here since self-referential structs are otherwise a nightmare and it doesn't
-        // really matter in this CLI app.
-        self.all_plugins
-            .entry(PluginVersion::new(name, version))
-            .or_insert_with(|| Box::leak(Box::new(entry.clone())));
-        version_entry.insert(name.to_string(), version.to_string());
-    }
-}
-
 #[derive(Debug, PartialEq, Eq, Hash, Clone, Serialize, Deserialize)]
 pub struct PluginDbEntry {
     #[serde(rename = "p")]
@@ -114,28 +130,63 @@ pub async fn index(url: &str) -> anyhow::Result<Vec<String>> {
     Ok(reqwest::get(url).await?.json().await?)
 }
 
-pub async fn db_cache_load(out_dir: &Path) -> anyhow::Result<PluginCache> {
+/// Load the plugin database, all_plugins.json only!
+pub async fn db_load(out_dir: &Path) -> anyhow::Result<PluginDb> {
     let file = out_dir.join(ALL_PLUGINS_JSON);
     if exists(&file)? {
-        Ok(serde_json::from_str(&read_to_string(file).await?)?)
+        Ok(PluginDb::init(serde_json::from_str::<'_, HashMap<_, _>>(
+            &read_to_string(file).await?,
+        )?))
     } else {
-        Ok(PluginCache::new())
+        Ok(PluginDb::new())
     }
 }
 
-pub async fn build_db(
-    cache: &PluginCache,
+/// Load the plugin database, including the IDE mappings.
+/// WARNING: Does not populate build numbers for IDEs!
+pub async fn db_load_full(out_dir: &Path) -> anyhow::Result<PluginDb> {
+    let mut db = db_load(out_dir).await?;
+    let db_mut = Arc::new(RwLock::new(&mut db));
+
+    ReadDirStream::new(read_dir(out_dir.join("ides")).await?)
+        .and_then(|file| {
+            let db_mut = db_mut.clone();
+            async move {
+                let Some(ideversion) =
+                    IdeVersion::from_json_filename(&*file.file_name().to_string_lossy())
+                else {
+                    warn!(
+                        "Invalid JSON file in ide directory skipped: {}",
+                        file.path().display()
+                    );
+                    return Ok(());
+                };
+                let ide_mapping: BTreeMap<String, String> =
+                    serde_json::from_str(&read_to_string(file.path()).await?)?;
+                let mut lck = db_mut.write().await;
+                let db_mut = &mut *lck;
+                db_mut.ides.insert(ideversion, ide_mapping);
+                Ok(())
+            }
+        })
+        .try_collect::<()>()
+        .await?;
+
+    Ok(db)
+}
+
+pub async fn db_update(
+    db: &mut PluginDb,
     ides: &[IdeVersion],
     pluginkeys: &[String],
-) -> anyhow::Result<PluginDb> {
-    let cache = Arc::new(cache);
+) -> anyhow::Result<()> {
     let client = Arc::new(
         Client::builder()
             .timeout(Duration::from_secs(600))
             .build()?,
     );
     let fof_cache = Arc::new(RwLock::new(FourOFourCache::new()));
-    let db = Arc::new(RwLock::new(PluginDb::new()));
+    let db = Arc::new(RwLock::new(db));
 
     let mut futures = Vec::new();
 
@@ -143,7 +194,6 @@ pub async fn build_db(
         let fof_cache = fof_cache.clone();
         let db = db.clone();
         let client = client.clone();
-        let cache = cache.clone();
 
         // Create a future that will be retried 3 times, has a timeout of 1200 seconds per try
         // and polls process_plugin to process this plugin for this IDE version. process_plugin
@@ -153,7 +203,6 @@ pub async fn build_db(
                 let fof_cache = fof_cache.clone();
                 let db = db.clone();
                 let client = client.clone();
-                let cache = cache.clone();
                 async move {
                     let res = timeout(
                         Duration::from_secs(1200),
@@ -162,7 +211,6 @@ pub async fn build_db(
                             client.clone(),
                             ides,
                             pluginkey,
-                            &cache,
                             fof_cache.clone(),
                         ),
                     )
@@ -192,7 +240,7 @@ pub async fn build_db(
         .try_all(|()| future::ready(true))
         .await?;
 
-    Ok(Arc::into_inner(db).unwrap().into_inner())
+    Ok(())
 }
 
 /// Various hacks to support (or skip) some very odd cases
@@ -209,11 +257,10 @@ fn hacks_for_details_key(pluginkey: &str) -> Option<&str> {
 }
 
 async fn process_plugin(
-    db: Arc<RwLock<PluginDb>>,
+    db: Arc<RwLock<&mut PluginDb>>,
     client: Arc<Client>,
     ides: &[IdeVersion],
     pluginkey: &str,
-    cache: &PluginCache,
     fof_cache: Arc<RwLock<FourOFourCache>>,
 ) -> anyhow::Result<()> {
     debug!("Processing {pluginkey}...");
@@ -252,11 +299,11 @@ async fn process_plugin(
             None => warn!("{pluginkey}: IDE {ide:?} not supported."),
             Some(version) => {
                 let entry =
-                    get_db_entry(&client, pluginkey, &version.version, &db, cache, &fof_cache)
-                        .await?;
+                    get_db_entry(&client, pluginkey, &version.version, &db, &fof_cache).await?;
                 if let Some(entry) = entry {
                     let mut lck = db.write().await;
-                    lck.insert(ide, pluginkey, &version.version, &entry);
+                    let db_mut = &mut *lck;
+                    db_mut.insert(ide, pluginkey, &version.version, &entry);
                 }
             }
         }
@@ -289,8 +336,7 @@ async fn get_db_entry<'a>(
     client: &Client,
     pluginkey: &str,
     version: &str,
-    current_db: &RwLock<PluginDb>,
-    cache: &'a PluginCache,
+    current_db: &RwLock<&mut PluginDb>,
     fof_cache: &RwLock<FourOFourCache>,
 ) -> anyhow::Result<Option<Cow<'a, PluginDbEntry>>> {
     let key = PluginVersion::new(pluginkey, version);
@@ -302,10 +348,6 @@ async fn get_db_entry<'a>(
             return Ok(Some(Cow::Borrowed(v)));
         }
     };
-    // Look in cache
-    if let Some(v) = cache.get(&key) {
-        return Ok(Some(Cow::Borrowed(v)));
-    }
 
     {
         if fof_cache.read().await.contains(&key) {
@@ -411,9 +453,27 @@ pub async fn db_save(output_folder: &Path, db: PluginDb) -> anyhow::Result<()> {
     // mappings
     let output_folder = output_folder.join("ides");
     for (ide, plugins) in db.ides {
-        let out_path = output_folder.join(format!("{}-{}.json", ide.ide.nix_key(), ide.version));
+        let out_path = output_folder.join(ide.to_json_filename());
         debug!("Generating {out_path:?}...");
         write(out_path, serde_json::to_string_pretty(&plugins)?).await?;
     }
+    Ok(())
+}
+
+pub async fn db_cleanup(db: &mut PluginDb) -> anyhow::Result<()> {
+    let mut used_keys: HashSet<_> = db
+        .ides
+        .values()
+        .flat_map(|ides| {
+            ides.iter()
+                .map(|(name, version)| PluginVersion::new(name, version))
+        })
+        .collect();
+
+    db.all_plugins = take(&mut db.all_plugins)
+        .into_iter()
+        .filter(|(k, _)| used_keys.contains(k))
+        .collect();
+
     Ok(())
 }

@@ -15859,6 +15859,10 @@
     "p": "files/22107/615947/cucumber-kotlin-intellij-plugin-242.1-signed.zip",
     "h": "CUPRfzD2AylA2sfHTFucBPplOirj0li/P5967ns39eA="
   },
+  "com.finanteq.plugins.idea.cucumber-kotlin-idea-plugin/--/243.1": {
+    "p": "files/22107/648481/cucumber-kotlin-intellij-plugin-243.1-signed.zip",
+    "h": "oh6DNnvGf71ys2eGle4Zx/EOtcvrtGnK/BNGzqMQsGc="
+  },
   "com.firsttimeinforever.intellij.pdf.viewer.intellij-pdf-viewer/--/0.8.1": {
     "p": "files/14494/91564/intellij-pdf-viewer-0.8.1.zip",
     "h": "Whq4f/yIVSuC1qL/Ox8T9WYhCXTDHjfBf8V0BKbyqy8="
@@ -20475,9 +20479,9 @@
     "p": "files/25039/601957/PixelLens-0.2.3.zip",
     "h": "k2/vRVvCXEbDh26iuxJpSTntrM6LA0H4sx5zVeB41+I="
   },
-  "com.github.srwi.pixellens/--/0.3.1": {
-    "p": "files/25039/620619/PixelLens-0.3.1.zip",
-    "h": "Gdkn7sAjj9Db/R6Wa4/YeZTRiYbbGHYM5uDPNOH0KG4="
+  "com.github.srwi.pixellens/--/0.3.2": {
+    "p": "files/25039/648232/PixelLens-0.3.2.zip",
+    "h": "SClA7UHOdwfTVZtuTPipOuyUTT9uoiQUT2F0Y2JW08w="
   },
   "com.github.stackus.gohtjetbrains/--/0.1.3": {
     "p": "files/23783/560752/GoHT-0.1.3.zip",
@@ -22207,9 +22211,9 @@
     "p": "files/19985/517928/QueryTester-1.4.3.zip",
     "h": "NE2ZyotFMwFpxW0KXWedFzcgpMXMoYyt6Y2kOeaCOTM="
   },
-  "com.htffund.plugin.replace-annotation/--/1.0.3-SNAPSHOT": {
-    "p": "files/25052/640018/framework-upgrade-plugin-1.0.3-SNAPSHOT.zip",
-    "h": "rprRetd8gVgAbDwmuzRQscWLKtgm8/h9weHTE4vFJ60="
+  "com.htffund.plugin.replace-annotation/--/1.0.4-SNAPSHOT": {
+    "p": "files/25052/648280/framework-upgrade-plugin-1.0.4-SNAPSHOT.zip",
+    "h": "I5MVSXJNLZkwMfSy3/Bvu3a3St+ulLJ6D+BlYHSnD4w="
   },
   "com.httpriestess.base16-tomorrow-dark/--/1.0.4": {
     "p": "files/17055/249482/base16-tomorrow-dark-intellij.jar",
@@ -28167,9 +28171,9 @@
     "p": "files/13407/640919/marketplace-243.22562.74.zip",
     "h": "T/yxUr27XxFBbJdvaT3ptuU+17+H3RVqYEr4keBAQNE="
   },
-  "com.intellij.mcpServer/--/1.0.2": {
-    "p": "files/26071/648196/mcp-server-plugin.zip",
-    "h": "s/8paggsjTq0cac9++QYivQ9eFkk/BFXw/HepSOEC/w="
+  "com.intellij.mcpServer/--/1.0.3": {
+    "p": "files/26071/648514/mcp-server-plugin.zip",
+    "h": "u54scQn4K6zGPxZjohE4buvs3lb2t0u2E9gZQ7uHMbg="
   },
   "com.intellij.mermaid/--/0.0.11-231": {
     "p": "files/20146/325669/Mermaid-0.0.11-231.zip",
@@ -43487,9 +43491,9 @@
     "p": "files/21372/349724/IntelliJ_Blitz_Plugin-1.0.6.zip",
     "h": "DUL+8B2Biilt402wI5N8R2bXmV5OGTmWvu5Flo1/RTU="
   },
-  "com.nekofar.milad.intellij.blitz/--/1.1.1": {
-    "p": "files/21372/618638/intellij-blitz-1.1.1.zip",
-    "h": "9EGX1Qyz2zP2HU5IKGlmLtV7vaM7DjZHNQAEejxd0/Q="
+  "com.nekofar.milad.intellij.blitz/--/1.1.2": {
+    "p": "files/21372/648486/intellij-blitz-1.1.2.zip",
+    "h": "fXewSWTLUd3a2Zah8iFck+Vli76AjSTT56U1/y8pkfE="
   },
   "com.nekofar.milad.intellij.brunch/--/1.0.5": {
     "p": "files/21376/349730/IntelliJ_Brunch_Plugin-1.0.5.zip",
@@ -43499,9 +43503,9 @@
     "p": "files/21376/366785/IntelliJ_Brunch_Plugin-1.0.9.zip",
     "h": "s3s5kJrQeXTdCpFYkdH1gVVCiW1jVIvJyGWFUoww71s="
   },
-  "com.nekofar.milad.intellij.brunch/--/1.1.0": {
-    "p": "files/21376/615259/intellij-brunch-1.1.0.zip",
-    "h": "ua6yXULeYagKHXNzDwhnvk7lc4Q+v4+hdeJ/8NtIFHQ="
+  "com.nekofar.milad.intellij.brunch/--/1.1.1": {
+    "p": "files/21376/648492/intellij-brunch-1.1.1.zip",
+    "h": "KWIcipQvubFqN+c2OLkuwfUFDwJWypPPnyra35gkGls="
   },
   "com.nekofar.milad.intellij.docusaurus/--/1.0.3": {
     "p": "files/21411/349729/IntelliJ_Docusaurus_Plugin-1.0.3.zip",
@@ -43511,9 +43515,9 @@
     "p": "files/21411/428183/IntelliJ_Docusaurus_Plugin-1.0.9.zip",
     "h": "GwvfXwSgm9NnlhzLfnID6c+wU+Hk79spq7m4ZWhGtAk="
   },
-  "com.nekofar.milad.intellij.docusaurus/--/1.1.0": {
-    "p": "files/21411/618641/intellij-docusaurus-1.1.0.zip",
-    "h": "dZqQyun9nc9yzIP8lw6aHWoAjLjpx9zV+8msW3m6C9s="
+  "com.nekofar.milad.intellij.docusaurus/--/1.1.1": {
+    "p": "files/21411/648485/intellij-docusaurus-1.1.1.zip",
+    "h": "d6Is0SHTzzSFyTwT9xRxOtOzjgH0CjkFdMhzrMmcySU="
   },
   "com.nekofar.milad.intellij.enhance/--/1.0.5": {
     "p": "files/22273/453446/IntelliJ_Enhance_Plugin-1.0.5.zip",
@@ -43523,9 +43527,9 @@
     "p": "files/22273/476338/IntelliJ_Enhance_Plugin-1.0.6.zip",
     "h": "+krh8VJmYyOlf1C6YlW4h9Yi3dyx4VF9mJL0+CQqeXk="
   },
-  "com.nekofar.milad.intellij.enhance/--/1.1.0": {
-    "p": "files/22273/615268/intellij-enhance-1.1.0.zip",
-    "h": "4sqyT9i7ylqwvj8TUjDxka5BvMstAbYX/uxeAOiNAjk="
+  "com.nekofar.milad.intellij.enhance/--/1.1.1": {
+    "p": "files/22273/648487/intellij-enhance-1.1.1.zip",
+    "h": "ja36Exh1Nyy82Zv1+0zQCVFpoJ4K1y5Sxd7OQ1UDA6c="
   },
   "com.nekofar.milad.intellij.expo/--/1.0.5": {
     "p": "files/21395/349726/IntelliJ_Expo_Plugin-1.0.5.zip",
@@ -43535,9 +43539,9 @@
     "p": "files/21395/453425/IntelliJ_Expo_Plugin-1.1.9.zip",
     "h": "FwTiioIm4VkXVUcFmAh/7DqZSjq+owiMaTdh6rb4OA8="
   },
-  "com.nekofar.milad.intellij.expo/--/1.2.2": {
-    "p": "files/21395/620375/intellij-expo-1.2.2.zip",
-    "h": "qn4MQNHu1Uu6oLAU7aw7JLdHRurkn1dGo272fxoe+/8="
+  "com.nekofar.milad.intellij.expo/--/1.2.3": {
+    "p": "files/21395/648488/intellij-expo-1.2.3.zip",
+    "h": "x4k71T7Ut5WZ1fL9a8IYYN/UPuljI8UEeDa6pnddM6A="
   },
   "com.nekofar.milad.intellij.gatsby/--/1.0.5": {
     "p": "files/21394/349731/IntelliJ_Gatsby_Plugin-1.0.5.zip",
@@ -43547,9 +43551,9 @@
     "p": "files/21394/366776/IntelliJ_Gatsby_Plugin-1.0.8.zip",
     "h": "xFg932jyk0G+azVeTCr12zCufynBJtD3cg93StEh/zM="
   },
-  "com.nekofar.milad.intellij.gatsby/--/1.1.0": {
-    "p": "files/21394/618639/intellij-gatsby-1.1.0.zip",
-    "h": "BiFQSgrwFivXYPnckqXR+sP8aaTH08gW3HjlbPQXOgo="
+  "com.nekofar.milad.intellij.gatsby/--/1.1.1": {
+    "p": "files/21394/648489/intellij-gatsby-1.1.1.zip",
+    "h": "xMMWSAuIIf/UlJnssS7u4d0YqpOeWYBrfDZ0bzsK+C0="
   },
   "com.nekofar.milad.intellij.gridsome/--/1.0.3": {
     "p": "files/22332/453447/IntelliJ_Gridsome_Plugin-1.0.3.zip",
@@ -43575,17 +43579,17 @@
     "p": "files/21355/366753/IntelliJ_Hexo_Plugin-1.0.8.zip",
     "h": "iigjmaJBg+Bh7f9vARcvH1vyMI5mBRfCPFxDL61W+m4="
   },
-  "com.nekofar.milad.intellij.hexo/--/1.1.1": {
-    "p": "files/21355/618645/intellij-hexo-1.1.1.zip",
-    "h": "Cv8MHNN9073q6PaNp84ibzRxOdUML6vLNRbTdbdTnDw="
+  "com.nekofar.milad.intellij.hexo/--/1.1.2": {
+    "p": "files/21355/648491/intellij-hexo-1.1.2.zip",
+    "h": "bCZpu0m7ZyLozauCoxTDpvL7AKib1TeSfmsK1ezadu4="
   },
   "com.nekofar.milad.intellij.hono/--/1.0.9": {
     "p": "files/22078/453454/IntelliJ_Hono_Plugin-1.0.9.zip",
     "h": "b7sz8f5RjikLgFmcew6++Q0QxDqB0TKeujx0ZRIUcHg="
   },
-  "com.nekofar.milad.intellij.hono/--/1.1.0": {
-    "p": "files/22078/615105/intellij-hono-1.1.0.zip",
-    "h": "PfZSRCaQhnnbL45lO+4oJ0KXAjiBo2VRCKkstjP7NOU="
+  "com.nekofar.milad.intellij.hono/--/1.1.1": {
+    "p": "files/22078/648494/intellij-hono-1.1.1.zip",
+    "h": "TTmDTpivBgMKxVWRqWi0v+OdBgH4lPbou6KUZPl7E7M="
   },
   "com.nekofar.milad.intellij.nestjs/--/1.2.26": {
     "p": "files/18744/476345/IntelliJ_Nest_Plugin-1.2.26.zip",
@@ -43603,9 +43607,9 @@
     "p": "files/18604/301640/IntelliJ_Next.js_Plugin-1.2.8.zip",
     "h": "7K2n3Ngjmtgi6wRrnu3XmOX76bCNJ6NnUUlSIeOuvAk="
   },
-  "com.nekofar.milad.intellij.nextjs/--/1.3.0": {
-    "p": "files/18604/618644/intellij-nextjs-1.3.0.zip",
-    "h": "MmHJ7tTZQMHYJWVWdsduenVlK/GHDsJTfGZPo11icBs="
+  "com.nekofar.milad.intellij.nextjs/--/1.3.1": {
+    "p": "files/18604/648484/intellij-nextjs-1.3.1.zip",
+    "h": "Rcz2+J8dlyakFIJ84at6IGh2RAqFdr1s8glaaOjpnPo="
   },
   "com.nekofar.milad.intellij.nuxtjs/--/1.2.9": {
     "p": "files/18600/292005/IntelliJ_Nuxt.js_Plugin-1.2.9.zip",
@@ -43627,9 +43631,9 @@
     "p": "files/21383/476343/IntelliJ_Qwik_Plugin-1.0.8.zip",
     "h": "VDxyJsHOS2FqsKbnBoj7/R9/SDbFje7TgmU8eDrqOOc="
   },
-  "com.nekofar.milad.intellij.qwik/--/1.1.4": {
-    "p": "files/21383/620374/intellij-qwik-1.1.4.zip",
-    "h": "YVKquaA/5+Np9HrLt+B4vlwYPFeQvt3u9VrMR/8uwj0="
+  "com.nekofar.milad.intellij.qwik/--/1.1.5": {
+    "p": "files/21383/648495/intellij-qwik-1.1.5.zip",
+    "h": "nNh9CgsdKfR/HlyI8WO0cRpBbV+2CXqEHlBu32+9dHQ="
   },
   "com.nekofar.milad.intellij.redwood/--/1.0.3": {
     "p": "files/21378/349721/IntelliJ_Redwood_Plugin-1.0.3.zip",
@@ -43639,9 +43643,9 @@
     "p": "files/21378/376575/IntelliJ_Redwood_Plugin-1.0.9.zip",
     "h": "jKhO1SJ8udwYtRd2fcfL7H7Fd42HSjPd5of/5H47hUU="
   },
-  "com.nekofar.milad.intellij.redwood/--/1.1.2": {
-    "p": "files/21378/618646/intellij-redwood-1.1.2.zip",
-    "h": "o9Ga0qxpRuisxxeTz2nQsuXYoW19CHfneR7DFHitKbQ="
+  "com.nekofar.milad.intellij.redwood/--/1.1.3": {
+    "p": "files/21378/648496/intellij-redwood-1.1.3.zip",
+    "h": "7G/qZWQs0WGhIocohLsCoJIqT635w8afYpzsuUiBLrA="
   },
   "com.nekofar.milad.intellij.remix/--/1.1.30": {
     "p": "files/18753/476344/IntelliJ_Remix_Plugin-1.1.30.zip",
@@ -43675,17 +43679,17 @@
     "p": "files/21414/428189/IntelliJ_Solid_Plugin-1.0.9.zip",
     "h": "qFATH1KF8yIsWexncA7yoeeNdi5/RWgHeoNpOPNRqAU="
   },
-  "com.nekofar.milad.intellij.solidjs/--/1.1.0": {
-    "p": "files/21414/615438/intellij-solidjs-1.1.0.zip",
-    "h": "PDknNDa0tUWsoW3ffyWn17Q5sX4NEVrX3TAlVczAaSw="
+  "com.nekofar.milad.intellij.solidjs/--/1.1.1": {
+    "p": "files/21414/648497/intellij-solidjs-1.1.1.zip",
+    "h": "DbaOC3pSoalrhUcVE9dDVLw771iBEWARkMv0Q+vw3bg="
   },
   "com.nekofar.milad.intellij.tauri/--/1.0.5": {
     "p": "files/21659/351893/IntelliJ_Tauri_Plugin-1.0.5.zip",
     "h": "JVfawzoELqk2A0JsJhJw06zrVzhwAUhQp6RtAUvU+Fk="
   },
-  "com.nekofar.milad.intellij.tauri/--/1.1.2": {
-    "p": "files/21659/615437/intellij-tauri-1.1.2.zip",
-    "h": "yCXK/XzxTKbvHlwpzfXTCLhNAlc9HInorRVWoR9MmR4="
+  "com.nekofar.milad.intellij.tauri/--/1.1.3": {
+    "p": "files/21659/648500/intellij-tauri-1.1.3.zip",
+    "h": "skEik0WQzAJUwZvbO7sq+uCTcFDRHMIgbTQIobTGeLE="
   },
   "com.nekofar.milad.intellij.truffle/--/1.1.27": {
     "p": "files/18559/476346/IntelliJ_Truffle_Plugin-1.1.27.zip",
@@ -43707,9 +43711,9 @@
     "p": "files/22294/476348/IntelliJ_Turbo_Plugin-1.0.5.zip",
     "h": "wHIhOGo/biVah6LuaQh7u9Hlq9mdc/fGR+lcGu1EYmo="
   },
-  "com.nekofar.milad.intellij.turbo/--/1.1.0": {
-    "p": "files/22294/615106/intellij-turbo-1.1.0.zip",
-    "h": "fTLxm/uRqG/m40EzYgRvYgRF3fGHjtByE/bTdmTzx1E="
+  "com.nekofar.milad.intellij.turbo/--/1.1.1": {
+    "p": "files/22294/648502/intellij-turbo-1.1.1.zip",
+    "h": "xEfT65Z+LGPigH+6xz6fW/pfbKIkaUMjGshXhoajCvo="
   },
   "com.nelchael.idea.projectcost/--/2019.04.04": {
     "p": "files/7508/60462/projectcost.zip",
@@ -45403,13 +45407,13 @@
     "p": "files/19499/624982/unix-timestamp-6.4.0-signed.zip",
     "h": "Ob80uZ8JhoVnpuOsJkMLG6LrDVb4qw5BkadDkxeB+qE="
   },
-  "com.rankweis/--/2.0.0": {
-    "p": "files/24736/645703/uppercut-2.0.0.zip",
-    "h": "e2XeGpOELPVHaegDwI8jM10Dniez2+NX6Zo0hB44Cx4="
+  "com.rankweis/--/2.0.2": {
+    "p": "files/24736/648278/uppercut-2.0.2.zip",
+    "h": "IqCjTILBim3ap0u6d6/Dwj4TRXqnnOc786jW+wdom4Y="
   },
-  "com.rankweis/--/2.0.1-2024.2": {
-    "p": "files/24736/648203/uppercut-2.0.1-2024.2.zip",
-    "h": "/RHMzieoUH5ePqB1SP3d9iDQFvU8XyZWz84KaM+WACA="
+  "com.rankweis/--/2.0.2-2024.2": {
+    "p": "files/24736/648279/uppercut-2.0.2-2024.2.zip",
+    "h": "UszhEUztKg1TR96Yd4nNrlAljcOgaQk/pS6EYTbXVs8="
   },
   "com.ratel/--/213.1.2": {
     "p": "files/19623/203724/ratel-plugin-213.1.2.zip",
@@ -52791,6 +52795,10 @@
     "p": "files/25868/647631/jb-multi-clipboard-1.0.5.zip",
     "h": "2teSGUfH/6RXnC7psFYFcYmFWKU8OauC+V/Dppg/9D0="
   },
+  "dev.sandipchitale.kubernetes-context-namespace/--/1.0.0": {
+    "p": "files/26073/648262/kubernetes-context-namespace-1.0.0.zip",
+    "h": "AmRAS5OjuZBztPE8URgkvyg9q8pjUAvn2oYLlR128KI="
+  },
   "dev.sbp/--/0.0.1": {
     "p": "files/20731/269797/sbp-0.0.1-signed.zip",
     "h": "gBsZMshZpHWlZpLm+8Ub0LJivpzIh0Ay3CzPtmiCR08="
@@ -53411,9 +53419,9 @@
     "p": "files/23071/434545/failgood-idea-0.0.3.zip",
     "h": "aJeoiGlbuKih7uQs4IQNQNBLh/hbebxLQYCa9WIg9xg="
   },
-  "falcon-jetbrains-themes/--/1.1.0": {
-    "p": "files/26026/648173/falcon-jetbrains-themes.jar",
-    "h": "N5vrPBNG7B3rR/T8V+CFb4swcQHR5Glwbn0cvu1zRMU="
+  "falcon-jetbrains-themes/--/1.1.1": {
+    "p": "files/26026/648473/falcon-jetbrains-themes.jar",
+    "h": "Isp0nL3deA2Pca3iwJTfGuh0AKvOn0Ltqk+HHqKBYQk="
   },
   "fanta-theme/--/1.0.3": {
     "p": "files/23681/633568/fanta-theme.jar",

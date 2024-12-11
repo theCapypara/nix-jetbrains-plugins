@@ -73,6 +73,29 @@ impl IdeProduct {
         }
     }
 
+    fn try_from_nix_key(code: &str) -> Option<Self> {
+        Some(match code {
+            "idea-ultimate" => IdeProduct::IntelliJUltimate,
+            "idea-community" => IdeProduct::IntelliJCommunity,
+            "phpstorm" => IdeProduct::PhpStorm,
+            "webstorm" => IdeProduct::WebStorm,
+            "pycharm-professional" => IdeProduct::PyCharmProfessional,
+            "pycharm-community" => IdeProduct::PyCharmCommunity,
+            "ruby-mine" => IdeProduct::RubyMine,
+            "clion" => IdeProduct::CLion,
+            "goland" => IdeProduct::GoLand,
+            "datagrip" => IdeProduct::DataGrip,
+            "dataspell" => IdeProduct::DataSpell,
+            "rider" => IdeProduct::Rider,
+            "android-studio" => IdeProduct::AndroidStudio,
+            "rust-rover" => IdeProduct::RustRover,
+            "aqua" => IdeProduct::Aqua,
+            "writerside" => IdeProduct::Writerside,
+            "mps" => IdeProduct::Mps,
+            _ => return None,
+        })
+    }
+
     pub fn nix_key(&self) -> &str {
         match self {
             IdeProduct::IntelliJUltimate => "idea-ultimate",
@@ -101,6 +124,24 @@ pub struct IdeVersion {
     pub ide: IdeProduct,
     pub version: String,
     pub build_number: String,
+}
+
+impl IdeVersion {
+    /// Create from a JSON filename.
+    /// WARNING: Does not populate build number!
+    pub fn from_json_filename(filename: &str) -> Option<Self> {
+        let filename = filename.strip_suffix(".json")?;
+        let (product, version) = filename.rsplit_once('-')?;
+        Some(Self {
+            ide: IdeProduct::try_from_nix_key(product)?,
+            version: version.to_string(),
+            build_number: "".to_string(),
+        })
+    }
+
+    pub fn to_json_filename(&self) -> String {
+        format!("{}-{}.json", self.ide.nix_key(), self.version)
+    }
 }
 
 #[derive(Debug, PartialEq, Deserialize)]
