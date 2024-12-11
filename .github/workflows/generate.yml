@@ -6,6 +6,10 @@ on:
     # Run this workflow every week at 03:34 am
     - cron: "34 3 */7 * *"
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   generate:
     name: Generate plugin list
@@ -29,3 +33,4 @@ jobs:
           commit-message: Plugin Updates
           branch: plugin-updates
           delete-branch: true
+          token: ${{ secrets.FLATHUB_GITHUB_TOKEN }}
