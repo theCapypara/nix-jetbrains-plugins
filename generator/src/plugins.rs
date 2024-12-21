@@ -296,7 +296,7 @@ async fn process_plugin(
 
     for ide in ides {
         match supported_version(ide, &versions) {
-            None => warn!("{pluginkey}: IDE {ide:?} not supported."),
+            None => debug!("{pluginkey}: IDE {ide:?} not supported."),
             Some(version) => {
                 let entry =
                     get_db_entry(&client, pluginkey, &version.version, &db, &fof_cache).await?;
