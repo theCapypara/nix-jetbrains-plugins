@@ -40,14 +40,14 @@ Supported IDEs:
 #### Inputs:
 
 ```nix
-inputs.nix-jebrains-plugins.url = "github:theCapypara/nix-jebrains-plugins";
+inputs.nix-jetbrains-plugins.url = "github:theCapypara/nix-jetbrains-plugins";
 ```
 
 #### Usage:
 ```nix
 let
   pluginList = [
-    nix-jebrains-plugins.plugins."${system}".idea-ultimate."2024.3"."com.intellij.plugins.watcher"
+    nix-jetbrains-plugins.plugins."${system}".idea-ultimate."2024.3"."com.intellij.plugins.watcher"
   ];
 in {
   # ... see "How to use"
@@ -61,7 +61,7 @@ let
   system = builtins.currentSystem;
   plugins =
     (import (builtins.fetchGit {
-      url = "https://github.com/theCapypara/nix-jebrains-plugins";
+      url = "https://github.com/theCapypara/nix-jetbrains-plugins";
       ref = "refs/heads/main";
       rev = "<latest commit hash>";
     })).plugins."${system}";
@@ -107,7 +107,7 @@ will automatically figure out what IDE and version the plugin needs to be for.
 
 ```nix
 {
-  environment.systemPackages = with nix-jebrains-plugins.lib."${system}"; [
+  environment.systemPackages = with nix-jetbrains-plugins.lib."${system}"; [
     # Adds the latest IDEA Ultimate version with the latest compatible version of "com.intellij.plugins.watcher".
     buildIdeWithPlugins pkgs.jetbrains "idea-ultimate" ["com.intellij.plugins.watcher"]
   ];
