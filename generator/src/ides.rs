@@ -4,7 +4,7 @@ use std::collections::HashSet;
 
 const JETBRAINS_VERSIONS: &str = "https://www.jetbrains.com/updates/updates.xml";
 
-const PROCESSED_VERSION_PREFIXES: &[&str] = &["2027.", "2026.", "2025.", "2024.", "2023."];
+const PROCESSED_VERSION_PREFIXES: &[&str] = &["2027.", "2026.", "2025.", "2024."];
 
 #[derive(Debug, PartialEq, Eq, Hash, Clone, Copy)]
 pub enum IdeProduct {
