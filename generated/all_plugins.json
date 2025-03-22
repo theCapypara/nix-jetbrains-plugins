@@ -835,9 +835,9 @@
     "p": "files/26237/664503/ChatCode-1.0.31.223-293.zip",
     "h": "1HC5y0p8jmYaZCJuzD4o+MpyiTN7VAMIkN3e5BpgFw0="
   },
-  "ChatCode/--/1.0.32.223-293": {
-    "p": "files/26237/689881/ChatCode-1.0.32.223-293.zip",
-    "h": "hVX7BxmnTH9vjvB3nrw0E9eEXuOPxihFJefloD8d73o="
+  "ChatCode/--/1.0.33.223-293": {
+    "p": "files/26237/701325/ChatCode-1.0.33.223-293.zip",
+    "h": "t8R4Eha1Ep4Wvh6ajeAyGKZIgSroz+1EIa68N8oodG8="
   },
   "ChatGPT/--/2.1.9-222.223": {
     "p": "files/20603/312589/ChatGPT-2.1.9-222.223.zip",
@@ -1395,6 +1395,10 @@
     "p": "files/22851/680196/devkit-243.24978.46.zip",
     "h": "xLvT88qa5dr+OUUW3eIZ2q64Z0An3w919Wr+8iv9sXc="
   },
+  "DevKit/--/243.26053.27": {
+    "p": "files/22851/700122/devkit-243.26053.27.zip",
+    "h": "LiPggMlPf7w1NveUGu4EqDUP6C4vrpzElO9zZSzEB9E="
+  },
   "Dilbert/--/1.9.0.168": {
     "p": "files/36/88277/DilbertDailyStrip.zip",
     "h": "D6opL7iDfX57pY1dhQaLb81eT9z6LB9QyUIQttDjek8="
@@ -1627,9 +1631,9 @@
     "p": "files/7724/692258/clouds-docker-impl-243.25659.59.zip",
     "h": "fJatpg7WzrStvABSeIayeFF4bjv059VW6ZTTKQxLNV8="
   },
-  "Docker/--/243.26053.13": {
-    "p": "files/7724/697628/clouds-docker-impl-243.26053.13.zip",
-    "h": "F9mqfCeWxS3d3XqE0YrCPG9OsJTp+1eMDEgy+KHr9OI="
+  "Docker/--/243.26053.27": {
+    "p": "files/7724/700105/clouds-docker-impl-243.26053.27.zip",
+    "h": "WL6AQuo1zE4x2b3M2rjTa7T9AbGKc2urTZBa6PU1i3w="
   },
   "Dummy Text Generator/--/1.2.0": {
     "p": "files/7216/113653/dummytext-plugin.jar",
@@ -2959,6 +2963,10 @@
     "p": "files/22069/692270/javascript-plugin-243.25659.59.zip",
     "h": "dn6B2Jdp4bJgeZ+R47CixR1lH1/+BxrKOSzPhnnukpM="
   },
+  "JavaScript/--/243.26053.29": {
+    "p": "files/22069/700434/javascript-plugin-243.26053.29.zip",
+    "h": "L19Wg8wLb8b72PfSqMfmTuMLU3u6aqox7gMh9lgbXsY="
+  },
   "JavaScriptDebugger/--/232.9559.10": {
     "p": "files/17562/374772/javascript-debugger-232.9559.10.zip",
     "h": "yGA5h3f8o/9C7vMExnNj8ykTqCKHI2AlQ61D0KZH5/g="
@@ -3055,6 +3063,10 @@
     "p": "files/17562/692279/javascript-debugger-243.25659.59.zip",
     "h": "qnBT8Ygfzi/jZNohmqjMIOQ14juvqbCoutNHmWSnX2A="
   },
+  "JavaScriptDebugger/--/243.26053.29": {
+    "p": "files/17562/700433/javascript-debugger-243.26053.29.zip",
+    "h": "odPCGgDVgHaJzcclQeHsDMDpH1IZSH6820gfSqAH7VA="
+  },
   "JavaUtils/--/2.1": {
     "p": "files/21036/332633/JavaUtils.jar",
     "h": "bcZ4thLStNTiJs6lHDTiWxs2h3qzC3MUrYWBXe6vwHM="
@@ -3074,6 +3086,10 @@
   "Jetbrains TeamCity Plugin/--/2024.12.174331": {
     "p": "files/1820/644642/TeamCity-IDEAplugin.zip",
     "h": "1EKvaiUMSfIdkQFXe9ZAJbDdYS45aNVlYGNS0Mk94JE="
+  },
+  "Jetbrains TeamCity Plugin/--/2025.03.186049": {
+    "p": "files/1820/701668/TeamCity-IDEAplugin.zip",
+    "h": "LD+c3vFujp3qc6QD/LU84qt4ugpf4sljT/bPlBAvgC8="
   },
   "Jetty/--/221.5080.9": {
     "p": "files/18721/163228/Jetty-221.5080.9.zip",
@@ -3534,6 +3550,10 @@
   "Lombook Plugin/--/243.23654.189": {
     "p": "files/6317/673100/lombok-243.23654.189.zip",
     "h": "CORzi+kTfcTWkuW/knE/92ZGmVs0DqDc8vTJ+zoGRlA="
+  },
+  "Lombook Plugin/--/243.26053.27": {
+    "p": "files/6317/700133/lombok-243.26053.27.zip",
+    "h": "WrNZ/oAtNsP7yT9OTqMu9E/eCSPpVD/QVSftyEBosxc="
   },
   "MHCommitMessageTemplate/--/1.0.3": {
     "p": "files/9364/34514/commit_template.jar",
@@ -4591,6 +4611,10 @@
     "p": "files/631/692278/python-243.25659.59.zip",
     "h": "yB0Hak9H/HRy7GJPbGHur6yHk67nHqkxeKkktKcKmyE="
   },
+  "Pythonid/--/243.26053.27": {
+    "p": "files/631/700118/python-243.26053.27.zip",
+    "h": "/Ceycp+iCxN7nrSg7L1xNqlOY1hzij/ADEvHUWBwTfE="
+  },
   "QAPlug - Checkstyle/--/1.4.1": {
     "p": "files/4595/111573/checkstyle.zip",
     "h": "RVGoCPxPCEzos7X0ni9dKw6/94il2U7OaHY8marnjXY="
@@ -4670,6 +4694,10 @@
   "QuickRequest/--/2025.1.21": {
     "p": "files/21800/668762/quick-request-idea-2025.1.21.zip",
     "h": "0K8WQcRCZBLhwBPAC2AZBNh58an26nIvkC2JEcyIXEc="
+  },
+  "QuickRequest/--/2025.3.18": {
+    "p": "files/21800/699944/quick-request-idea-2025.3.18.zip",
+    "h": "2y5yO0Hlx2r3wyQyVuMAMlepvMDmE/AIIXVAI5CtLRU="
   },
   "QuickWeather/--/1.3": {
     "p": "files/7514/22105/quickweather.zip",
@@ -4807,9 +4835,9 @@
     "p": "files/6632/692268/r-plugin-243.25659.59.zip",
     "h": "YE3JFq+IOM/0kUklbGHyX3759otRo/QtEWfo+OSp8dM="
   },
-  "R4Intellij/--/243.26053.20": {
-    "p": "files/6632/697707/r-plugin-243.26053.20.zip",
-    "h": "M0ivyP9cgtc8szOanArgElEIJKLvr4U/790MOjn17W8="
+  "R4Intellij/--/243.26053.29": {
+    "p": "files/6632/700437/r-plugin-243.26053.29.zip",
+    "h": "ZqkFr3C1Lc18Znm4VbyVqKrEmnJb50f4/7t7nsEeYjM="
   },
   "RADioMANiac/--/2.7.3": {
     "p": "files/22185/590535/RadMan-2.7.3.zip",
@@ -5115,6 +5143,10 @@
     "p": "files/25936/640671/SequenceDiagramR-3.0.6.1.zip",
     "h": "5ONEon7kw6ZwtNFEbpZ7GOOGQjkX8WCXwJWGyT0PAdw="
   },
+  "SequenceDiagramR/--/3.0.6.3": {
+    "p": "files/25936/699952/SequenceDiagramR-3.0.6.3.zip",
+    "h": "vNSFXXlcHUaFOjB9Wu6oVUz+O8Of3XWqKETXjbaybe8="
+  },
   "SequenceOutline/--/2.4.1": {
     "p": "files/19727/561331/SequenceOutline-2.4.1.zip",
     "h": "BytWLJmpkd3R0hLsHBWYMSSIgkxIIarua3wZwLTPtTE="
@@ -5283,9 +5315,9 @@
     "p": "files/8031/692273/serial-monitor-243.25659.59.zip",
     "h": "zR1kQM99S8uD5fFzhfAoAQNk/5ksJ4E5GAXIyPmhBQQ="
   },
-  "SerialPortMonitor/--/243.26053.20": {
-    "p": "files/8031/697708/serial-monitor-243.26053.20.zip",
-    "h": "yFt/ArqoESYXRASvHO5nnlc5T3gBdrwhIcFKP4kCYLY="
+  "SerialPortMonitor/--/243.26053.29": {
+    "p": "files/8031/700439/serial-monitor-243.26053.29.zip",
+    "h": "424nWsJ02D5FKIOWaypNnFVvfRJeYnqa9PJscvE7foQ="
   },
   "Sexy Editor/--/4.0.0": {
     "p": "files/1833/347355/Awesome_Editor-4.0.0.zip",
@@ -6651,6 +6683,10 @@
     "p": "files/23919/642791/codelines-jetbrains-0.6.1.zip",
     "h": "XlgJK1DNXDJqpZX2f57hLYozCUrW/Qo5QL6O2FQ9bzU="
   },
+  "ai.codemaker.jetbrains/--/1.62.0": {
+    "p": "files/21445/700723/codemaker-jetbrains-1.62.0-signed.zip",
+    "h": "SxA7ikGM0BZPHzArbxrHzXELAujoxHbJOIayz2DrWuc="
+  },
   "ai.codemaker.jetbrains/--/1.9.0": {
     "p": "files/21445/346843/codemaker-jetbrains-1.9.0-signed.zip",
     "h": "LzqoQ3Znws8z71uFCaTftW8l+iHm3HuGxDJF9sQ+5KU="
@@ -6703,9 +6739,9 @@
     "p": "files/24442/666062/Maru.ai_Connector-1.0.1-signed.zip",
     "h": "8iQD99uLbJxxQ17/wyd7UhHaXKACx7l0JXmlnDnILlc="
   },
-  "ai.maru.connector/--/1.2.0": {
-    "p": "files/24442/687070/Maru.ai_Connector-1.2.0-signed.zip",
-    "h": "ue0uM6j0HpOsG/anxtvSB2/vnuxD0tY5sy6EKqsE+1w="
+  "ai.maru.connector/--/1.2.4": {
+    "p": "files/24442/700585/Maru.ai_Connector-1.2.4-signed.zip",
+    "h": "qcY4/f27JBF+5bPo8qHot0DVI9HHavPM6p80kmA7UxA="
   },
   "ai.qwiet.jetbrains/--/1.0.0.341-243": {
     "p": "files/25945/640534/qwiet-ai-jetbrains-1.0.0.341-243.zip",
@@ -6879,13 +6915,13 @@
     "p": "files/24267/684463/plugin-amazonq-3.56-243.zip",
     "h": "My+2SVqEZBd9gKiLciBptp5IjjDwSbDpCVgZ7CLQSO4="
   },
-  "amazon.q/--/3.59-242": {
-    "p": "files/24267/697678/plugin-amazonq-3.59-242.zip",
-    "h": "R47Ii9AcPY71dBHHdJvd3RicnjgmPru81l5pE+keV9I="
+  "amazon.q/--/3.60-242": {
+    "p": "files/24267/701814/plugin-amazonq-3.60-242.zip",
+    "h": "OjiFGIbT4KQr81gyUTsre/SaohHMfCuCKWuePQUHkcY="
   },
-  "amazon.q/--/3.59-243": {
-    "p": "files/24267/697675/plugin-amazonq-3.59-243.zip",
-    "h": "iESt66Gx+z5tEZIShfidmp7Ybmn676HpAWGmVsdRS1U="
+  "amazon.q/--/3.60-243": {
+    "p": "files/24267/701804/plugin-amazonq-3.60-243.zip",
+    "h": "vRcbrI7xDRpABTK0ewHtmod+3UL7qpBXryfBhrzwBPg="
   },
   "amazon.q/--/3.9-232": {
     "p": "files/24267/553355/plugin-amazonq-3.9-232.zip",
@@ -7079,9 +7115,9 @@
     "p": "files/17328/679699/build.zip",
     "h": "NDqzCAnyItgRpIc87d9Ov4f6XhxBnuFyH3PaaW4AbYo="
   },
-  "app.pieces.plugins.jetbrains/--/12.1.2": {
-    "p": "files/17328/689470/build.zip",
-    "h": "QFOL8Q2Ph1hh++oB9AD8YDJ2b43Yqi5Jh5FUJblGk+M="
+  "app.pieces.plugins.jetbrains/--/12.1.3": {
+    "p": "files/17328/701169/build.zip",
+    "h": "2rC+YiYLbVBldXkpujoWARy1vUQsu85QoSKKpJ5W8f4="
   },
   "app.pieces.plugins.jetbrains/--/5.2.0": {
     "p": "files/17328/319095/build.zip",
@@ -7231,6 +7267,10 @@
     "p": "files/26042/680203/whisperer-for-laravel-1.2.1.zip",
     "h": "Zl1M37UaLAPpeFjxOwR6f5P8IZ2hvwS5FW7tnxHqYNU="
   },
+  "at.alirezamoh.idea_whisperer_for_laravel/--/1.2.2": {
+    "p": "files/26042/698400/whisperer-for-laravel-1.2.2.zip",
+    "h": "CLOLrKuUIItSqRHeEfDoWUh3SE/hdHorun2nNSv9XTw="
+  },
   "at.dotti.intellij.plugins.team.mattermost/--/0.1.5.0": {
     "p": "files/9668/41184/intellij-mattermost-plugin.zip",
     "h": "8tnvwr0sN1kI2XW0UXDvLwc9eoxHHc+yR4fmfJ6Nsm8="
@@ -7355,13 +7395,13 @@
     "p": "files/24255/684456/plugin-core-3.56-243.zip",
     "h": "JR8HXdZ6OtI5PCOd0x1SL7ms+oBobMlvyuE4kP5C318="
   },
-  "aws.toolkit.core/--/3.59-242": {
-    "p": "files/24255/697669/plugin-core-3.59-242.zip",
-    "h": "CWKnLRWxJxfl6P8bwItMXkguCAKVoJQPn55RN3TgQE4="
+  "aws.toolkit.core/--/3.60-242": {
+    "p": "files/24255/701808/plugin-core-3.60-242.zip",
+    "h": "KQhIL9XXaHMK1ut9zuLgjF3ouGoGPZd0MwEsih4hNbs="
   },
-  "aws.toolkit.core/--/3.59-243": {
-    "p": "files/24255/697670/plugin-core-3.59-243.zip",
-    "h": "bhfEzzh2u9g0awoHDOTV/JKpxcb1C/3aNTG3hQ3EeIk="
+  "aws.toolkit.core/--/3.60-243": {
+    "p": "files/24255/701813/plugin-core-3.60-243.zip",
+    "h": "9JG96Lvo3khfpnTmcZ9bppNzHznwxLdBpjaYnxf9kh8="
   },
   "aws.toolkit.core/--/3.9-232": {
     "p": "files/24255/553333/plugin-core-3.9-232.zip",
@@ -7411,13 +7451,13 @@
     "p": "files/11349/684469/aws-toolkit-jetbrains-3.56-243-GW.zip",
     "h": "oGqUa7c6lQ9jFx/sHffJtjcL+g1IxtwS4jigEtJJDik="
   },
-  "aws.toolkit/--/GW-3.59-242": {
-    "p": "files/11349/697677/aws-toolkit-jetbrains-3.59-242-GW.zip",
-    "h": "Xp8f4TnZ5FmCdEq+CyasWYBdNt//A/Xy1hUV0EAfvdA="
+  "aws.toolkit/--/GW-3.60-242": {
+    "p": "files/11349/701818/aws-toolkit-jetbrains-3.60-242-GW.zip",
+    "h": "OhPJFSqg9RYXSM5I6Af/vf1yXqIhaW31fNg3s9k2dnw="
   },
-  "aws.toolkit/--/GW-3.59-243": {
-    "p": "files/11349/697681/aws-toolkit-jetbrains-3.59-243-GW.zip",
-    "h": "1ODyKPHKFLkH8hMzCKn8VMHIt2QFAPQANyzSyRs9t/s="
+  "aws.toolkit/--/GW-3.60-243": {
+    "p": "files/11349/701812/aws-toolkit-jetbrains-3.60-243-GW.zip",
+    "h": "OqJAEtfltwe+iOFVZ3dwYs3HRi/0QcSxzKtiQ4ly9xg="
   },
   "aws.toolkit/--/GW-3.9-241": {
     "p": "files/11349/553346/aws-toolkit-jetbrains-3.9-241-GW.zip",
@@ -8335,6 +8375,10 @@
     "p": "files/10260/692281/IntelliJIDEAHelp.zip",
     "h": "hmj5APIBRRN/b9EB5oX0xKfWrYZCECa1kC/xbvvrNkc="
   },
+  "bundled-intellij-idea-help/--/243.26053.27": {
+    "p": "files/10260/700109/IntelliJIDEAHelp.zip",
+    "h": "YVfY8gKT71KgtEBkpXW2RfIfSR59Bq8sFG885v+6txI="
+  },
   "bundled-phpstorm-help/--/221.5080.66": {
     "p": "files/10286/164402/PhpStormHelp.zip",
     "h": "sgVJnBMc4dQ7X1lalb/rVXbm1+t634JrnB7yGDSeHXc="
@@ -8642,6 +8686,10 @@
   "bundled-pycharm-help/--/243.25659.43": {
     "p": "files/9993/688470/PyCharmHelp.zip",
     "h": "xseRZJ2XfNxhy6xxDfF3GSEdKQNJFQLA1Z+kdD+KJd8="
+  },
+  "bundled-pycharm-help/--/243.26053.29": {
+    "p": "files/9993/700436/PyCharmHelp.zip",
+    "h": "VpiWUJD6d1uM90kjS+YEu0LtwjZQnd4wZOyPOuEhPHE="
   },
   "bundled-rubymine-help/--/221.5080.93": {
     "p": "files/10491/165483/RubyMineHelp.zip",
@@ -9183,9 +9231,9 @@
     "p": "files/24065/676467/cat-activity-1.6.4-signed.zip",
     "h": "e8cKg7Bx0X3umnhgrrx0ioJ9X7ET6HBOxQyz817jqEw="
   },
-  "cat.wavy.catactivity/--/1.6.5": {
-    "p": "files/24065/685268/cat-activity-1.6.5-signed.zip",
-    "h": "Y6RRoFnbnt0Vbmf/rGrEXA72a7uv6oON2BhNnJX62jg="
+  "cat.wavy.catactivity/--/1.7.0": {
+    "p": "files/24065/700152/cat-activity-1.7.0-signed.zip",
+    "h": "oYOvqeXBfrzwaIm2tJIZyy2tvgs8eKf30rhHA8qdMQc="
   },
   "catappult.billing.integration/--/1.1.8": {
     "p": "files/19964/637724/Catappult_Billing_Integration.zip",
@@ -9339,6 +9387,10 @@
     "p": "files/21724/350801/ModuleMaker-1.0.9.zip",
     "h": "t42NGfpLBV4tgSJRDIZn/NDz0amgRKDMDY2H3QdBArc="
   },
+  "ccom.joetr.modulemaker/--/1.1.1": {
+    "p": "files/21724/701857/Module.Maker-1.1.1.zip",
+    "h": "Hiz2c9OaK5QoXQfW3nK/fdXXny03PvYKkL/KC0Rw09M="
+  },
   "ch.abacus.importandbuild/--/1.5": {
     "p": "files/16724/216504/ImportAndBuild-1.5.zip",
     "h": "3QCSXmaynJ52basIiCAonpQrSMSv/jOL1EMjGQqpy9I="
@@ -9478,6 +9530,10 @@
   "chester.language.plugin/--/0.0.27": {
     "p": "files/26212/668216/ChesterLanguageSupport-0.0.27.zip",
     "h": "HErREHa18BsR5yRAp1syJmXsPorWgD/IFe935G62iyg="
+  },
+  "chester.language.plugin/--/0.0.31": {
+    "p": "files/26212/700150/ChesterLanguageSupport-0.0.31.zip",
+    "h": "7YEqgrf+E9y7qose/3+R9C6r478q39PHXTaT6kICjTk="
   },
   "chup.sql.cleaner.plugin/--/0.0.2.1": {
     "p": "files/22613/523719/sql-cleaner-plugin-0.0.2.1.zip",
@@ -9771,13 +9827,13 @@
     "p": "files/14155/84133/AutoDimens.jar",
     "h": "F6YGfRW3saPsFrpGTO1W0NtKROUjP+ssOtO5STFwR0w="
   },
-  "cn.enaium.jimmer.buddy/--/1.1.2-231": {
-    "p": "files/26622/697500/231-1.1.2-231.zip",
-    "h": "B+64D/vaEUWN6H4VVIsZ78ZqDGVf2NRR5s0JJNF/Nd4="
+  "cn.enaium.jimmer.buddy/--/1.2.3-231": {
+    "p": "files/26622/701653/231-1.2.3-231.zip",
+    "h": "NAV1Ys8WwL0d7nla9BvcGF2HbOlhelhEzrkZtqWJGG0="
   },
-  "cn.enaium.jimmer.buddy/--/1.1.2-242": {
-    "p": "files/26622/697498/242-1.1.2-242.zip",
-    "h": "idnZoIMuFn5TX/bnFQIdDmmBxnlK3f3XGqlpyCeJY9Q="
+  "cn.enaium.jimmer.buddy/--/1.2.3-242": {
+    "p": "files/26622/701652/242-1.2.3-242.zip",
+    "h": "F/S+Rk8PgkBNLlb/wcVI6TmZ4PgOUlHD5cTMV1GF4mw="
   },
   "cn.enaium.jimmer.dto.lsp.ij/--/1.1.0": {
     "p": "files/26045/650177/intellij-1.1.0.zip",
@@ -9867,9 +9923,9 @@
     "p": "files/17700/138791/DongTai-Plugin-IDEA.zip",
     "h": "CFG7OU4JUhW//k8C22fF4y2edlTeMv4hd1KdjEjwRjY="
   },
-  "cn.idea.memoryzy.json/--/3.7.2": {
-    "p": "files/26659/686712/Json_Tools-3.7.2.zip",
-    "h": "Fe2grmjmOQ/3KcWe8IYsaqjfmyqb1UEcwWTR3XnYnp4="
+  "cn.idea.memoryzy.json/--/3.7.3": {
+    "p": "files/26659/700086/Json_Tools-3.7.3.zip",
+    "h": "naf9B9he6PRB1SbAaQmKY1K+v3hWYUNUTYy6/j4v4lo="
   },
   "cn.idealismxxm.graphene-helper/--/0.0.21": {
     "p": "files/13416/163694/Graphene.Helper-0.0.21.zip",
@@ -10327,9 +10383,9 @@
     "p": "files/8579/656385/TranslationPlugin-3.6.8.zip",
     "h": "0s9vn3hvd/DT26tzhBuE//3ybjcTd4VXjUP+yUEiQpI="
   },
-  "cn.yiiguxing.plugin.translate/--/3.7.0": {
-    "p": "files/8579/687355/TranslationPlugin-3.7.0.zip",
-    "h": "JPkBHwcyPEh2DgrqlJtRMNi920FoacwGULForm6+JUI="
+  "cn.yiiguxing.plugin.translate/--/3.7.1": {
+    "p": "files/8579/698691/TranslationPlugin-3.7.1.zip",
+    "h": "vGfdSSEz5kkUDyms4ObPK9A9f9yfNaXBZAv2Zhvg0S0="
   },
   "cn.yisu.idea.plugin.gpt-quick-dev/--/1.0.1": {
     "p": "files/21235/305529/gpt-quick-dev-1.0.1.zip",
@@ -10815,9 +10871,9 @@
     "p": "files/21206/609232/codium-ai-plugin-0.9.8.zip",
     "h": "wNgNoeoTXfRSJENacm0NQ8F4GWCelqtocUwUfe7dw7o="
   },
-  "codiumai.codiumai/--/1.0.2": {
-    "p": "files/21206/696099/codium-ai-plugin-1.0.2.zip",
-    "h": "SuCHyUHInO9dvvZFxa6dhV6OKS4ZZFR1fPK+Lfpc8/I="
+  "codiumai.codiumai/--/1.0.4": {
+    "p": "files/21206/700427/codium-ai-plugin-1.0.4.zip",
+    "h": "X8bSbkIxk6A87PL7Dhh1O9bru3+EXnQ7CJCOe8ecznQ="
   },
   "cognitivecomplexity-rider/--/2022.1.0-eap03": {
     "p": "files/12024/160593/cognitivecomplexity-2022.1.0-eap03.zip",
@@ -11363,9 +11419,9 @@
     "p": "files/25620/621307/BGT-1.1.1.zip",
     "h": "mbZYY1MT50XBpljYYIGE8IgYnclx5F1VojO/SCE2NjI="
   },
-  "com.Brostoffed.ContextBuilder/--/1.0.0-SNAPSHOT": {
-    "p": "files/26658/687634/ContextBuilder-1.0.0-SNAPSHOT.zip",
-    "h": "CQFH0IWzfa2gZt3SwgTGeY9zXl6SyG4hUal+A3CKQ2Y="
+  "com.Brostoffed.ContextBuilder/--/1.0.2-SNAPSHOT": {
+    "p": "files/26658/699933/ContextBuilder-1.0.2-SNAPSHOT.zip",
+    "h": "DhxLN2xhcGPMUMOSr+BhyTXdbD7yC/lTvo3nMpaPn2k="
   },
   "com.ClassOperations.xq/--/2.2": {
     "p": "files/22293/481114/ClassOperation.zip",
@@ -11426,6 +11482,10 @@
   "com.RedTeam.unique.plugin.id/--/0.81": {
     "p": "files/8329/25590/SQLHelper.zip",
     "h": "qvOcacpDrPSOK8HNQj1N0pBq3i8f/OvfVoQTJl7aqQE="
+  },
+  "com.SKIE.MVC-Shift/--/1.3.1-SNAPSHOT": {
+    "p": "files/26873/702115/MVC-Shift-1.3.1-SNAPSHOT.zip",
+    "h": "G+Y2v9uhFOPbn4FbUvoC7EPEAhT3j4Yp+lFGUWEMEWk="
   },
   "com.Sensorjang.plugin.Code2QRcode.id/--/2.1.1": {
     "p": "files/17902/356656/Code2QRcode.zip",
@@ -11743,9 +11803,9 @@
     "p": "files/18926/665287/annai_android_studio_plugin-2.4.1.zip",
     "h": "iRIg28KQZu1IAg5FiErRToaMRVpsTTPXH/zwWtQHRF8="
   },
-  "com.aht.plugins.flutter.flavor/--/3.0.0": {
-    "p": "files/18926/695830/android-studio-flavorize-3.0.0.zip",
-    "h": "aPFq8qG/3HxS8ViF4BmCkpg2wqs2f8Eb2ZPqYTNFDa4="
+  "com.aht.plugins.flutter.flavor/--/3.0.4": {
+    "p": "files/18926/699630/android-studio-flavorize-3.0.4-signed.zip",
+    "h": "9ea2X0qxJqUwaql+RVJadFCkVi6yKZR9UUc9jPF2xUc="
   },
   "com.ai.boy.programming/--/0.0.3": {
     "p": "files/24116/528723/programming-boy-0.0.3-signed.zip",
@@ -11875,6 +11935,10 @@
     "p": "files/24545/677366/codevista-intellij-plugin-global-prod-1.5.0.zip",
     "h": "c6snyYo6goYLX0JRjgPP63GsVqAHF4KBb1U1H7VL4I0="
   },
+  "com.aic.codevista/--/1.6.1": {
+    "p": "files/24545/701028/codevista-intellij-plugin-global-prod-1.6.1.zip",
+    "h": "XZftz0O0XQmRblGKhelzau5JxuBSI7X6qzVS2/L7DIo="
+  },
   "com.aicodemetrics.AICodeMetrics/--/0.1.0": {
     "p": "files/24699/560736/AICodeMetrics-0.1.0.zip",
     "h": "0pJuKCteVFzCE5EgRd4sI0JxluCEQU2noonPV4uiXM8="
@@ -11887,9 +11951,9 @@
     "p": "files/26585/683766/AI_git_commit-3.5.4.zip",
     "h": "BOId7PFGk/tmg6H0+y63T/6zyWZTiNylHQqlcJcgbKA="
   },
-  "com.aigit.tools/--/3.5.7": {
-    "p": "files/26585/698099/DeepSeek-Git-Commit-3.5.7.zip",
-    "h": "7jZS/9w9s5QB4JBQbUciC3yCUsyvDG5tpaFs+jO4EEM="
+  "com.aigit.tools/--/3.5.8": {
+    "p": "files/26585/699202/DeepSeek-Git-Commit-3.5.8.zip",
+    "h": "CHFh5nuHDpS6YC0YTonKhTuQUceUEIHupyg5i3EukqE="
   },
   "com.aiops.CloudAlert/--/1.3-SNAPSHOT": {
     "p": "files/21254/342915/CloudAlert-1.3-SNAPSHOT.zip",
@@ -12071,9 +12135,9 @@
     "p": "files/9707/628343/ansi-highlighter-premium-24.3.1.jar",
     "h": "X+Xks9sajsSVRXLQghJ5k2GuwmllNsZ9SrYBbf36P0c="
   },
-  "com.alayouni.ansiHighlight/--/24.3.2": {
-    "p": "files/9707/690054/ansi-highlighter-premium-24.3.2.jar",
-    "h": "Gzpy9LHOsqomHWx64miDR2lLWrB+VgLdUty25IKWMUQ="
+  "com.alayouni.ansiHighlight/--/24.3.3": {
+    "p": "files/9707/698971/ansi-highlighter-premium-24.3.3.jar",
+    "h": "TEF4rtS04kQ/h+SKXnbqLjrMGm3jHk0MJ7ffe0lvbs4="
   },
   "com.albertoventurini.jetbrains.graphdbplugin/--/0.3.0": {
     "p": "files/20417/263800/GraphDatabase-0.3.0.zip",
@@ -12118,6 +12182,10 @@
   "com.alessandro.composepreview.ComposePreviewGenerator/--/1.1.4.17": {
     "p": "files/25716/672162/ComposePreviewGenerator-1.1.4.17.zip",
     "h": "kABDa9QUEY5WEV3Qo/PCBRxvxu9zjoVztxfNeskXQrE="
+  },
+  "com.alettsy.alettsyJetbrainsTheme/--/1.0.2": {
+    "p": "files/26858/701178/alettsy_Theme-1.0.2.zip",
+    "h": "vF/cZNqohcs9CqRVs1iRTSf+F9OPv4kQ4IvY2MCUIzI="
   },
   "com.alex.alekseev.CombineAndCopyFiles/--/2.0.0": {
     "p": "files/25635/641728/JetBrains-Plugin-Combine-And-Copy-Files-2.0.0.jar",
@@ -12267,9 +12335,9 @@
     "p": "files/17809/684386/tongyi-jetbrains-2.1.1.zip",
     "h": "29ir4SHA1IFixWEE6QB2NhWNOsaW5hkN8iM8XZ3MMDg="
   },
-  "com.alibabacloud.intellij.cosy/--/2.1.4": {
-    "p": "files/17809/698114/tongyi-jetbrains-2.1.4.zip",
-    "h": "xJWsN26zqAgQB+fIqWRR/in1j0bMBXlTFhqE207XZic="
+  "com.alibabacloud.intellij.cosy/--/2.1.6": {
+    "p": "files/17809/701651/tongyi-jetbrains-2.1.6.zip",
+    "h": "v/JjOqB2+QzLNYBa/STkOHWaioqAv8cHl0tDFGWdrJs="
   },
   "com.alibabacloud.intellij.toolkit-intellij/--/2024.12.1-232-243": {
     "p": "files/11386/642620/toolkit-intellij-2024.12.1-232-243.zip",
@@ -12318,6 +12386,14 @@
   "com.alipay.android.plugin.mpaas.boost/--/3.0.241014": {
     "p": "files/14486/618498/mpaas-3.0.241014.zip",
     "h": "berEQ1z9eAGfGiQ5UDMLkWD+pWUHGf7+mK7Hu8MC2nQ="
+  },
+  "com.alipay.android.plugin.mpaas.boost/--/3.0.250224": {
+    "p": "files/14486/700092/mpaas-3.0.250224.zip",
+    "h": "J+LHweY1yfx58yMU8OyBInu4mrz9snxoCWtBlv7AZbA="
+  },
+  "com.alipay.android.plugin.mpaas.boost/--/3.0.250318": {
+    "p": "files/14486/700091/mpaas-3.0.250318.zip",
+    "h": "Z31vPUD1IeASfPiPDSevUqxb1K14YgBqCssTfRtiPhk="
   },
   "com.alipay.sofa.koupleless.kouplelessIDE/--/1.0": {
     "p": "files/24389/559033/kouplelessIDE-1.0.zip",
@@ -12395,6 +12471,18 @@
     "p": "files/26804/698096/CsleInspection-signed.zip",
     "h": "cbHJ9Q3mMyOK4Woas82LfbGhfEyarD9pWnv1MPlFTvM="
   },
+  "com.amlzq.csle.inspection/--/0.0.3": {
+    "p": "files/26834/700727/CsleInspection-signed.zip",
+    "h": "EYJzXiDmPSqBO9RMiilw+u5kGYdyaHgvNv5W270zblM="
+  },
+  "com.amlzq.csle.inspection/--/0.0.4": {
+    "p": "files/26834/702108/CsleInspection-signed.zip",
+    "h": "VKkMvqjWPPNKy5eiXs9yJ6o3Sybtoa6nD4kXg6oZtmc="
+  },
+  "com.amlzq.csle.inspection/--/0.0.5": {
+    "p": "files/26834/702120/CsleInspection-signed.zip",
+    "h": "yhr/E9QQSxWL2jtukzGF9glQIJPhWdhwEylNunysVPw="
+  },
   "com.amos.pitmutationmate.pitmutationmate/--/1.1-Betatest": {
     "p": "files/23575/482232/pitmutationmate-1.1-Betatest.zip",
     "h": "c2XwbXCzaBkr7RapwWYOhJeqgGDu9LyFHjsc6/7xOek="
@@ -12407,9 +12495,9 @@
     "p": "files/26478/682998/annote-2025.1.5.zip",
     "h": "thxvA0A/eJFEksYiP1MvAjXfYC3mRfI6Alq5SphMR+c="
   },
-  "com.anan.annote/--/2025.1.7": {
-    "p": "files/26478/696121/annote-2025.1.7.zip",
-    "h": "+yvUTV/EtCGiOP1w/oCz+mdwVzUb0kr1t/nUEIHeFCQ="
+  "com.anan.annote/--/2025.1.8": {
+    "p": "files/26478/698814/annote-2025.1.8.zip",
+    "h": "JFSSYW7Z1T4vpa6lt3xj8W/yH9higddsBoM72l5qKfo="
   },
   "com.anas.intellij.plugins.ayah/--/0.0.8": {
     "p": "files/19739/212595/Ayah-intellij-0.0.8.zip",
@@ -12502,6 +12590,10 @@
   "com.android.tools.design/--/243.23654.189": {
     "p": "files/22990/673113/design-tools-243.23654.189.zip",
     "h": "/O6NIhB5ro6DTZWnGrYppYjlcAq0Uc1ThHID2tcBB6M="
+  },
+  "com.android.tools.design/--/243.26053.27": {
+    "p": "files/22990/700124/design-tools-243.26053.27.zip",
+    "h": "9Bxou4aO2B7F3i74umYTARJlesR9FtuLKqiX8ihcKVk="
   },
   "com.android.tools.idea.smali/--/232.8660.142": {
     "p": "files/22067/366152/android-smali-232.8660.142.zip",
@@ -13023,9 +13115,9 @@
     "p": "files/20110/246293/ideaplugin-1.0.1.jar",
     "h": "eZxiJAbex8353mOHd3UpLB2hqAnor4BTRZfKZdCbEQU="
   },
-  "com.autohome.ide.plugin.p2c-plugin/--/1.0.7": {
-    "p": "files/26617/696124/p2c-plugin-intellij.zip",
-    "h": "rfxqxJv/A2v/I3bTZXIcEL/L0zG7VUt+I0R2CpjZ08I="
+  "com.autohome.ide.plugin.p2c-plugin/--/1.0.9": {
+    "p": "files/26617/700728/p2c-plugin-intellij-1.0.9-signed.zip",
+    "h": "u+LXqGhFw2jTHKyHYzICNbm1S3ahyw31DvnAZSEn8g4="
   },
   "com.autohome.idea.plugin.codereviewer/--/1.0.7": {
     "p": "files/16246/114677/AutoReviewer.zip",
@@ -13155,9 +13247,9 @@
     "p": "files/23475/684806/comate-intellij-saas-3.2.0.zip",
     "h": "RHApHyGHGWV5Lpm7jbiX7ChmM2q5wMV66i8zMGrSOE4="
   },
-  "com.baidu.comate/--/3.3.2": {
-    "p": "files/23475/695181/comate-intellij-3.3.2.zip",
-    "h": "Tvnssq4K1QxF3nhM/bMwkV/9RhcVMHlod9G3DGQ4c0c="
+  "com.baidu.comate/--/3.3.3": {
+    "p": "files/23475/698104/comate-intellij-3.3.3.zip",
+    "h": "v9s+q8hh1yAfKC3CuuYN8jyWjJCe7OcGJYq/RmfMHuA="
   },
   "com.baidu.intellij.plugin.id/--/1.3.0": {
     "p": "files/13436/75443/baidu_intellij.zip",
@@ -13647,6 +13739,10 @@
     "p": "files/20696/625286/IntelliJ-T-Sol-1.7.zip",
     "h": "2vlHPcEUdhw8JbBzylQazH8Jl1DtLKZRZVin/8VWnBw="
   },
+  "com.broxus.t-sol/--/1.8": {
+    "p": "files/20696/698252/IntelliJ-T-Sol-1.8.zip",
+    "h": "/uh5FApmjc/LAc4QWIxfTPTuRcbgLd/XAW/Iib3JY64="
+  },
   "com.bruce.easycode.community/--/1.3.8-java.RELEASE": {
     "p": "files/20666/578102/EasyCode-Community-1.3.8-java.RELEASE.zip",
     "h": "ndsO6mOQa/v9K9Ovx77/E7WqqmlqipMnbR6yrcsH6gQ="
@@ -13931,13 +14027,13 @@
     "p": "files/9633/36110/PUTVT.zip",
     "h": "wuZLL47xuKGXQ1iRdenVIEAbCe83zmDftkEPXuT40Lw="
   },
-  "com.cerry.baroncyrus.saicode/--/2.0.6": {
-    "p": "files/26780/696271/DeepSeek-Coder-2.0.6.zip",
-    "h": "y7F8R7Z6DvFICbYu7PAkYDIUqOXjqRvQYmseXxjv7Dw="
+  "com.cerry.baroncyrus.saicode/--/2.0.8": {
+    "p": "files/26780/701847/DeepSeek-Coder-2.0.8.zip",
+    "h": "vaLeLiTMSc9IcEVkb3Bv53RbSBCdlP4btuL+TWw/dLk="
   },
-  "com.cerry.body.saicode/--/6.0.2": {
-    "p": "files/26803/698036/CodeGPT-Tools-6.0.2.zip",
-    "h": "fIUh3JmWi1hfgi64+Jt5lWWc/zlOiW4rEmLSYPgRSt0="
+  "com.cerry.body.saicode/--/6.0.4": {
+    "p": "files/26803/700895/CodeGPT-Tools-6.0.4.zip",
+    "h": "tGlVoFdHZ3oLNlvCtDvy0SU8csSVKiUUdxBx4Q7GJnU="
   },
   "com.cfa.api.sdk.intellij/--/1.3.0": {
     "p": "files/20590/477399/cfa-api-sdk-intellij-1.3.0.zip",
@@ -13967,9 +14063,9 @@
     "p": "files/23651/481284/WeatherDisplayPlugin.zip",
     "h": "PcUJP/14PzEPBMxNEm4BodXg19jz/bHp3FpJ3IotjP8="
   },
-  "com.chancetop.naixt/--/1.0.14": {
-    "p": "files/26662/698044/naixt-plugin-idea-1.0.14.zip",
-    "h": "x5tBdsautGsN6Y9ejH7jozzp35eVlRiVqm858RFGa+U="
+  "com.chancetop.naixt/--/1.0.16": {
+    "p": "files/26662/699460/naixt-plugin-idea-1.0.16.zip",
+    "h": "JrGtOSpULNXBel7jwnquVnk2E0F9G4Eyp7gaefbB0/w="
   },
   "com.charles.mybatis-sql/--/1.0.0": {
     "p": "files/26100/653413/mybatis-sql-1.0.0.jar",
@@ -13982,6 +14078,10 @@
   "com.charlyFixing.HexagonalCreator/--/1.0.9": {
     "p": "files/24947/621115/HexagonalCreator-1.0.9.jar",
     "h": "P3MwfdOSTwQts6cUwQJQP1X9VpC76FzvPnk3Ghz2JGM="
+  },
+  "com.chat.deep.ai/--/1.0.1": {
+    "p": "files/26862/700594/DeepSeek-Chat-1.0.1.zip",
+    "h": "e10dWHFMaB1TWYRihECSLhSNNtcfW8xx2wdd6iP6DfA="
   },
   "com.chat2db/--/1.0.0": {
     "p": "files/25618/629333/chat2db.zip",
@@ -14187,9 +14287,9 @@
     "p": "files/19543/684823/automatic-github-issue-navigation-configuration-jetbrains-plugin-2.2.6-signed.zip",
     "h": "1R/7q/NkjmYRcr4afbKdt+TFnmInXZMcoVpgvDhy4hQ="
   },
-  "com.chriscarini.jetbrains.automatic-github-issue-navigation-configuration-jetbrains-plugin/--/2.2.7": {
-    "p": "files/19543/689733/automatic-github-issue-navigation-configuration-jetbrains-plugin-2.2.7-signed.zip",
-    "h": "rspzAyAHIB1DvvLAgZQ2OxLIofaJjs0edpOdYAO5WgE="
+  "com.chriscarini.jetbrains.automatic-github-issue-navigation-configuration-jetbrains-plugin/--/2.2.8": {
+    "p": "files/19543/700601/automatic-github-issue-navigation-configuration-jetbrains-plugin-2.2.8-signed.zip",
+    "h": "QVzCUNbmX06UxWSkRmhEZlumoozVFiow5I83pLcp974="
   },
   "com.chriscarini.jetbrains.environment-variable-settings-summary/--/2.6.0": {
     "p": "files/10998/168139/_Environment_Variable_Settings_Summary_-2.6.0.zip",
@@ -14291,9 +14391,9 @@
     "p": "files/10998/684827/environment-variable-settings-summary-intellij-plugin-4.2.6-signed.zip",
     "h": "CpPg9IBMmqdWMENaZY9QgmJTxaa30bbrExNGSn9RKtA="
   },
-  "com.chriscarini.jetbrains.environment-variable-settings-summary/--/4.2.7": {
-    "p": "files/10998/689731/environment-variable-settings-summary-intellij-plugin-4.2.7-signed.zip",
-    "h": "sy5b+OyJ0yQOiiS6dYVNZrNdd4C3T5JkZkI/uWePvCM="
+  "com.chriscarini.jetbrains.environment-variable-settings-summary/--/4.2.8": {
+    "p": "files/10998/700592/environment-variable-settings-summary-intellij-plugin-4.2.8-signed.zip",
+    "h": "HagpoOeYkSX2DD7epqPDwhGduRJ9y1DqtwvHjkgckjI="
   },
   "com.chriscarini.jetbrains.git-push-reminder-jetbrains-plugin/--/0.0.1": {
     "p": "files/19508/193755/_Git_Push_Reminder_-0.0.1.zip",
@@ -14391,9 +14491,9 @@
     "p": "files/19508/684822/git-push-reminder-jetbrains-plugin-2.2.6-signed.zip",
     "h": "MOnfet+mam17AIaq06Vi2fsoxQEwda6TDkBfDb4KcMw="
   },
-  "com.chriscarini.jetbrains.git-push-reminder-jetbrains-plugin/--/2.2.7": {
-    "p": "files/19508/689736/git-push-reminder-jetbrains-plugin-2.2.7-signed.zip",
-    "h": "kT5SZBC8dbPTPSZegZlhplFaJ+VFXVEn0uyBFhmsozE="
+  "com.chriscarini.jetbrains.git-push-reminder-jetbrains-plugin/--/2.2.8": {
+    "p": "files/19508/700600/git-push-reminder-jetbrains-plugin-2.2.8-signed.zip",
+    "h": "X95T6eSJNLy9QSYfbcmh7prJTrjkSb237LBvNx/Mx4w="
   },
   "com.chriscarini.jetbrains.intellij-sample-notification/--/2.6.0": {
     "p": "files/10924/168136/_sample-notification_-2.6.0.zip",
@@ -14495,9 +14595,9 @@
     "p": "files/10924/684825/intellij-notification-sample-4.2.6-signed.zip",
     "h": "DKLFFKLPOrxRxb4W8NJcE6VIgLRqYt3GOMPa/9SQ3vE="
   },
-  "com.chriscarini.jetbrains.intellij-sample-notification/--/4.2.7": {
-    "p": "files/10924/689728/intellij-notification-sample-4.2.7-signed.zip",
-    "h": "mhdNmAi1s3GDobR00m8qQ1BNRtBjg7PWPEcuwCQzAUk="
+  "com.chriscarini.jetbrains.intellij-sample-notification/--/4.2.8": {
+    "p": "files/10924/700590/intellij-notification-sample-4.2.8-signed.zip",
+    "h": "JKc+SPt7jGrbcXabAglMB8u7P6DC24OO5EXFiWj48mc="
   },
   "com.chriscarini.jetbrains.iris-jetbrains-plugin/--/0.2.0": {
     "p": "files/18137/168140/_Iris_-0.2.0.zip",
@@ -14603,9 +14703,9 @@
     "p": "files/18137/684824/iris-jetbrains-plugin-2.2.6-signed.zip",
     "h": "YowNYmq8rxotvlYMBuFKyR6VC8ZPGCMLHDC5EEIjT+M="
   },
-  "com.chriscarini.jetbrains.iris-jetbrains-plugin/--/2.2.7": {
-    "p": "files/18137/689734/iris-jetbrains-plugin-2.2.7-signed.zip",
-    "h": "d/sv8Mc7DQuG7FEalFZB+YFFxdSO/ogBgcNtlZNTuLg="
+  "com.chriscarini.jetbrains.iris-jetbrains-plugin/--/2.2.8": {
+    "p": "files/18137/700598/iris-jetbrains-plugin-2.2.8-signed.zip",
+    "h": "6wc9qkQnRtLa/Nqpk9zGJrtzpUtBM4E4GZb4Hv1YZ1M="
   },
   "com.chriscarini.jetbrains.jetbrains-auto-power-saver/--/2.6.0": {
     "p": "files/11941/168138/_Automatic_Power_Saver_-2.6.0.zip",
@@ -14707,9 +14807,9 @@
     "p": "files/11941/684828/jetbrains-auto-power-saver-4.2.6-signed.zip",
     "h": "HG5SeoNnDKfdkS8ecEUDu+HO807dnIh+ogY37w0DjPo="
   },
-  "com.chriscarini.jetbrains.jetbrains-auto-power-saver/--/4.2.7": {
-    "p": "files/11941/689730/jetbrains-auto-power-saver-4.2.7-signed.zip",
-    "h": "esF+HGXfORgvqiEV2Y5Hj5G+y/WosiCvFQK7nPnHBG8="
+  "com.chriscarini.jetbrains.jetbrains-auto-power-saver/--/4.2.8": {
+    "p": "files/11941/700591/jetbrains-auto-power-saver-4.2.8-signed.zip",
+    "h": "mUQsFLP/h3/O+qNmPza9W3T3AEvWR6FaGX3Q++QD42U="
   },
   "com.chriscarini.jetbrains.loc-change-count-detector-jetbrains-plugin/--/0.0.3": {
     "p": "files/19113/195662/_LoC_Change_Count_Detector_-0.0.3.zip",
@@ -14811,9 +14911,9 @@
     "p": "files/19113/684829/loc-change-count-detector-jetbrains-plugin-1.2.6-signed.zip",
     "h": "xGr0eJ0/H0pJ0oOip1BHFjBrEEFrBlcubokU9L+r+80="
   },
-  "com.chriscarini.jetbrains.loc-change-count-detector-jetbrains-plugin/--/1.2.7": {
-    "p": "files/19113/689732/loc-change-count-detector-jetbrains-plugin-1.2.7-signed.zip",
-    "h": "8jc3ZTdUVB7Ltj8IE/xhsIB9Nom6r57ma3lkGZRnMAA="
+  "com.chriscarini.jetbrains.loc-change-count-detector-jetbrains-plugin/--/1.2.8": {
+    "p": "files/19113/700593/loc-change-count-detector-jetbrains-plugin-1.2.8-signed.zip",
+    "h": "0BiSeViHSGauvtlZKn53D5vPkG4Sd9s7+bRYTOzcB5k="
   },
   "com.chriscarini.jetbrains.logshipper/--/2.6.0": {
     "p": "files/11195/169790/_Logshipper_-2.6.0.zip",
@@ -14907,9 +15007,9 @@
     "p": "files/11195/684821/logshipper-4.2.6-signed.zip",
     "h": "nXQ6RjxhootX3VH9p1QsomavsaYIbV0pGfge6FxVc54="
   },
-  "com.chriscarini.jetbrains.logshipper/--/4.2.7": {
-    "p": "files/11195/689735/logshipper-4.2.7-signed.zip",
-    "h": "XFJcJR3WcxHAzmgsIWtYYHUpxxdJeao15cCzETRjTao="
+  "com.chriscarini.jetbrains.logshipper/--/4.2.8": {
+    "p": "files/11195/700599/logshipper-4.2.8-signed.zip",
+    "h": "vbjX2kcaBY4zDwp19NswmVGSj76hmc5ZaFYBrwL9cCA="
   },
   "com.chriscarini.jetbrains.sample-intellij-plugin/--/0.2.7": {
     "p": "files/18126/168133/_sample-intellij-plugin_-0.2.7.zip",
@@ -15011,9 +15111,9 @@
     "p": "files/18126/684820/sample-intellij-plugin-1.2.6-signed.zip",
     "h": "JWb4o4kEmHyc2JvGCJ9tsAQNPjK0PZGU91BqdEDKk48="
   },
-  "com.chriscarini.jetbrains.sample-intellij-plugin/--/1.2.7": {
-    "p": "files/18126/689729/sample-intellij-plugin-1.2.7-signed.zip",
-    "h": "l86PPGP/89ybeIn1B8P0QgPKaaUi+VGSHOIm8q4aDvU="
+  "com.chriscarini.jetbrains.sample-intellij-plugin/--/1.2.8": {
+    "p": "files/18126/700589/sample-intellij-plugin-1.2.8-signed.zip",
+    "h": "CcZq2A2Fun1I7eUtNyeKALiJq7Ju+pBcb2c1p8QVuGg="
   },
   "com.chrisrm.idea.MaterialThemeUI/--/7.5.4": {
     "p": "files/8006/194012/Material_Theme_UI-7.5.4.zip",
@@ -15259,9 +15359,9 @@
     "p": "files/24540/683317/Zhanlu-2.0.0.zip",
     "h": "KOevl7jU9OzGaMfna/4T/cbtxQfRjyjng58xlpEj57w="
   },
-  "com.cmss.acepilot/--/2.0.1": {
-    "p": "files/24540/690536/Zhanlu-2.0.1.zip",
-    "h": "t3tUccR9Z9UUwBzDc1zoSoewwcoZbNfGwAUtgk90HRY="
+  "com.cmss.acepilot/--/2.0.2": {
+    "p": "files/24540/699486/Zhanlu-2.0.2.zip",
+    "h": "oQ47q/Z7O5sbo5dtrwA8kuPRDNJ4Bo0MOtnUh0AeJJw="
   },
   "com.cn.oddcn.plugin.gobuildergenerator/--/1.1.1": {
     "p": "files/10783/47420/PluginGoBuilderGenerator.jar",
@@ -15731,9 +15831,9 @@
     "p": "files/15064/205531/JSONKeyFinder-2.0.8.zip",
     "h": "1Q6HwJwGuPoOUuvr6xmEhHs+r0RNDyopw92ghvnD/yI="
   },
-  "com.cral.JSONKeyFinder/--/2025.2.2": {
-    "p": "files/15064/669783/JSONKeyFinder-2025.2.2.zip",
-    "h": "wF5J1BnZyhzRBer7oEVMma/pmBOnAyh8Gxgnyg+thnA="
+  "com.cral.JSONKeyFinder/--/2025.3.0": {
+    "p": "files/15064/701314/JSONKeyFinder-2025.3.0.zip",
+    "h": "JubBfKGlTRZ8UqTITsE+QuFY/sbM4IOQVWNIhGWf0TQ="
   },
   "com.crashlytics.tools.androidstudio/--/4.3.0": {
     "p": "files/8002/52942/FabricAndroidStudioPlugin.zip",
@@ -15811,17 +15911,17 @@
     "p": "files/14837/655139/intellij-openapi-1.95-241.zip",
     "h": "gGm9713NmfKOWswyihS3vR2K/wn9D640gV6pAggB7Dg="
   },
-  "com.crunch42.openapi/--/1.98": {
-    "p": "files/14837/695544/intellij-openapi-1.98.zip",
-    "h": "M//+yvpzTNIKNAIs8pL2fmM3prVM7ddd3pSXdSSTIbI="
+  "com.crunch42.openapi/--/1.99": {
+    "p": "files/14837/699626/intellij-openapi-1.99.zip",
+    "h": "GsWKcfh1GV9I6gXWRvsIQoJIPkMNmpJrWyce/g4HDAw="
   },
-  "com.crunch42.openapi/--/1.98-241": {
-    "p": "files/14837/695546/intellij-openapi-1.98-241.zip",
-    "h": "LRwUv+jQrW7ratVMHhJ8YKM55v34fI/MizWRcJRc9Xw="
+  "com.crunch42.openapi/--/1.99-241": {
+    "p": "files/14837/699624/intellij-openapi-1.99-241.zip",
+    "h": "czUUKy0HDTU5DelfYEF7mUxs0eMQVRephFU5TTPt8LE="
   },
-  "com.crunch42.openapi/--/1.98-242": {
-    "p": "files/14837/695547/intellij-openapi-1.98-242.zip",
-    "h": "aV31+P7DWIUg5AXj8ZA0s6KwTceQPfgHznvqyiEc0+I="
+  "com.crunch42.openapi/--/1.99-242": {
+    "p": "files/14837/699623/intellij-openapi-1.99-242.zip",
+    "h": "fxQE75FhVf74lLNxGKP5WAgHOg/1zYtphmR5oWGVqLE="
   },
   "com.crzsc.FlutterAssetsGenerator/--/2.4.2": {
     "p": "files/15427/296876/Flutter_assets_generator-2.4.2.jar",
@@ -15963,6 +16063,10 @@
     "p": "files/10962/242570/com.damoguyansi.all-format-1.4.0.zip",
     "h": "VP3zsH5bP6My//U8+uvtJlBdG1YiHXjRhyCv1bBigE0="
   },
+  "com.damoguyansi.all-format/--/1.4.1": {
+    "p": "files/10962/702110/All-Format-1.4.1.zip",
+    "h": "bRs+ujxWOyqqWwxZKciPkw9I0mGaGl9jOy3+nsOON1o="
+  },
   "com.dangersoft.codevisualization/--/1.0-SNAPSHOT": {
     "p": "files/25883/635919/codevisualization-1.0-SNAPSHOT.zip",
     "h": "PDiTEa2faEV9dJW3eWmVaTY1WhCJPKkgL13LDsT+j74="
@@ -16055,9 +16159,9 @@
     "p": "files/19495/683000/datadog-intellij-plugin-1.8.6.zip",
     "h": "Ktf3fU5L9rM9rpsjg0bsji3jyijSaANmUButCGnqKCE="
   },
-  "com.datadog.intellij/--/1.8.7": {
-    "p": "files/19495/693944/datadog-intellij-plugin-1.8.7.zip",
-    "h": "K4DyR8TdAIfFehYe76C55k0et8GBFB+ThmaLsbabmiI="
+  "com.datadog.intellij/--/1.8.9": {
+    "p": "files/19495/701022/datadog-intellij-plugin-1.8.9.zip",
+    "h": "lr/OBZXO91Zfk/igqrECtgz7TS7YsK2K7wu5UBivUbw="
   },
   "com.datagraph/--/1.1.0-222": {
     "p": "files/22472/459295/DataGraph-1.1.0-222-signed.zip",
@@ -16130,6 +16234,10 @@
   "com.david.androidstring/--/1.3": {
     "p": "files/15720/107140/DavidAndroidString.jar",
     "h": "2G8j1v/tqipvuaqNPTrQFXbNMdhesPCeI2M1we+Tk28="
+  },
+  "com.davidmszrs.horizonjetbrains/--/2.0.0": {
+    "p": "files/26847/699483/horizon-intellij-2.0.0.jar",
+    "h": "7nXnrfk2Xs6Boqydakx7LSqxMTPCZYvhSTbU3nNYAZw="
   },
   "com.davidprihoda.dvc/--/0.0.5": {
     "p": "files/11368/57724/Data_Version_Control__DVC__Support-0.0.5.zip",
@@ -16295,17 +16403,17 @@
     "p": "files/12789/66369/mapper-scan-1.0.1.jar",
     "h": "5i+HkpF9osGrJrh6xUnodRDP0I2vfuhIFDtWI+itZPM="
   },
-  "com.deepseek.AITranslate/--/6.2.0": {
-    "p": "files/26636/694886/DeepSeek-Translate-6.2.0.zip",
-    "h": "qUcvAGbMGYDgYPwGSxGQBA+MXrnar9txZkm3pKOSqQ8="
+  "com.deepseek.AITranslate/--/6.2.2": {
+    "p": "files/26636/699335/DeepSeek-Translate-6.2.2.zip",
+    "h": "n3b+bo7UpWo+7r0J2SGXuGHRv2dbpSWHDfd+BqHF5HQ="
   },
   "com.deepseekgit.tools/--/6.9.5": {
     "p": "files/26586/683769/AI_git_commit-6.9.5.zip",
     "h": "1qhm/jB3iP26+P4C5mJVzGwCUQt3bgZhat9TrpVIZ44="
   },
-  "com.deepseekgit.tools/--/6.9.8": {
-    "p": "files/26586/697129/DeepSeek-Git-Tools-6.9.8.zip",
-    "h": "tM6gNnfkKBDM+6nKt58I0iQj6ZED2d3nbw4p5OHzvk8="
+  "com.deepseekgit.tools/--/6.9.9": {
+    "p": "files/26586/699614/DeepSeek-Git-Tools-6.9.9.zip",
+    "h": "f6sKrVP6L3LMUZUJ4tDoSmIh7W37wvoTUpSLrfx8fiQ="
   },
   "com.deepspace.stash_notifications_plugin/--/1.0.0": {
     "p": "files/14568/89726/stash_notifications_plugin-1.0.0.zip",
@@ -16507,9 +16615,9 @@
     "p": "files/26167/660529/Devek-0.0.3.zip",
     "h": "uGAARZCs7/RP7ocOHF1GzX5BHZFQ8M1bNMzgPtUg7c4="
   },
-  "com.developer.deep.seek/--/2.5.5": {
-    "p": "files/26700/698068/DeepSeek-Developer-2.5.5.zip",
-    "h": "WZMD3xvGCRPTbO1W+ihFjkZ8WUyAbeEYM6HMz9jqcs8="
+  "com.developer.deep.seek/--/2.5.8": {
+    "p": "files/26700/701645/DeepSeek-Developer-2.5.8.zip",
+    "h": "04CGDjGr7BxKpyM8CKh4HBXqOjYJQBTvUGMVdD7T8IM="
   },
   "com.developerartemmotuzniy.LocalBranchMergedCleaner/--/1.0.1": {
     "p": "files/13702/77719/LocalBranchCleaner-1.0.1.zip",
@@ -16538,6 +16646,10 @@
   "com.devfive.vim_switch_ko/--/0.0.9": {
     "p": "files/24069/631535/vim-switch-ko-0.0.9.jar",
     "h": "yi/lG+pFJ5WOKotFnpg1SWCySU+S29Uis4AQCYCzzaU="
+  },
+  "com.devkelvin.ascii-replacer/--/1.1.2": {
+    "p": "files/26830/701303/ascii-replacer-1.1.2.zip",
+    "h": "N6PUGvQdubfF3vHvT5WSa3w8IXDeXaWrX5doT9izCFs="
   },
   "com.devlomi.sharedprefsmanager/--/1.0.0": {
     "p": "files/11034/49010/SharedPrefsManager.jar",
@@ -17199,9 +17311,9 @@
     "p": "files/25186/684021/Dynatrace-valueof_GradlePropertyValueSource_.zip",
     "h": "hN4exrJkeb+GHZhgpQyxGiQHE8bq1fRRCAmMX+1iyg8="
   },
-  "com.dynatrace.intellij-plugin/--/1.0.2": {
-    "p": "files/25186/695581/Dynatrace-valueof_GradlePropertyValueSource_.zip",
-    "h": "B1kll8UHgOq/PQm7kdqAkD9SbVY9Ewj9WgFa2XvLMXI="
+  "com.dynatrace.intellij-plugin/--/1.0.3": {
+    "p": "files/25186/700186/Dynatrace-valueof_GradlePropertyValueSource_.zip",
+    "h": "Aaw44Wf2A7HKzyhOz2U7QyrsujK2ITNaVlkFVBNbQSw="
   },
   "com.dysh.unreal-simple/--/0.2.0": {
     "p": "files/19082/171641/dysh-unreal-simple-theme.jar",
@@ -17251,9 +17363,9 @@
     "p": "files/23121/680280/easy-query-plugin-0.0.92.zip",
     "h": "sLMP18EMYUEYkISgwtK6CHVUNg5QcmVLIm5kU0YNZcI="
   },
-  "com.easy-query.plugin/--/0.0.98": {
-    "p": "files/23121/693246/easy-query-plugin-0.0.98.zip",
-    "h": "udJwgdlLpZvRpcNdsnEZOnxpnYGzbeIMpeqCXl5q8kM="
+  "com.easy-query.plugin/--/0.0.99": {
+    "p": "files/23121/701992/easy-query-plugin-0.0.99.zip",
+    "h": "MY7KrLFwkzzA5SbGdR6YvQjCpgcRWUC1lbgPvAFsPNE="
   },
   "com.easy.code.stat/--/1.0.1": {
     "p": "files/25795/631245/easy-code-stat-1.0.1.zip",
@@ -17339,6 +17451,10 @@
     "p": "files/21003/690240/DartFormatJetBrainsPlugin-2.0.27.jar",
     "h": "Uv5R2EUBTfyHTzxhOuUPqZnHVu9XW30C7wkQq+lw9Bo="
   },
+  "com.eggnstone.jetbrainsplugins.DartFormat/--/2.0.32": {
+    "p": "files/21003/702417/DartFormatJetBrainsPlugin-2.0.32.jar",
+    "h": "V/7TrnNu/fzfulIPZzpQNaEA3Zimpy7SpK2rEwNpSDE="
+  },
   "com.egoshard.intellij.k8s-runtime-config-plugin/--/1.3.0": {
     "p": "files/12394/453463/intellij-k8s-runtime-config-1.3.0.jar",
     "h": "7zYsrLA1O/E69NJzmxvREJsxZXDX2A5l949/3tm3QNQ="
@@ -17363,9 +17479,9 @@
     "p": "files/26332/683302/einodev-plugin-default-1.0.7.zip",
     "h": "cUprg/4Dwa5AkYy0iTPnRdUDFeqEQ9Uf+UqcjOxCv6o="
   },
-  "com.eino.jet-brains-extension/--/1.1.2": {
-    "p": "files/26332/694236/einodev-plugin-default-1.1.2.zip",
-    "h": "1f4VjGK2c7sccYe5dKQ2VTNy6mYJ8fXrRehHwHGL1Ko="
+  "com.eino.jet-brains-extension/--/1.1.3": {
+    "p": "files/26332/700724/einodev-plugin-default-1.1.3.zip",
+    "h": "2umy14N7QZVvocznPf6eEwH6Ahi0iteNukYtlwXt/zc="
   },
   "com.eitanliu.dart.mappable/--/1.1.7": {
     "p": "files/21845/448472/dart_mappable-1.1.7.zip",
@@ -17390,6 +17506,10 @@
   "com.elicul.azure-devops-commit-message-plugin/--/1.0.2": {
     "p": "files/21627/330603/azure-devops-commit-message-plugin-1.0.2.jar",
     "h": "DOqxhy3ARX3ntCFo3Hx4JL0gYuugfPcRMo5b/0VTNts="
+  },
+  "com.elitea.chat.plugin/--/0.0.1": {
+    "p": "files/26866/701530/eliteacode-jb-0.0.1_2.zip",
+    "h": "mfQ2W1AH2eRuCeZBHqcmCGahlur3NDaCU/GfAnbTVeg="
   },
   "com.ellersoft.jetbrains.git-user/--/1.10-STABLE": {
     "p": "files/12355/180253/git-user-1.10-STABLE.jar",
@@ -17450,6 +17570,10 @@
   "com.emberjs.experimental/--/2024.3.6": {
     "p": "files/15499/676805/intellij-emberjs-experimental-2024.3.6.zip",
     "h": "f/2VVTWZkL8PP45WIsX/qJtBwOVoO8lvJU2DZ2CJppk="
+  },
+  "com.emberjs.experimental/--/2024.3.7": {
+    "p": "files/15499/702232/intellij-emberjs-experimental-2024.3.7.zip",
+    "h": "QkQ2PpRxSOtQ7CjITvEI3WYbqsN7bZvI+R7VetFfYCs="
   },
   "com.emberjs/--/2022.1.2": {
     "p": "files/8049/180903/Ember.js-2022.1.2.zip",
@@ -17639,6 +17763,10 @@
     "p": "files/18857/676776/terminal-pro-plugin-1.1.13.241-signed.zip",
     "h": "bUdvroBCVF8Ro9rdzs4HUz1V/Qe4PG3kjVpXrBh5o5w="
   },
+  "com.ess.terminal-pro/--/1.1.14.241": {
+    "p": "files/18857/699167/terminal-pro-plugin-1.1.14.241.zip",
+    "h": "aen5nLWFSOr5st06/vucEN5k+YuxlvfvklliJopxLZI="
+  },
   "com.ess.terminal-pro/--/1.1.9.211": {
     "p": "files/18857/505299/terminal-pro-plugin-1.1.9.211.zip",
     "h": "rf6NM8+Q6oBggfO2aUyn0cwdBv/jTxSREN32IAw5MFU="
@@ -17703,9 +17831,17 @@
     "p": "files/24286/529866/quick-utils-1.0-signed.zip",
     "h": "JLfGUZwbm6R8fIc3gKcoYZ5oVUzgJIpxVYr0UisL1u8="
   },
+  "com.evolvedqube.easy-utils/--/1.0.1": {
+    "p": "files/24286/702421/quick-utils-1.0.1-signed.zip",
+    "h": "Af+DoA1ltDAWPUfUV5XWteG4rtjdFniDEe0OpXnJtZM="
+  },
   "com.evolvedqube.panic/--/1.0.3": {
     "p": "files/24274/529978/panic-1.0.3-signed.zip",
     "h": "YsuxGJnKE2s7HDM0My/32B+/e7gfe6GYnhKs/2gaHkU="
+  },
+  "com.evolvedqube.panic/--/1.0.4": {
+    "p": "files/24274/702420/panic-1.0.4-signed.zip",
+    "h": "4qwNf+e+9ub5qpLukD1LiLImmV5jHOqZIO0RTn+5c1Y="
   },
   "com.evolveum.midpoint.studio/--/4.6.2": {
     "p": "files/13809/305610/intellij-midpoint-studio-4.6.2.zip",
@@ -17879,17 +18015,17 @@
     "p": "files/22456/676482/ZigBrains-20.3.0-243-signed.zip",
     "h": "cNS5K1HOtjjvKFg9zRxYJoxpKtHB3BIYI/mC5220N1Y="
   },
-  "com.falsepattern.zigbrains/--/22.0.1-241": {
-    "p": "files/22456/697714/ZigBrains-22.0.1-241-signed.zip",
-    "h": "qqm6YIvIbtSUiq5Te5p5SrhE4UyRdXGo04Oh67tAzMs="
+  "com.falsepattern.zigbrains/--/23.0.1-241": {
+    "p": "files/22456/701316/ZigBrains-23.0.1-241-signed.zip",
+    "h": "sNJCD3ULl7AG1r9yPVRSuT6tMG31YPUR4J/4NfZqIxg="
   },
-  "com.falsepattern.zigbrains/--/22.0.1-242": {
-    "p": "files/22456/697715/ZigBrains-22.0.1-242-signed.zip",
-    "h": "uLaM2frSf6DqcldkO84zPRUBVE9tTWhdChYAKndyMHc="
+  "com.falsepattern.zigbrains/--/23.0.1-242": {
+    "p": "files/22456/701317/ZigBrains-23.0.1-242-signed.zip",
+    "h": "yTpOsrkY/Bjrgyl8gZnzfkD2D3Y2Ikw7NTq3SDxJXxA="
   },
-  "com.falsepattern.zigbrains/--/22.0.1-243": {
-    "p": "files/22456/697716/ZigBrains-22.0.1-243-signed.zip",
-    "h": "lCqhtCVG64JRUVf9Y5hzkKp4/Rg8+Vgqty8fVS3uz48="
+  "com.falsepattern.zigbrains/--/23.0.1-243": {
+    "p": "files/22456/701318/ZigBrains-23.0.1-243-signed.zip",
+    "h": "OOeIesQ0iS3A6gANENrizWShEIY3BuJ3vCJNLVerCn0="
   },
   "com.fan.plugin.SimpleCamelCase/--/1.2": {
     "p": "files/12884/67529/SimpleCamelCase.jar",
@@ -17938,6 +18074,10 @@
   "com.fedot.idea.requirejs/--/0.9": {
     "p": "files/7337/14748/requirejs.jar",
     "h": "pudrIUvheukihPF2l3yXPtRkfZKENcqM/isdSf/2qpQ="
+  },
+  "com.feisuanyz.feisuan-javaai/--/1.24.0": {
+    "p": "files/26766/700158/feisuan-javaai-jetbrains-1.24.0.zip",
+    "h": "VL6NWE4zx9OSeyDdNfIFl/Q9OJ8DjNENO8LH8C6lm0M="
   },
   "com.felbus.contexter/--/1.0.5": {
     "p": "files/26721/691780/contexter-1.0.5.zip",
@@ -18107,9 +18247,9 @@
     "p": "files/18425/671557/XSDvisualizer-2025.1.0-signed.zip",
     "h": "uCoofZ55yONtdP29x7DduaFnWJwGHm4R22FVT73lT8A="
   },
-  "com.fluxparticle.xsdvisualizer/--/2025.1.3": {
-    "p": "files/18425/695783/XSDvisualizer-2025.1.3.zip",
-    "h": "Zpr5u0k0cdKGNb1IcvRN3vFWfAA31Ic+FWiCKYbkfgk="
+  "com.fluxparticle.xsdvisualizer/--/2025.1.4": {
+    "p": "files/18425/701401/XSDvisualizer-2025.1.4-signed.zip",
+    "h": "HEDubyTa8U0gWCvbuj2rMq09YQWaGBr3GMFtVJQbB3g="
   },
   "com.fly-mix.flr/--/221.3.3.1": {
     "p": "files/13789/282018/flr-as-plugin_221.3.3.1.zip",
@@ -18190,6 +18330,10 @@
   "com.fpt.codevista/--/1.5.0": {
     "p": "files/24575/679162/codevista-intellij-plugin-internal-1.5.0.zip",
     "h": "qeBn/ufOEEwsNHuF7E77GTagM2tVihtnZ3VwMMImDDc="
+  },
+  "com.fpt.codevista/--/1.6.0": {
+    "p": "files/24575/701351/codevista-intellij-plugin-internal-1.6.0.zip",
+    "h": "y2f+ScfCuLPupzuRlLT/CpisAweaa/bWia/NfuwVL2o="
   },
   "com.framework.plugin.yisingle/--/1.2.1": {
     "p": "files/22931/616124/BpLanguageDemo-1.2.1.zip",
@@ -18559,6 +18703,10 @@
     "p": "files/20517/607299/paparazzi-1.2.2024.2.zip",
     "h": "q7Alwu4GIh5zewEAEQRhYRHkyx/Srlz2xfEkUL8s8Yg="
   },
+  "com.getyourguide.paparazzi/--/1.2.2024.3": {
+    "p": "files/20517/698034/paparazzi-1.2.2024.3.zip",
+    "h": "qPnpsARL7uTLhLTXBwNnhTg9r9aklNgk9TDnJuJha3A="
+  },
   "com.gg.plugins.json/--/0.1.2": {
     "p": "files/20013/235609/JSON_Browser-0.1.2-signed.zip",
     "h": "tpqt75A5OfIaQN7VbKWN5DLkJrfSBqDGUYSUA6cX2Cs="
@@ -18603,9 +18751,9 @@
     "p": "files/20002/606546/Mongo_DB_Browser-2024.3.1.zip",
     "h": "6ge9zQPgre1f4ElQvjRHdDm8lEyZZyTs6wDd/0vHqdo="
   },
-  "com.ghozimahdi.gmbloc.gmbloc/--/1.0.2": {
-    "p": "files/26810/696756/GM-BLoC-1.0.2.zip",
-    "h": "SsubSa9P4UU7qVSEupEwMYtQbvAhIJE6/DAds50ZLjI="
+  "com.ghozimahdi.gmbloc.gmbloc/--/1.0.3": {
+    "p": "files/26810/700315/GM-BLoC-1.0.3.zip",
+    "h": "2jrn/F7x2LaPmfRFkVsRmcbtBXJP61rK5ps87O+Pt+U="
   },
   "com.giabrend.instacode/--/1.0.1": {
     "p": "files/26627/685266/InstaCode-1.0.1.zip",
@@ -18835,9 +18983,9 @@
     "p": "files/23659/603648/advanced-expression-folding-2.0.0-signed.zip",
     "h": "6VjAYN4SehJGuxRrA+X6H/6DCprMfnhL+MVKJymyX2E="
   },
-  "com.github.advanced-java-folding2/--/3.0.2": {
-    "p": "files/23659/694708/advanced-expression-folding-3.0.2-signed.zip",
-    "h": "rKtRuSS3LsuTn0pNQIFRDZykgoQGRtipe67v2+xq+CI="
+  "com.github.advanced-java-folding2/--/3.2.0": {
+    "p": "files/23659/699918/advanced-expression-folding-3.2.0-signed.zip",
+    "h": "F9bltPToCnxiVf3fRbZ/OGK/BxvCurpTjQXtLyFH+XE="
   },
   "com.github.affishaikh.kotlinbuildergenerator/--/2.0.0": {
     "p": "files/14835/135487/kotlin-builder-generator-2.0.0.jar",
@@ -18918,6 +19066,10 @@
   "com.github.amibiz.ergokeys/--/1.24": {
     "p": "files/11347/655587/ergo-keys-1.24.jar",
     "h": "VY8fXfzS7mZL+vcrEND66CA9qGo6PCNu1dQYGORWGHo="
+  },
+  "com.github.amirshafri.todohighlighter/--/1.0.0": {
+    "p": "files/26777/700078/TODO-Highlighter-1.0.0.zip",
+    "h": "DOnpdw1LOaDlYlXdGRLiMoQnn4+vvUEk1X8ejGdsNbg="
   },
   "com.github.amolenaar.idea.clock/--/1.0": {
     "p": "files/7754/19494/idea-clock.zip",
@@ -19339,9 +19491,9 @@
     "p": "files/22761/673851/intellij-biome-1.5.6.zip",
     "h": "4RPjC0Uf4goBhfPBlU/r1YkP33dgKMA6l3WUtcNZQik="
   },
-  "com.github.biomejs.intellijbiome/--/1.6.0": {
-    "p": "files/22761/686927/intellij-biome-1.6.0.zip",
-    "h": "CM7VZmPRUbv2EbVuBeCjhW62nsan4D/U4U59X0gZB5M="
+  "com.github.biomejs.intellijbiome/--/1.7.0": {
+    "p": "files/22761/701395/intellij-biome-1.7.0.zip",
+    "h": "ZBni5ljlMRwT9zhc4UNfnD+3hg4Cz+qYiZYTdt02PLo="
   },
   "com.github.bjansen.intellij.pebble/--/0.9.1": {
     "p": "files/9407/169768/pebble-intellij.zip",
@@ -19791,9 +19943,9 @@
     "p": "files/23073/684445/clojure-repl-2.1.0.zip",
     "h": "ivzpDjlG9KRFuCK9rU2AYLXpTuaUM36yRA4WNs8bzPk="
   },
-  "com.github.clojure-repl/--/2.4.0": {
-    "p": "files/23073/695964/clojure-repl-2.4.0.zip",
-    "h": "qHyoiUty2A8yVSDdpDo6Qy18W+qzxOD3686zM+E3iyU="
+  "com.github.clojure-repl/--/2.5.1": {
+    "p": "files/23073/701803/clojure-repl-2.5.1.zip",
+    "h": "gEKDTT+CogeB2YhSr5TQuEM1C5O9NzTzxFhFQttl2hM="
   },
   "com.github.cmourglia.ijblockjumper/--/1.0.2": {
     "p": "files/16416/300673/ij-block-jumper-1.0.2.jar",
@@ -19883,6 +20035,10 @@
     "p": "files/25782/675003/IntelliJ_Huff_Plugin-1.0.1.zip",
     "h": "VzYaPn3AIz34YxCmzc9/WY2EuDEPm1MauLZGU14mpkE="
   },
+  "com.github.com.cakevm.intellij_huff_plugin/--/1.0.2": {
+    "p": "files/25782/701302/IntelliJ_Huff_Plugin-1.0.2.zip",
+    "h": "1JHSS1VIl9nx8C7T6+Axg4kCFMx9xtV8bTRdbFpH0Jc="
+  },
   "com.github.cong1223.intellijpluginyapi2ts/--/2.0.1": {
     "p": "files/17990/272847/yapi2ts-2.0.1.zip",
     "h": "cvHdjLSFNuZH1mOKsOn10394yZdZAS8RYCqNzxNM//k="
@@ -19902,6 +20058,10 @@
   "com.github.continuedev.autosaildevintellijextension/--/0.0.4": {
     "p": "files/26292/682297/autosail-dev-intellij-extension-0.0.4.zip",
     "h": "jTm8mtqZVaqTIkH3Bg37vuzMWPd0jJinpWDhWRM0kv0="
+  },
+  "com.github.continuedev.autosaildevintellijextension/--/0.0.6": {
+    "p": "files/26292/702118/autosail-dev-intellij-extension-0.0.6.zip",
+    "h": "2oPzW0c5c+/PsEV54CfYsqN7Ux67Q38VcoFNAYze6TA="
   },
   "com.github.continuedev.continueintellijextension.worklink.copilot/--/0.0.93": {
     "p": "files/24680/611074/WorklinkCopilot-intellij-extension-0.0.93.zip",
@@ -19955,9 +20115,9 @@
     "p": "files/17718/683782/github-copilot-intellij-1.5.35-242.zip",
     "h": "XySBxVlZLPTj1Y3urLpfgkrYwt/y12hX0oCK1p0Vdx0="
   },
-  "com.github.copilot/--/1.5.38-243": {
-    "p": "files/17718/694875/github-copilot-intellij-1.5.38-243.zip",
-    "h": "lq5JmR8gPsrZ9rT+byit98KZSzFsl4UppwYAaE9Kjiw="
+  "com.github.copilot/--/1.5.39-243": {
+    "p": "files/17718/701524/github-copilot-intellij-1.5.39-243.zip",
+    "h": "DYacUWZCMPsRL4KBmQjJ11KW3vXyFgM5BPBToXQHzD4="
   },
   "com.github.copilot/--/1.5.8.5775": {
     "p": "files/17718/556037/github-copilot-intellij-1.5.8.5775.zip",
@@ -20135,6 +20295,10 @@
     "p": "files/12320/61682/intellij-plugin__aem-script-console.zip",
     "h": "NXQGZN45wyZgl8GvWfiYA0CTNUigP4ZW3rWy2RWVQsI="
   },
+  "com.github.davidseptimus.armada/--/0.2.0": {
+    "p": "files/26844/701308/armada-theme-intellij-plugin-0.2.0.zip",
+    "h": "MgftNwM4E99p/63wOiGpuJHhlcQww+EUq8SmRYsXD5c="
+  },
   "com.github.dbDoc/--/0.1": {
     "p": "files/14343/86677/dbDoc.jar",
     "h": "LVk/Pn88ltBjXeS3ny9YmXKmTE5GDOQqwva5X64YtMQ="
@@ -20215,9 +20379,9 @@
     "p": "files/22604/668197/ngxs-0.1.0.zip",
     "h": "AoH8LJsf7O1PEzyHTjLywbYiXxPDTA7TSaSPiDbj+HU="
   },
-  "com.github.dinbtechit.vscodetheme/--/1.7.2": {
-    "p": "files/19177/248249/VSCode_Theme-1.7.2.zip",
-    "h": "UQznF4Rf5DNbuE8RQwhqFXRb/hKPy2oFOH2nD3/YMug="
+  "com.github.dinbtechit.vscodetheme/--/1.6.2": {
+    "p": "files/19177/220708/VSCode_Theme-1.6.2.zip",
+    "h": "pxyVeweKAPJJdgY8wt2qA6R4t70Oi5IreP7YO+V0OL0="
   },
   "com.github.dinbtechit.vscodetheme/--/1.9.1": {
     "p": "files/19177/376610/VSCode_Theme-1.9.1.zip",
@@ -20279,9 +20443,9 @@
     "p": "files/16460/116761/jetbrains-bitrix-stub-plugin-v1.0.2.jar",
     "h": "iu110wBGViy6xM7YYepnQyyekVsw9ghZjnppeyYJ6xA="
   },
-  "com.github.dxtan.theme.spacegray-dark/--/1.0.1": {
-    "p": "files/26747/695820/intellij-spacegray-dark.jar",
-    "h": "ihWRu/GtwWn4Y44zx9H8MuPLkCQkpPoKwm1VcZ/XGnM="
+  "com.github.dxtan.theme.spacegray-dark/--/1.0.2": {
+    "p": "files/26747/699639/intellij-spacegray-dark.jar",
+    "h": "a8hanBmjmHWz2pU7Rue4jqBbxO93j5PH2y+HByR4LEg="
   },
   "com.github.dyriavin.mimesistheme/--/1.2.1": {
     "p": "files/21180/519010/mimesis-theme-1.2.1.zip",
@@ -20463,9 +20627,9 @@
     "p": "files/25224/666222/Firebender-0.7.5.zip",
     "h": "lSJZJiPXOPgAGoT80EA8q0UkJFhBCQTjivXcL+v1spQ="
   },
-  "com.github.firebender.androidstudiocopilot/--/0.9.12": {
-    "p": "files/25224/698103/Firebender-0.9.12.zip",
-    "h": "l0a99Mxbi+6mLREDbCxRLI4T1K98I0qvySSnr3zHwXM="
+  "com.github.firebender.androidstudiocopilot/--/0.9.13": {
+    "p": "files/25224/701307/Firebender-0.9.13.zip",
+    "h": "LJrLcC/6aZJ3VQhumj0rs3n3VI0PrN9WERkiljuSkkQ="
   },
   "com.github.firebender.androidstudiocopilot/--/0.9.2": {
     "p": "files/25224/683774/Firebender-0.9.2.zip",
@@ -21031,6 +21195,10 @@
     "p": "files/22234/375243/clean-architecture-plugin-1.2.4-signed.zip",
     "h": "bwCA/O4oAW9GJlgkN2dwzuleMNK+JSoLqI1BCMZVcUY="
   },
+  "com.github.ivanmisyats.copycontentplugin/--/1.0.0": {
+    "p": "files/26852/699925/copy-content-plugin-1.0.0.jar",
+    "h": "Bz3lQ5PrM8z3d/I+01Xq6ciatcfVBHAJNwMdrEs51cI="
+  },
   "com.github.iyashpal.intellijgithubthemes/--/0.0.23": {
     "p": "files/20810/605896/github-theme.jar",
     "h": "bKvTRTsOmwNVw001PqMLdSE7qQg4dxmjQPcvt0U/GHM="
@@ -21323,9 +21491,9 @@
     "p": "files/22895/682485/Onuro-2.1.9.zip",
     "h": "05kHGfJUZDOT5HcgIge5gFP9oWABIHxCyM8Kz5xe+Sw="
   },
-  "com.github.julianshalaby.chatwindow/--/2.2.3": {
-    "p": "files/22895/698261/Onuro-2.2.3.zip",
-    "h": "XX7+G+wemsFajennVgAZlvrpLT7MLnQaT5E/fagn9Nc="
+  "com.github.julianshalaby.chatwindow/--/2.2.7": {
+    "p": "files/22895/699953/Onuro-2.2.7.zip",
+    "h": "553elRirwtOQKzw17noJVy9tkcxgAgKaeZQfdkdgqGA="
   },
   "com.github.kairaedsch.intellijpyinvoke/--/0.2.3": {
     "p": "files/24793/624753/intellij-pyinvoke-0.2.3.zip",
@@ -23279,6 +23447,10 @@
     "p": "files/25235/624575/TreeViewObject-1.1.5.zip",
     "h": "gMgJtuyJIcJqGpia9a68K6/M9/pPpDvpefdoJeOjilo="
   },
+  "com.github.seablue1.treeviewobject/--/1.1.6": {
+    "p": "files/25235/701164/TreeViewObject-1.1.6.zip",
+    "h": "Hqj/PtYX81QaqbyjNPNeLnHW7Q2MG89y9rw6MLCc4B4="
+  },
   "com.github.seanwang2008.json2tablep/--/0.0.3": {
     "p": "files/26461/676268/json2tablep-0.0.3.jar",
     "h": "UaRwmUTJByIcWPjPib6pxq+3ftAyVAHj1GMAsbxGxbY="
@@ -23451,13 +23623,13 @@
     "p": "files/25434/671562/CPS_Agent-0.0.14.zip",
     "h": "BYqcdevfngjW4UBpOWe0oyzp9AyND9+hg7wTiHDWyrY="
   },
-  "com.github.sieff.mapairtool/--/0.0.15": {
-    "p": "files/25434/695827/CPS_Agent-0.0.15.zip",
-    "h": "pj6wIaTSzxWrYKjAOOKV7U0P+840FaabOM157J+Qgy8="
-  },
   "com.github.sieff.mapairtool/--/0.0.9": {
     "p": "files/25434/638295/CPS_Agent-0.0.9.zip",
     "h": "BlKGRCp5T0sJRI648OuUsHchhaWyZu4rYI5/vSO7aeE="
+  },
+  "com.github.sieff.mapairtool/--/0.1.3": {
+    "p": "files/25434/701400/CPS_Agent-0.1.3.zip",
+    "h": "kz+MapCMdi8SnG8OJS/AodUsMEwxrdtqndQNLLFXO7E="
   },
   "com.github.siggisigmann.PacManProgressBar.PacManProgressBar/--/1.5": {
     "p": "files/23967/634749/PacManProgressBar-1.5.jar",
@@ -23526,6 +23698,10 @@
   "com.github.skleprozzz.intellijfluttercleanfeature/--/1.0.1": {
     "p": "files/24862/667736/flutter_clean_feature-1.0.1.zip",
     "h": "7ohUt+bpCXuGGd3sLk4XwfUfqVAeF6acCm+t530AIvs="
+  },
+  "com.github.skoch13.pnpmcataloglens/--/0.0.1": {
+    "p": "files/26883/701837/pnpm-catalog-lens-0.0.1-signed.zip",
+    "h": "aFDit3KT5g5OBlsR+CF7p1Vk/qquDdUFJUkK+qqTOfY="
   },
   "com.github.skrcode.springxmlbeantoannotation/--/0.0.3": {
     "p": "files/26357/671691/spring-xml-bean-to-annotation-0.0.3.jar",
@@ -24195,6 +24371,10 @@
     "p": "files/18364/671010/Neo_Theme-0.4.3.zip",
     "h": "qRhjL6sFhG0BvObbELdGl/qMrSZ2xA80sdOML5h9F1k="
   },
+  "com.github.vsuhanov.fastpeek/--/1.0.4": {
+    "p": "files/26871/702114/fast-peek-1.0.4.zip",
+    "h": "He5ydeSOK5Yfcps4dL18ipLa462WYwGrcENmPQFfZk4="
+  },
   "com.github.wangji92.arthas.plugin/--/2.44": {
     "p": "files/13581/355480/arthas-idea-plugin.zip",
     "h": "ntT8U7vIAP3oQJ05HhVajhhNsIq0Xa9+FkwHU5/NHfk="
@@ -24207,9 +24387,9 @@
     "p": "files/13581/689741/arthas-idea-plugin.zip",
     "h": "MbLk7bWhf+8RIMKuIBYwYsgR2Plp/hODaZ/7gYOlikE="
   },
-  "com.github.wanniwa.EditorJumper/--/1.0.0": {
-    "p": "files/26824/697907/EditorJumper-1.0.0.zip",
-    "h": "72ydMi9iiFfCSoHqK5wF0j73zmRJpzvvnjZ4EiqRsd0="
+  "com.github.wanniwa.EditorJumper/--/1.0.4": {
+    "p": "files/26824/700181/EditorJumper-1.0.4.zip",
+    "h": "U1zT/wShNva8SMBJ3PiKKlIfrKOqbZJef/diX/K1ouA="
   },
   "com.github.warfaj.paxintellijplugin/--/0.0.6": {
     "p": "files/21408/326250/Pax-0.0.6.zip",
@@ -24291,6 +24471,10 @@
     "p": "files/19773/313954/idea-json-detect-1.3.zip",
     "h": "6wUZVDbU9qnmfMPOo+JDPYQ+lk2xYjy1PYPgB0QGQqU="
   },
+  "com.github.wjlroe.idea-json-detect/--/1.4": {
+    "p": "files/19773/699786/idea-json-detect-1.4.zip",
+    "h": "3CA8UOntnpvqs/D+RIZ/12D0Gw4QRQWa8cZ2VWoCSe8="
+  },
   "com.github.wkkya.fusionpdf/--/2.0.3": {
     "p": "files/26494/694887/FusionPDF-2.0.3.zip",
     "h": "Ingb7SOE+L7AOml13yRI0m+svGzhM8AQot5kTyfT51s="
@@ -24331,9 +24515,9 @@
     "p": "files/26344/682298/Buggregator-2025.0.5.zip",
     "h": "MiAOltCr+a3HIyc67w6XPCzbr9uPyVI8IrF0xcQmzNM="
   },
-  "com.github.xepozz.buggregator/--/2025.0.8": {
-    "p": "files/26344/690278/Buggregator-2025.0.8-obfuscated.jar",
-    "h": "elwfG9r6q5JucjBmQR8GQkuZdMwLaIt8j5+wYkzZFEg="
+  "com.github.xepozz.buggregator/--/2025.0.9": {
+    "p": "files/26344/698666/Buggregator-2025.0.9-obfuscated.jar",
+    "h": "XCTRUW4akWR3z/ADfA1khn29BIw12ELkjvFKoikUlZA="
   },
   "com.github.xepozz.crontab/--/2025.0.6": {
     "p": "files/26412/673079/Crontab-2025.0.6.jar",
@@ -24347,9 +24531,9 @@
     "p": "files/26477/676803/gitattributes-2025.0.1.jar",
     "h": "1cpckYRrGTsFHbgloElo0ajxuguNPGzfSogcmKnEKZI="
   },
-  "com.github.xepozz.gitattributes/--/2025.0.11": {
-    "p": "files/26477/693807/gitattributes-2025.0.11-obfuscated.jar",
-    "h": "vFLMnEfYy+di39P9N4jEE9RvtHafIylV7SUsPbF0LJI="
+  "com.github.xepozz.gitattributes/--/2025.0.13": {
+    "p": "files/26477/701362/gitattributes-2025.0.13.zip",
+    "h": "QP6fG52LJefu8ASzTWu5JqyqV5aWgjbon8ko7jlOAH0="
   },
   "com.github.xepozz.gitattributes/--/2025.0.6": {
     "p": "files/26477/683777/gitattributes-2025.0.6-obfuscated.jar",
@@ -24359,9 +24543,9 @@
     "p": "files/26491/677695/Git_Codeowners-2025.0.1.jar",
     "h": "DfZ614ROtEUht28XJ+YSvMfsYQLttBnDCDa92S21WOg="
   },
-  "com.github.xepozz.gitcodeowners/--/2025.0.13": {
-    "p": "files/26491/693809/Git_Codeowners-2025.0.13-obfuscated.jar",
-    "h": "FUVYq5fPYo87Xqr4HqUQ9UPEuoT/K10GLbjhKrktxaQ="
+  "com.github.xepozz.gitcodeowners/--/2025.0.15": {
+    "p": "files/26491/701366/Git_Codeowners-2025.0.15.zip",
+    "h": "J4/8pRmiPpQky8SU1XbmmzRF59ybKtY093xs6EDcdBo="
   },
   "com.github.xepozz.gitcodeowners/--/2025.0.7": {
     "p": "files/26491/684790/Git_Codeowners-2025.0.7-obfuscated.jar",
@@ -24379,9 +24563,9 @@
     "p": "files/26121/667421/MetaStorm-2025.0.6-obfuscated.jar",
     "h": "PY/mVoNkkUxD2eWmvC7gmbThbAxFPqJuIWjbr+YSMKA="
   },
-  "com.github.xepozz.metastorm/--/2025.1.2": {
-    "p": "files/26121/693610/MetaStorm-2025.1.2-obfuscated.jar",
-    "h": "kCByxL7/aOHx+Y4uhCEz90fzLOgKla8XFbFJn9AwXBI="
+  "com.github.xepozz.metastorm/--/2025.1.4": {
+    "p": "files/26121/701298/MetaStorm-2025.1.4-obfuscated.jar",
+    "h": "6z3mKmivLy2Im9uWjuI8yYRC8Wx4NuZIpDa702tWKGg="
   },
   "com.github.xepozz.phplrt/--/2025.0.1": {
     "p": "files/26474/676462/PHPLRT-2025.0.1.jar",
@@ -24391,33 +24575,37 @@
     "p": "files/26474/684818/PHPLRT-2025.0.6-obfuscated.jar",
     "h": "aRGLHPhmPVOtTt7KplQldJCCWrVcyxBqzSd/YAcCky8="
   },
-  "com.github.xepozz.phplrt/--/2025.0.8": {
-    "p": "files/26474/693816/PHPLRT-2025.0.8-obfuscated.jar",
-    "h": "/PkAvX+rGBk5m+yUpP2Axvr5ufZd81I9yedapYhbBdc="
+  "com.github.xepozz.phplrt/--/2025.0.9": {
+    "p": "files/26474/698665/PHPLRT-2025.0.9-obfuscated.jar",
+    "h": "Im2dX4ZTKdayVjMFvH1xjJxUK3ztBc7c15jRhsEQk74="
   },
   "com.github.xepozz.robots_txt/--/2025.0.1": {
     "p": "files/26470/676277/Robots.txt-2025.0.1.jar",
     "h": "aJG+60OCcuIz3FRXC3P6ylV3FCrdejGjZpw3s5QX1FI="
   },
+  "com.github.xepozz.robots_txt/--/2025.0.13": {
+    "p": "files/26470/701361/Robots.txt-2025.0.13.zip",
+    "h": "Da65hVeTrGjz0sHL9Ds2x/IdyxWC8uCUtreKYNBpztI="
+  },
   "com.github.xepozz.robots_txt/--/2025.0.6": {
     "p": "files/26470/683800/Robots.txt-2025.0.6-obfuscated.jar",
     "h": "L+U/i1sFigo+pKF/pPFoguBD0VxDAOUAreApbAkp5bI="
-  },
-  "com.github.xepozz.robots_txt/--/2025.0.9": {
-    "p": "files/26470/690258/Robots.txt-2025.0.9-obfuscated.jar",
-    "h": "3DBMSSREfuQw6mvZDp0HNjuoXUZ5IUmZ0voWGC2lrmU="
   },
   "com.github.xepozz.sitemap/--/2025.0.4": {
     "p": "files/26537/684786/Sitemap-2025.0.4.jar",
     "h": "jjVOuP9JC7Hlta9SNCusZNZ+D+rBLsXN7UzXGFp+yo8="
   },
-  "com.github.xepozz.sitemap/--/2025.0.7": {
-    "p": "files/26537/693813/Sitemap-2025.0.7.zip",
-    "h": "dbLWcbsOi7Isa6f1dZORDdOThL5I2+2HygVxleAQCts="
+  "com.github.xepozz.sitemap/--/2025.0.9": {
+    "p": "files/26537/701360/Sitemap-2025.0.9.zip",
+    "h": "HaDFliZ3d61BKeunHvWdHpMtvlC958Nh6xVYiOpPz+Y="
   },
   "com.github.xepozz.yiisoft/--/2025.0.4": {
     "p": "files/25388/682129/Yiisoft_Framework-2025.0.4-obfuscated.jar",
     "h": "UVcA6J+KRAi65d+btQsH6WrwDEnkDtGt59urbxVkTvc="
+  },
+  "com.github.xepozz.yiisoft/--/2025.0.8": {
+    "p": "files/25388/698671/Yiisoft_Framework-2025.0.8-obfuscated.jar",
+    "h": "gXoyx8KiCbjz0+cJEYWR+7FteA4MKvYGz3g+gSEBINs="
   },
   "com.github.xiaohundun.statusbarstocks/--/1.0.4": {
     "p": "files/24429/547772/statusbar-stocks-1.0.4.zip",
@@ -24587,9 +24775,9 @@
     "p": "files/16227/295670/Serenade_Theme-0.0.9.jar",
     "h": "U6ZDwNGtFmkSHlxdd76TolDcGqhpJx7HCwYGmD+eE28="
   },
-  "com.github.zepocas.zenith/--/0.1.5": {
-    "p": "files/26510/678941/zenith-0.1.5.jar",
-    "h": "Z+sVHVRn4AzUQchUyYK4KGOor78i9QanuPYSw7UVBH4="
+  "com.github.zepocas.zenith/--/0.2.0": {
+    "p": "files/26510/699182/zenith-0.2.0.zip",
+    "h": "PcActdT7ykeF4DVXB1mzLb1s6ipuzecDvJ/C/PM1fcU="
   },
   "com.github.zero9178.mlirods/--/0.2.0": {
     "p": "files/26204/666352/IntelliJ-MLIR-ODS-0.2.0.zip",
@@ -24607,9 +24795,9 @@
     "p": "files/21892/366393/TinyPngPlugin-0.0.5.zip",
     "h": "Gqg+yXe2mATvJea4h4Q/Z1OF1qDBUCv5y6TdkSJzNlg="
   },
-  "com.github.zijing66.dependencymanager/--/1.0.4": {
-    "p": "files/26753/698073/dependency-manager-1.0.4.zip",
-    "h": "Rs7TgDklDNgFkUVyGZ9v2Gvj6wRzrfoqqQRcZo5S2kg="
+  "com.github.zijing66.dependencymanager/--/1.1.2": {
+    "p": "files/26753/701849/dependency-manager-1.1.2.zip",
+    "h": "2fAWXmiFWQ0ESDmFhnasK1jbV1tSKkScEzgcNrobo8I="
   },
   "com.github.zimablue1995.everything/--/0.0.6": {
     "p": "files/19532/207816/Everything-0.0.6.zip",
@@ -24739,13 +24927,13 @@
     "p": "files/19611/681563/intellij-gitlab-plugin-12.4.1-signed.zip",
     "h": "VAid6O5+aXsHwD5Ly59FTbaSNynEYMCPNOvWUYx6Mtw="
   },
-  "com.gitlab.msciachero.intellij-gitlab-plugin/--/12.5.4": {
-    "p": "files/19611/693986/intellij-gitlab-plugin-12.5.4-signed.zip",
-    "h": "xzDp/PJaKL0b7O3hWhx2PPeAI70Yl95BaH6S5+rzPKE="
+  "com.gitlab.msciachero.intellij-gitlab-plugin/--/12.6.1": {
+    "p": "files/19611/698970/intellij-gitlab-plugin-12.6.1-signed.zip",
+    "h": "KLt6MKxp4uRG7XRe4DNAyc3cAdv6FMx2UGyLH5yOL7I="
   },
-  "com.gitlab.msciachero.intellij-gitlab-plugin/--/12.5.4-2024.1": {
-    "p": "files/19611/694037/intellij-gitlab-plugin-12.5.4-2024.1-signed.zip",
-    "h": "Zf3wLQUsF7Gvd5PFk36JBqudOKSrNqAok0YjJ4M88to="
+  "com.gitlab.msciachero.intellij-gitlab-plugin/--/12.6.6-2024.1": {
+    "p": "files/19611/698988/intellij-gitlab-plugin-12.6.6-2024.1-signed.zip",
+    "h": "1iaj8CSwp3+fAtnua8wz1hQJMe35n0LNkm/Na7sMK+s="
   },
   "com.gitlab.msciachero.intellij-gitlab-plugin/--/3.16.0": {
     "p": "files/19611/231623/intellij-gitlab-plugin-3.16.0-signed.zip",
@@ -25107,9 +25295,9 @@
     "p": "files/9554/692729/clwb_bazel.zip",
     "h": "Sqh7G7QL6QezYTfqW/RdRwph3jtGxxMHZdYo80zSgDA="
   },
-  "com.google.idea.bazel.clwb/--/2025.02.18.0.1-api-version-243": {
-    "p": "files/9554/692730/clwb_bazel.zip",
-    "h": "Jvnj2YB6TthfZf8tHGBeVfNY/ODtgdFXNeCWWjx5KFg="
+  "com.google.idea.bazel.clwb/--/2025.03.04.0.1-api-version-243": {
+    "p": "files/9554/701379/clwb_bazel.zip",
+    "h": "6bNI0MvEAKgBL9XVk193lQqb4q1NNftcN9YnAz9qG8Q="
   },
   "com.google.idea.bazel.ijwb/--/2022.11.29.0.1-api-version-221": {
     "p": "files/8609/267490/ijwb_bazel.zip",
@@ -25155,9 +25343,9 @@
     "p": "files/8609/692726/ijwb_bazel.zip",
     "h": "Ox+KkrzOuWcYtt1B6IY2O/mJhal8vbjJp+aqrWt2hps="
   },
-  "com.google.idea.bazel.ijwb/--/2025.02.18.0.1-api-version-243": {
-    "p": "files/8609/692734/ijwb_bazel.zip",
-    "h": "X3tu4u+FwNEieP1l2DRdEptDdqaQU6lJkSQ1eMbpUHw="
+  "com.google.idea.bazel.ijwb/--/2025.03.04.0.1-api-version-243": {
+    "p": "files/8609/701388/ijwb_bazel.zip",
+    "h": "yv2QY+2t6+CvilYiXos3Q/6rzePlhGO0znPTW3HiMWY="
   },
   "com.google.idea.gn/--/0.1.4": {
     "p": "files/14705/447862/gn-0.1.4.zip",
@@ -25715,6 +25903,10 @@
     "p": "files/25991/668585/CommitMessageCleanerPlugin-0.1.1.zip",
     "h": "a2PwyiCBELO34VvABpkte+xO+8q8NmeaOQVtXLqFE8U="
   },
+  "com.hiosdra.commitmessagecleanerplugin/--/0.2.0": {
+    "p": "files/25991/702423/CommitMessageCleanerPlugin-0.2.0.zip",
+    "h": "cvrOlQbq3XY26PN8OvJC3ntN37XeWvwS2td4tO/qs6I="
+  },
   "com.hippo.HippoTheme/--/1.5": {
     "p": "files/19340/270357/HippoTheme-1.5.jar",
     "h": "8FEokPqJ3p5lQMbmxItLDzsJYm/CCWHWdOOkhHEho70="
@@ -25771,9 +25963,9 @@
     "p": "files/24851/681278/AI_git_commit-1.5.2.jar",
     "h": "bpCy80JdXf9FeXP4WOaES/w5Iz5GUSo7BlXu4x1gxEs="
   },
-  "com.hmydk.aigit/--/1.5.3": {
-    "p": "files/24851/690328/AI_git_commit-1.5.3.jar",
-    "h": "ysDd/ROtTwJMkyToP2pSdh1onNYbEJR5V4XJ2qFto+Y="
+  "com.hmydk.aigit/--/1.5.4": {
+    "p": "files/24851/700890/AI_git_commit-1.5.4.jar",
+    "h": "dDcX14+hIcCflgQcqpwzdGGTdG7FnXflMT9jsDvmoDk="
   },
   "com.hngngn.solid.snippets/--/1.1.3": {
     "p": "files/21103/567285/Solid_Snippets-1.1.3.zip",
@@ -25839,6 +26031,10 @@
     "p": "files/19985/517928/QueryTester-1.4.3.zip",
     "h": "NE2ZyotFMwFpxW0KXWedFzcgpMXMoYyt6Y2kOeaCOTM="
   },
+  "com.hsofttec.intellij.querytester/--/1.4.5": {
+    "p": "files/19985/701350/querytester-1.4.5.zip",
+    "h": "1JkjXVo2EsKJi+kWcaFNOrTs5t5jRjJBCOGnboPEWdU="
+  },
   "com.htffund.plugin.replace-annotation/--/1.0.4-SNAPSHOT": {
     "p": "files/25052/648280/framework-upgrade-plugin-1.0.4-SNAPSHOT.zip",
     "h": "I5MVSXJNLZkwMfSy3/Bvu3a3St+ulLJ6D+BlYHSnD4w="
@@ -25882,6 +26078,10 @@
   "com.huawei.codearts.snap/--/3.13.1": {
     "p": "files/21068/661101/Pangu_Doer_in_CodeArts_223-243_1736166461595_606bee9f-3.13.1.zip",
     "h": "jlLy4EBeAicIa7Dp90aYwlceu2Ih9E21MBn9/d8u0S8="
+  },
+  "com.huawei.codearts.snap/--/3.13.6": {
+    "p": "files/21068/701663/Pangu_Doer_in_CodeArts_223-243_1742036008888_c63f3b99-3.13.6.zip",
+    "h": "6PpACMdLljVYKkLTgz7nkU2E+osBEagaWGQc5FdONWY="
   },
   "com.huawei.codearts.snap/--/3.8.0": {
     "p": "files/21068/591049/CodeArts_Snap-3.8.0.zip",
@@ -25966,6 +26166,10 @@
   "com.hui.plugin_plus/--/1.6": {
     "p": "files/18999/309074/GitLabFlowPlus-1.6.zip",
     "h": "mgMG9vaSFCjfUtKb+aB8TyCH0SsWXaYPr/TrG+WdOng="
+  },
+  "com.humbledroid.Kommander/--/0.1.0": {
+    "p": "files/26725/699020/Kommander-0.1.0.zip",
+    "h": "GKo4T872Zc5ygRTBwXmpksZNSsk9gTQ6fcTzAJEXurc="
   },
   "com.hxl.plugin.cool-request/--/2024.5.1": {
     "p": "files/23555/531326/cool-request-plugin.zip",
@@ -26111,9 +26315,9 @@
     "p": "files/18351/295388/idea-plugin-fast-coding.zip",
     "h": "WaXhFsP8yxj5QPNyq2lRW3ORs2QTqn3xCTAw6WZWESI="
   },
-  "com.idea.tools.aicodereview/--/3.1.1": {
-    "p": "files/26718/696125/DeepSeek-Code-Review-3.1.1.zip",
-    "h": "xE2ZVM0FuUFOd4//ZzYySAG6rH+C8IV7gljdSM99Xr8="
+  "com.idea.tools.aicodereview/--/3.1.2": {
+    "p": "files/26718/699467/DeepSeek-Code-Review-3.1.2.zip",
+    "h": "xx4GKem2Q4RpLfFJRY9UNctxwGtQkzreqNRm2h4pBfs="
   },
   "com.ideaPlugindemo.hnfy258.id/--/1.1-new": {
     "p": "files/26821/698032/plugin-demo-1.1-new.zip",
@@ -26294,6 +26498,10 @@
   "com.implemica.drypush/--/2025.02.14": {
     "p": "files/22884/681416/drypush.zip",
     "h": "yPgPIFP4sBCt4hfHlCEOuvNBfEnctkOHDqipKqLoTuE="
+  },
+  "com.implemica.drypush/--/2025.03.14": {
+    "p": "files/22884/699484/drypush.zip",
+    "h": "AiSQ0vSNlCQ9N62uuPiAYJZQbeu7R00r+tth75bRd6U="
   },
   "com.imuxuan.core.builder/--/1.5": {
     "p": "files/10805/66073/NRBundleBuilder.jar",
@@ -27399,6 +27607,10 @@
     "p": "files/21713/692255/bigdatatools-core-243.25659.59.zip",
     "h": "oirJzjZ5Yk7B3HUnuyv1qqyNYbQqC3pJPEBwwpaslaY="
   },
+  "com.intellij.bigdatatools.core/--/243.26053.27": {
+    "p": "files/21713/700115/bigdatatools-core-243.26053.27.zip",
+    "h": "WySM8LXBFNoZK2mmBghuA5GJksYcoTQYSW3dGtW6Ri8="
+  },
   "com.intellij.bigdatatools.databricks/--/242.20224.419": {
     "p": "files/24359/590931/bigdatatools-databricks-242.20224.419.zip",
     "h": "yklTsx8hb7tUMK0UhSUyc9U0b9PzMeJuVKso80a6fAk="
@@ -27686,6 +27898,10 @@
   "com.intellij.bigdatatools.rfs/--/243.25659.59": {
     "p": "files/21706/692256/bigdatatools-plugin-rfs-243.25659.59.zip",
     "h": "66VDYMGdyM/2DsYtpbKScuos7fqcy4yoR7lv1RulpMI="
+  },
+  "com.intellij.bigdatatools.rfs/--/243.26053.27": {
+    "p": "files/21706/700112/bigdatatools-plugin-rfs-243.26053.27.zip",
+    "h": "JuvYQ+v0osnFbRzqyzVeP9RyA+q5CX4L2K1B+jkuzys="
   },
   "com.intellij.bigdatatools.spark/--/232.8660.48": {
     "p": "files/21700/360333/bigdatatools-plugin-spark-232.8660.48.zip",
@@ -29339,9 +29555,9 @@
     "p": "files/13112/690631/gradle-243.25659.54.zip",
     "h": "/rDB6+RFzl01DS0KUhsxtIeZtwzhMK6fSrspadJrZLQ="
   },
-  "com.intellij.gradle/--/243.26053.20": {
-    "p": "files/13112/697704/gradle-243.26053.20.zip",
-    "h": "lriu6gb/2Y+fa0VaNPsEOKAOqu6a6HDYZwvY8Mx22fI="
+  "com.intellij.gradle/--/243.26053.29": {
+    "p": "files/13112/700430/gradle-243.26053.29.zip",
+    "h": "LjpZJisoTLl6MqJ0PigaITjrOVBYX4s7wIbIKZwrI/Y="
   },
   "com.intellij.grazie.pro/--/0.3.247": {
     "p": "files/16136/387865/grazie-pro-0.3.247.zip",
@@ -29375,9 +29591,9 @@
     "p": "files/16136/668384/grazie-pro-0.3.359.zip",
     "h": "8i5WDC7ptOWCEieybqfRWKsC73ablijR4Jyg1ceN8k8="
   },
-  "com.intellij.grazie.pro/--/0.3.361": {
-    "p": "files/16136/687924/grazie-pro-0.3.361.zip",
-    "h": "qxKqJFIdTEuRkQZ5I6UGvlM3GBGvxHHI3crqz3vP9NM="
+  "com.intellij.grazie.pro/--/0.3.363": {
+    "p": "files/16136/699463/grazie-pro-0.3.363.zip",
+    "h": "DVWfq2e6Cm+QDBrwR1vCruLBQo8UgZBZBb437HhE6XI="
   },
   "com.intellij.grazie.pro/--/0.3.99": {
     "p": "files/16136/181486/grazie-pro-0.3.99.zip",
@@ -29511,9 +29727,9 @@
     "p": "files/16889/690632/grpc-243.25659.54.zip",
     "h": "jNfiID388tYd5WJxHMQs4qZsYhIKdkvRDB8kAMJ73wI="
   },
-  "com.intellij.grpc/--/243.26053.19": {
-    "p": "files/16889/698108/grpc-243.26053.19.zip",
-    "h": "8oT0TIomVtO1R13nTfo9YSjjezILxTLRGisCjZOTQzU="
+  "com.intellij.grpc/--/243.26053.29": {
+    "p": "files/16889/700431/grpc-243.26053.29.zip",
+    "h": "h31TaJIlz1N6QvLAz6sDzFNHIn5F52uZHzrBvXAwGGk="
   },
   "com.intellij.guice/--/221.5080.9": {
     "p": "files/16876/163221/Guice-221.5080.9.zip",
@@ -29774,6 +29990,10 @@
   "com.intellij.gwt/--/243.23654.189": {
     "p": "files/14590/673128/gwt-243.23654.189.zip",
     "h": "EKxTyFcIfRHTIYt/lxy+pWhkWOe0qw+3fjvXseJidfs="
+  },
+  "com.intellij.gwt/--/243.26053.27": {
+    "p": "files/14590/700104/gwt-243.26053.27.zip",
+    "h": "sa3YKD3TylJ05h9bULsFTs5ytGBCWTl70chBhwLVlhw="
   },
   "com.intellij.helidon/--/221.5080.9": {
     "p": "files/16874/163223/helidon-221.5080.9.zip",
@@ -31183,6 +31403,10 @@
     "p": "files/24440/692271/JPA_Model-243.25659.59.zip",
     "h": "5lNIEp9+4JBsQNLgM89j4v5rzWkj35hxGif52IriIBY="
   },
+  "com.intellij.jpa.jpb.model/--/243.26053.27": {
+    "p": "files/24440/700131/JPA_Model-243.26053.27.zip",
+    "h": "vZgvP2mpRVD3JzDZZaWHefuKw1qehO71akKo5Dg85RY="
+  },
   "com.intellij.jsf/--/221.5080.9": {
     "p": "files/18583/163230/JSF-221.5080.9.zip",
     "h": "IIbHWTOoaShGAOXfmde4PzBngbHONe4mEkN4aoq07gw="
@@ -32211,9 +32435,9 @@
     "p": "files/13407/692275/marketplace-243.25659.59.zip",
     "h": "ZUYCV9YZ+ftEYjEvvZBo37ask2QZ1aAYOAG/OaMYNh0="
   },
-  "com.intellij.marketplace/--/243.26053.20": {
-    "p": "files/13407/697696/marketplace-243.26053.20.zip",
-    "h": "q9YAYQtNhPJxdg1FRjA9C/ZMFbMQ4JSYjy9KVGt3NAY="
+  "com.intellij.marketplace/--/243.26053.29": {
+    "p": "files/13407/700435/marketplace-243.26053.29.zip",
+    "h": "hLANHKhRV8eyCDz8aOyMggs+5vzL/VkxJyJpIeq2N9g="
   },
   "com.intellij.mcpServer/--/1.0.8": {
     "p": "files/26071/650179/mcp-server-plugin.zip",
@@ -33455,9 +33679,9 @@
     "p": "files/15183/692267/psalm-243.25659.59.zip",
     "h": "wjLZn7neZcQXsN23CalfwSwdVhTDOk2Xq9FM9B1LG+s="
   },
-  "com.intellij.php.psalm/--/243.26053.13": {
-    "p": "files/15183/697641/psalm-243.26053.13.zip",
-    "h": "y4JxAoIw0WfNBNBWGK8DpfknFmcfcWz6KjXGXQjisu0="
+  "com.intellij.php.psalm/--/243.26053.27": {
+    "p": "files/15183/700100/psalm-243.26053.27.zip",
+    "h": "FbuIeSeypVGQw/py0x5L+wvTy2HlOrAnPbY5A28w9L0="
   },
   "com.intellij.php.tools.quality.phpstan/--/221.5080.9": {
     "p": "files/15184/163239/phpstan-221.5080.9.zip",
@@ -33671,9 +33895,9 @@
     "p": "files/15184/692274/phpstan-243.25659.59.zip",
     "h": "vXbB2q8zLyWRxC9TqZSArbl7HCU5mKNVEBsMx7I0nz8="
   },
-  "com.intellij.php.tools.quality.phpstan/--/243.26053.13": {
-    "p": "files/15184/697639/phpstan-243.26053.13.zip",
-    "h": "Sj5u1LQnA1fl4QwVN3qhDdKpeQQIsSz1Utd5HPI0544="
+  "com.intellij.php.tools.quality.phpstan/--/243.26053.27": {
+    "p": "files/15184/700102/phpstan-243.26053.27.zip",
+    "h": "k2G4SGuGEccMJO40pOcCRIkW4sXldHpoaECPKAlY7n8="
   },
   "com.intellij.play/--/2023.2.1": {
     "p": "files/14583/396373/play-2023.2.1.zip",
@@ -36903,6 +37127,10 @@
     "p": "files/23778/688724/react-243.25659.39.zip",
     "h": "iBrHyQYBAtHcKNLNxxr6kvd1puyFMkq5urZu4d2YcRM="
   },
+  "com.intellij.react/--/243.26053.29": {
+    "p": "files/23778/700438/react-243.26053.29.zip",
+    "h": "9IdtsxW5xnkGLjAHkFSyC7Uu5cxQVPsnYf9D1ct80Ig="
+  },
   "com.intellij.reactivestreams/--/223.7571.58": {
     "p": "files/20201/252978/reactivestreams-core-223.7571.58.zip",
     "h": "yE0ceGmQ4IundD+OWKti/3Lw7jGgKUJ8klOBnekt7wg="
@@ -38499,6 +38727,10 @@
     "p": "files/16875/673104/spring-webflow-243.23654.189.zip",
     "h": "chS4W5aTUr7z+bLyQlLDUTcoFfFOBMAVx38Z+ATOzZo="
   },
+  "com.intellij.spring.webflow/--/243.26053.27": {
+    "p": "files/16875/700123/spring-webflow-243.26053.27.zip",
+    "h": "/h4PnThgBBmV0R20UbF9y1nKIBo5zt0jVmS+GI7KLmQ="
+  },
   "com.intellij.spring.websocket/--/223.7571.58": {
     "p": "files/19993/252925/spring-websocket-223.7571.58.zip",
     "h": "igq3kpch+f/MOVuFu76CgcqYnzsQLAQMlltbRNctSfo="
@@ -38790,6 +39022,10 @@
   "com.intellij.spring/--/243.24978.46": {
     "p": "files/20221/680227/Spring-243.24978.46.zip",
     "h": "WFkToWtSqqJV1qz4wOWSzSokva5czkCC4JdqJ6lQPAU="
+  },
+  "com.intellij.spring/--/243.26053.27": {
+    "p": "files/20221/700129/Spring-243.26053.27.zip",
+    "h": "oJnR8TvO5y0q7CJiqyWTsTmqc2Nf7oU82rFqxMIfjcI="
   },
   "com.intellij.stimulus/--/242.20224.23": {
     "p": "files/24562/569691/stimulus-242.20224.23.zip",
@@ -39603,6 +39839,10 @@
     "p": "files/25304/673109/uiDesigner-243.23654.189.zip",
     "h": "VGKfAsfIcNpcEVcx8UR1l8PckB2Ud9MJwvBy3zhnCXM="
   },
+  "com.intellij.uiDesigner/--/243.26053.27": {
+    "p": "files/25304/700119/uiDesigner-243.26053.27.zip",
+    "h": "ML6FNHdPnmmt46WJ5G/NGvJFxv43er2MO2zHUahufZ8="
+  },
   "com.intellij.velocity/--/232.8660.88": {
     "p": "files/21738/364048/velocity-232.8660.88.zip",
     "h": "OqNqmGl1QoYgyd7KqNwlmIO9cmmMqR3VQjGYiKbA3qw="
@@ -39723,9 +39963,9 @@
     "p": "files/21738/692280/velocity-243.25659.59.zip",
     "h": "vD+oS2sKG1il/ZOc305fBjR50FNUQird2Z+tBjBhDtg="
   },
-  "com.intellij.velocity/--/243.26053.17": {
-    "p": "files/21738/697107/velocity-243.26053.17.zip",
-    "h": "ifaHQz0njAl45eUQk6GRLTLzwcSadHoObV1z2ZrPVRg="
+  "com.intellij.velocity/--/243.26053.29": {
+    "p": "files/21738/700440/velocity-243.26053.29.zip",
+    "h": "2u9Q1awpnVzc1lW6Oytw1dwVDieBHcJBpKgNrZo6PGI="
   },
   "com.intellij.wechat.miniprogram/--/242.20224.159": {
     "p": "files/24687/579376/wechat-miniprogram-242.20224.159.zip",
@@ -39891,9 +40131,9 @@
     "p": "files/12211/660850/easy-api-2.3.4.212.0.zip",
     "h": "y7DQNvBYJuGtI2t83ooKYFPQ9ETIu/4YgtY2e9gLSAQ="
   },
-  "com.itangcent.idea.plugin.easy-api/--/2.3.7.212.0": {
-    "p": "files/12211/696392/easy-api-2.3.7.212.0.zip",
-    "h": "nfmbSzpOHy8X8OFJ+wY+PqilI4yW801iI5wadEJyycA="
+  "com.itangcent.idea.plugin.easy-api/--/2.3.8.212.0": {
+    "p": "files/12211/700093/easy-api-2.3.8.212.0.zip",
+    "h": "7lvB1R2M9XBw7mJvzaZ82y4aT8BwZFU5BflhoFeI/v8="
   },
   "com.itangcent.idea.plugin.easy-yapi/--/2.7.3.212.0": {
     "p": "files/12458/628199/easy-yapi-2.7.3.212.0.zip",
@@ -39903,9 +40143,9 @@
     "p": "files/12458/660849/easy-yapi-2.7.4.212.0-rc.zip",
     "h": "vQs3v9TSuKKe8Uaw1TgtAO+5OjQUlLsbpS3cnIkJVf4="
   },
-  "com.itangcent.idea.plugin.easy-yapi/--/2.7.7.212.0": {
-    "p": "files/12458/696393/easy-yapi-2.7.7.212.0.zip",
-    "h": "UoACICf4RDgjQlCNAHfXvyhD1vwsap8p/ZRUv0BKP2E="
+  "com.itangcent.idea.plugin.easy-yapi/--/2.7.8.212.0": {
+    "p": "files/12458/700094/easy-yapi-2.7.8.212.0.zip",
+    "h": "tFyjXwo77a8FVviv3O1AmUymgbk69AnpqlWVpVvhEes="
   },
   "com.itcodebox.fxtools.id/--/1.2.4": {
     "p": "files/17514/136852/JavaFX_Tools.zip",
@@ -40967,9 +41207,9 @@
     "p": "files/26397/683309/ReSharperPlugin.MvvmPlugin-0.2.0.zip",
     "h": "5N2tGNhdbJ9WJ5iMLH0Nekn+fCN/gyqLYkCU6M541Xc="
   },
-  "com.jetbrains.mvvmhelperrider/--/0.5.0": {
-    "p": "files/26397/695808/ReSharperPlugin.MvvmPlugin-0.5.0.zip",
-    "h": "T+5qAynXrOotdegRIhcVBb7oBGlHvp2J9stisr8Wpag="
+  "com.jetbrains.mvvmhelperrider/--/0.6.3.243": {
+    "p": "files/26397/700758/ReSharperPlugin.MvvmPlugin-0.6.3.243.zip",
+    "h": "cR2GUJ8dxzG/jUk8aYlvNIaI/6dknkFdUsl55mzax30="
   },
   "com.jetbrains.naming-is-hard/--/1.2.0": {
     "p": "files/17272/187222/naming-is-hard-1.2.0.zip",
@@ -41575,9 +41815,9 @@
     "p": "files/7569/692257/blade-243.25659.59.zip",
     "h": "DH9EQVLS+0b9mEQS0WnDylYJRdM8yOyfLs24oApZcVM="
   },
-  "com.jetbrains.php.blade/--/243.26053.13": {
-    "p": "files/7569/697627/blade-243.26053.13.zip",
-    "h": "aCF5jMMyKO/j5H2cRq0zdpYhJY6dXn0H4PPZgehMQcw="
+  "com.jetbrains.php.blade/--/243.26053.27": {
+    "p": "files/7569/700128/blade-243.26053.27.zip",
+    "h": "OdiNHqcf1D+Bha1SPDVwGLAOJDTVVly7/KJRnwR5mIE="
   },
   "com.jetbrains.php.codeception/--/221.5080.9": {
     "p": "files/9515/163209/codeception-221.5080.9.zip",
@@ -41791,9 +42031,9 @@
     "p": "files/9515/692259/codeception-243.25659.59.zip",
     "h": "ouTheVBwLt8d4BsmSejkq7txATJ9crGTGb6FJhPU5uA="
   },
-  "com.jetbrains.php.codeception/--/243.26053.13": {
-    "p": "files/9515/697629/codeception-243.26053.13.zip",
-    "h": "h34LFaQYifwU4geTGWbmexcLBivUGSrWH9t+3nbzg/g="
+  "com.jetbrains.php.codeception/--/243.26053.27": {
+    "p": "files/9515/700125/codeception-243.26053.27.zip",
+    "h": "9hhUG2JKJRUAe5dANmshhAwNztA+wHMjW4iN8dZ7gKU="
   },
   "com.jetbrains.php.dql/--/221.5080.9": {
     "p": "files/11137/163212/dql-221.5080.9.zip",
@@ -42095,9 +42335,9 @@
     "p": "files/7352/692260/drupal-243.25659.59.zip",
     "h": "C9JGzm79c48mSEDe0u6Z6XqazVcO7hQrahVlhNLqmRo="
   },
-  "com.jetbrains.php.drupal/--/243.26053.13": {
-    "p": "files/7352/697630/drupal-243.26053.13.zip",
-    "h": "S4msTCDV72CxO/ZdP+ILJcV8zRrHNr1l2wsO1+CLHc0="
+  "com.jetbrains.php.drupal/--/243.26053.27": {
+    "p": "files/7352/700108/drupal-243.26053.27.zip",
+    "h": "MjWEpSL3YUzI2AAFjDxBpxmVATjgh+L/IfLKjV5g1d4="
   },
   "com.jetbrains.php.eval/--/231.8109.90": {
     "p": "files/20891/307946/php-eval-231.8109.90.zip",
@@ -42667,9 +42907,9 @@
     "p": "files/9289/692277/phpspec-243.25659.59.zip",
     "h": "BCO/H/bOWeNK4K636xcBr3hclk4Y2Y5IDAmvFKWoglo="
   },
-  "com.jetbrains.php.phpspec/--/243.26053.13": {
-    "p": "files/9289/697638/phpspec-243.26053.13.zip",
-    "h": "wSH15m1Fwvnm+wWDqKvim/5RNCzNaig7Y+v8eJUNPb8="
+  "com.jetbrains.php.phpspec/--/243.26053.27": {
+    "p": "files/9289/700130/phpspec-243.26053.27.zip",
+    "h": "yU9OeK3DbOKt/6EA0ZgkM8SVVqevwjEZR2INC1I72d0="
   },
   "com.jetbrains.php.rector/--/222.3739.61": {
     "p": "files/19718/211013/rector-222.3739.61.zip",
@@ -42859,9 +43099,9 @@
     "p": "files/19718/692272/rector-243.25659.59.zip",
     "h": "VcammU7KzH+OMMv1jh0fpxWdNEJtP5GQt9M5bzxICPg="
   },
-  "com.jetbrains.php.rector/--/243.26053.13": {
-    "p": "files/19718/697642/rector-243.26053.13.zip",
-    "h": "/Zi0Li4rHfnVP8hMc/9Cm4lFPsNL1yRAmn8oz88dAAs="
+  "com.jetbrains.php.rector/--/243.26053.27": {
+    "p": "files/19718/700103/rector-243.26053.27.zip",
+    "h": "/4Vl0WhA8rPS+ef+e88EoBJXmTY8ATUzpaVfRjRs8Lw="
   },
   "com.jetbrains.php.wordPress/--/221.5080.9": {
     "p": "files/7434/163263/wordPress-221.5080.9.zip",
@@ -43075,9 +43315,9 @@
     "p": "files/7434/692282/wordPress-243.25659.59.zip",
     "h": "e0qRYfwxJ3J26fyJ8HGHzZNn8gnK8GnD+4rXfl27W6s="
   },
-  "com.jetbrains.php.wordPress/--/243.26053.13": {
-    "p": "files/7434/697645/wordPress-243.26053.13.zip",
-    "h": "EoPcO7UWtsmeA2TBzFYIS4QTFwCzcPOP/L8SZgity1I="
+  "com.jetbrains.php.wordPress/--/243.26053.27": {
+    "p": "files/7434/700106/wordPress-243.26053.27.zip",
+    "h": "M1fbTjQ/ApH69ppmoo84+eXBMrSVzAywIya3keE+354="
   },
   "com.jetbrains.php.workshop/--/221.5080.9": {
     "p": "files/13129/163242/phpstorm-workshop-221.5080.9.zip",
@@ -43379,9 +43619,9 @@
     "p": "files/6610/692284/php-impl-243.25659.59.zip",
     "h": "+/3U/t9aMQWzZ5YUrWrF2azotQqeG/KHM5K7R2ybJ68="
   },
-  "com.jetbrains.php/--/243.26053.13": {
-    "p": "files/6610/697637/php-impl-243.26053.13.zip",
-    "h": "tKtyVCg0OPbwG6J54WG0rMnvP/THFlIwTGCMamVliFc="
+  "com.jetbrains.php/--/243.26053.27": {
+    "p": "files/6610/700120/php-impl-243.26053.27.zip",
+    "h": "H0OQyJLkbGsG1cDXkxXeNSsUK21Qa7/N5G2yXvZsYmU="
   },
   "com.jetbrains.plugins.asp/--/221.5080.13": {
     "p": "files/14582/163617/asp-221.5080.13.zip",
@@ -45387,6 +45627,10 @@
     "p": "files/25216/604243/ssl-toolbox-0.1.4.zip",
     "h": "mq+pQnPUaMEjkyRs3gZ45QP87mln5O90kAo4c+qgTyM="
   },
+  "com.jmpeax.ssltoolbox/--/0.1.5": {
+    "p": "files/25216/701983/ssl-toolbox-0.1.5.zip",
+    "h": "44kcNwl3OrK0D3XGOZlN2bCTSo2gCV+CrX0RyvDYw7Y="
+  },
   "com.joer.TalkBackPlugin/--/1.8": {
     "p": "files/14229/327121/TalkBackPlugin-1.8.zip",
     "h": "rkUuHpxfyJLLRpDJmzhC1v/XLYdmiQ+BvtGIlTpZ1nc="
@@ -45415,9 +45659,9 @@
     "p": "files/17441/520485/serial_number-1.0.9.jar",
     "h": "yMu6/AgC4vwku7JyJ2Lhsct6sjV+eBxZWMxWuJhE5aM="
   },
-  "com.jolt.plugin/--/0.2.36": {
-    "p": "files/26727/697721/JoltAiPlugin-0.2.36.zip",
-    "h": "AnCilCMQPgVN45aLMrp+DQVePPSEw1mP0voP4XSKDc8="
+  "com.jolt.plugin/--/0.2.39": {
+    "p": "files/26727/701349/Jolt_AI_Plugin_v0.2.39.zip",
+    "h": "Ntf6NdJKMalzo0fhxDEf3BybQpzovPnFJBiqbZ+qeqU="
   },
   "com.jonathonstaff.androidaccessors/--/1.1": {
     "p": "files/7496/16497/AndroidAccessors.jar",
@@ -46023,9 +46267,9 @@
     "p": "files/23371/694369/mojo-pycharm-0.4.0.zip",
     "h": "3Z0XdQrqwQjJhaEJA4kRWAf+sbBGk7SreLReFo096oc="
   },
-  "com.kite.code.cartools/--/1.5.2": {
-    "p": "files/26816/697086/DeepSeek-Coding-Tools-1.5.2.zip",
-    "h": "djVJDU+B9OVjU4ayWcpQGEDTodQap7R98HnSXsr1qNo="
+  "com.kite.code.cartools/--/1.5.3": {
+    "p": "files/26816/700095/DeepSeek-Coding-Tools-1.5.3.zip",
+    "h": "CGzuFhAoOSw146vS+lzcj25knIeMLlXE9XYYhrVqEBo="
   },
   "com.kiven.json2dart/--/1.0.1": {
     "p": "files/20508/256158/Json_to_Dart-1.0.1.zip",
@@ -46119,9 +46363,9 @@
     "p": "files/20574/631366/ruff-pycharm-plugin-0.0.42-signed.zip",
     "h": "Ghy1FZe0h75RIJdzCrOXY8+IXsY6qHO/z7ZGPw43U+4="
   },
-  "com.koxudaxi.ruff/--/0.0.45": {
-    "p": "files/20574/691739/ruff-pycharm-plugin-0.0.45-signed.zip",
-    "h": "H3NyOtARYjs7HVz1zUnWiod4oDSX3VO3fH34pc6qIx4="
+  "com.koxudaxi.ruff/--/0.0.46": {
+    "p": "files/20574/701796/ruff-pycharm-plugin-0.0.46-signed.zip",
+    "h": "HWPYKTu6LMHYQJhSNntoB0f/HZhwMzrixHpIwEzdpgw="
   },
   "com.koxudaxi.ruff/--/0.0.9": {
     "p": "files/20574/295383/Ruff-0.0.9.zip",
@@ -46154,6 +46398,10 @@
   "com.kozhun.commit-message-template/--/1.9.0": {
     "p": "files/23100/606311/commit-message-template-1.9.0.zip",
     "h": "FDzh7mTN627RHjrF3XigW5O/dt19UQqEa4QlsM0FBh4="
+  },
+  "com.kozhun.commit-message-template/--/2.0.0": {
+    "p": "files/23100/698982/commit-message-template-2.0.0.zip",
+    "h": "wky7U9u40XxHq3EWJBE6BcoxOEDNc8dOMFVL1KAEN+0="
   },
   "com.kplugin.codegen/--/0.0.4": {
     "p": "files/11979/61930/codegen-0.0.4.jar",
@@ -46259,9 +46507,9 @@
     "p": "files/26521/683773/pojo_lazy_tool-1.0-SNAPSHOT.jar",
     "h": "17h8SaSusd4pdu4BdR4s5UAm+Uyy7xK3g9/k1E+6NO4="
   },
-  "com.kz.pojo_lazy_tool/--/1.0.3": {
-    "p": "files/26521/692741/pojo_lazy_tool-1.0.3.jar",
-    "h": "xY4MHjZHPJmyrlwLS0aduf6c5wlZTvJJP0Fb/tD41/s="
+  "com.kz.pojo_lazy_tool/--/1.0.4": {
+    "p": "files/26521/700597/pojo_lazy_tool-1.0.4.jar",
+    "h": "13aq2R2mTKxtX1B7KxLwT8876DVfYmDMtk99AcP1Hbw="
   },
   "com.labourway.mihuo.mihuo_migration_tool/--/0.0.8-SNAPSHOT": {
     "p": "files/22406/457199/mihuo_migration_tool-0.0.8-SNAPSHOT.zip",
@@ -46294,6 +46542,10 @@
   "com.laomao.space.id/--/1.0": {
     "p": "files/10022/38604/SingleTonGenerator.jar",
     "h": "oTqLbZhaHvRUh3J29QgLmaoe/spwQlPtOicidboZric="
+  },
+  "com.laravel.plugin/--/1.22-SNAPSHOT": {
+    "p": "files/26832/698821/laravel-plugin-1.22.jar",
+    "h": "ivMwtVFiS5VNsicRE9VkOmR/kYCOg0eyZuSl5nW9yBs="
   },
   "com.laravel_idea.plugin/--/8.1.4.221": {
     "p": "files/13441/521324/Laravel_Idea-8.1.4.221.zip",
@@ -46667,6 +46919,10 @@
     "p": "files/24201/535256/MyBrowser-1.2.zip",
     "h": "VQfboXTJtg11RgkEfpM0YDQBCAMmGmF2jb6dctmMxbg="
   },
+  "com.light.MyBrowser/--/1.3": {
+    "p": "files/24201/699454/MyBrowser-1.3.jar",
+    "h": "Jrm3Vm+09cgHinoCaXadAutJxp6E4DS+g1Znqtizw+s="
+  },
   "com.lightbc.databasej/--/1.2.2-RELEASE": {
     "p": "files/21725/366767/DataBaseJ.zip",
     "h": "voJRhp0eo/gCy1hZYSmLzF/E0Nq4Sg2CaBWvTxu2jKM="
@@ -46687,9 +46943,9 @@
     "p": "files/16477/683812/lightrun-plugin-saas.zip",
     "h": "Z2rYlX+TjuOmgLbJwNVB56Id9abhjqLvTO339FhnTM4="
   },
-  "com.lightrun.idea.plugin.saas.LightrunPlugin/--/1.54.1-release.a87fd0f0ea": {
-    "p": "files/16477/696084/lightrun-plugin-saas.zip",
-    "h": "zNLKMVDrtfBvPmlAyDgzNsS9E8NxxrdgQB457QTBynU="
+  "com.lightrun.idea.plugin.saas.LightrunPlugin/--/1.54.2-release.c4f1e2daa7": {
+    "p": "files/16477/699019/lightrun-plugin-saas.zip",
+    "h": "pWmLcfMBf/C4KETPIMi+FUg2cihvb1/vKJQAgHOHtto="
   },
   "com.lightrun.idea.plugin.saas.LightrunPlugin/--/1.9.0-release.b9d5019cf2": {
     "p": "files/16477/272511/LightrunPlugin-saas-1.9.0-release.b9d5019cf2.zip",
@@ -46807,6 +47063,10 @@
     "p": "files/24397/634554/JarEditor-2.2.0.zip",
     "h": "lKFuA56lW0/e6vBGFUFh7Yih7hqpXnC2xGGQQZocPmE="
   },
+  "com.liubs.jaredit/--/2.2.1": {
+    "p": "files/24397/698428/JarEditor-2.2.1.zip",
+    "h": "rnf0zFxfEAnFPev7sEuIiKBd7atNTezHTs19G59WqbE="
+  },
   "com.liubs.visualclassbytes/--/1.0.1": {
     "p": "files/25794/634550/VisualClassBytes-1.0.1.zip",
     "h": "jmIyRpn/98QeBLeXm2H2NRGl0vsgTLbDBqBvcII8sTQ="
@@ -46831,9 +47091,9 @@
     "p": "files/24215/666582/class2string-1.1.7.zip",
     "h": "HMKaO7K1OpNGIQ2oV1QjDYMZIf2gRJgpTmF/FUZl/HY="
   },
-  "com.liuyangjun.pluginDemo/--/1.1.2": {
-    "p": "files/26788/697134/pluginDemo-1.1.2.zip",
-    "h": "L7dCt55n+eHjHSPitwaGa9QEVIYjhUONuas4BPMMCv0="
+  "com.liuyangjun.pluginDemo/--/1.1.3": {
+    "p": "files/26788/699475/pluginDemo-1.1.3.zip",
+    "h": "774y6kjaB/nheWo2b6N0FieEIgF6LsDaXiBDavu2IO8="
   },
   "com.liuzhihang.code.inspections/--/1.0.0": {
     "p": "files/24409/566753/code-inspections-1.0.0.zip",
@@ -47083,6 +47343,10 @@
     "p": "files/17580/137084/Xml_ExcelBatchConversionTool.zip",
     "h": "pdZ4q1XpsaRtAY+qibW5GFurtxc5Cn+T5e58ORBPLAM="
   },
+  "com.lxd.webviewplugin/--/3.0.1": {
+    "p": "files/26826/702107/webView-3.0.1.jar",
+    "h": "EYZMcp60YHEu3uhN86+tcbsf5uffoO3Bxv4+q1puhC8="
+  },
   "com.lyflexi.feignx/--/4.1.1": {
     "p": "files/25604/639706/feignx-4.1.1.jar",
     "h": "nZRVX+fUf2lmAfN78OjbxA6/Xajpjs6Va4oGkRkf3mg="
@@ -47091,9 +47355,9 @@
     "p": "files/25604/664000/feignx-4.1.7.jar",
     "h": "Ew+uOK6OpMXRywfzvwjOjeg6t/WBBZGVZ7mFVZFmPo0="
   },
-  "com.lyflexi.feignx/--/5.1.2": {
-    "p": "files/25604/697249/Navigator4URL_OpenFeign_RestController-5.1.2.jar",
-    "h": "azpplTnlHqS6Xkh3xaGzlAQZM8t3Bdtpmxnh+PsnD2w="
+  "com.lyflexi.feignx/--/5.4.0": {
+    "p": "files/25604/701664/Navigator4URL_OpenFeign_RestController-5.4.0.jar",
+    "h": "QXqhg6x2Ti/2Pgl7K+EmkkVK6eUtmgIPZQOYA52FOs4="
   },
   "com.lyh.avalon-tools/--/1.0.1": {
     "p": "files/25824/632935/avalon-tools-1.0.1.zip",
@@ -47215,6 +47479,10 @@
     "p": "files/24174/635963/Gitee_Pull_Requests.zip",
     "h": "HJQTKZnqtxukr2lYlf0ViqQosX99WHrJrxhGtxhBr+M="
   },
+  "com.majera.codereview.gitee/--/2025.2.0.243": {
+    "p": "files/24174/701171/Gitee_Pull_Requests-signed.zip",
+    "h": "WkhrVZeLmjj/3kH5uwkWRxBLBY1fDBIc/PNIru3acEo="
+  },
   "com.majera.intellij.codereview.bitbucket/--/2023.1.2.231": {
     "p": "files/13538/293738/BitbucketPullRequests.zip",
     "h": "wB/3uuRBLQmC1SHEcW6oOakTgq5qV7Sew21noPRvF/o="
@@ -47254,6 +47522,10 @@
   "com.majera.intellij.codereview.bitbucket/--/2025.1.1.243": {
     "p": "files/13538/680759/Bitbucket_Integration_Pro-signed.zip",
     "h": "rGAjxz3cIXCUbt1SrEc4ZgVw6x4t7rONiAFYKUieeyU="
+  },
+  "com.majera.intellij.codereview.bitbucket/--/2025.2.0.243": {
+    "p": "files/13538/701170/Bitbucket_Integration_Pro-signed.zip",
+    "h": "xr4kZt1aSVs8T7Ej60RzugUdn9eSEuy1uLcPWgafu8I="
   },
   "com.majera.intellij.codereview.gitlab/--/2023.1.2.231": {
     "p": "files/18689/293739/GitlabMergeRequests.zip",
@@ -47298,6 +47570,10 @@
   "com.majera.intellij.codereview.gitlab/--/2025.1.1.243": {
     "p": "files/18689/680758/GitLab_Integration_Pro-signed.zip",
     "h": "pkzSS+QB80AeXY6NfHKnMQeznGm6qNqn19PDASTthqg="
+  },
+  "com.majera.intellij.codereview.gitlab/--/2025.2.0.243": {
+    "p": "files/18689/701184/GitLab_Integration_Pro.zip",
+    "h": "5IyjWwaQpfTL4QHJbHkalS2UB0p55fD7VaXPpSOx1ZM="
   },
   "com.makeevrserg.mvikotlin.intellij.plugin/--/0.2.5": {
     "p": "files/22852/463951/MVIKotlin-IntelliJ-Plugin-0.2.5.zip",
@@ -47479,9 +47755,9 @@
     "p": "files/13262/71525/plugin.jar",
     "h": "EVO3jcz041gpid+9qY3gxV/BeYZxhowkZuV6QpsHVFQ="
   },
-  "com.markbakos.todo/--/1.3.0": {
-    "p": "files/26765/696934/TODO_Task_Manager-1.3.0.zip",
-    "h": "IK98H8G70TSwkstHUYmTiGM/n7z61QtZsqOciVQ/cm0="
+  "com.markbakos.todo/--/1.5.0": {
+    "p": "files/26765/702233/TODO_Task_Manager-1.5.0.zip",
+    "h": "R8HlGKy0w19lWPllxRETm2qRbY4kKrekyCvOyu7yAVA="
   },
   "com.markdtask/--/2024.1": {
     "p": "files/26084/648555/markdtask-2024.1.zip",
@@ -47939,9 +48215,9 @@
     "p": "files/19772/673291/mirrord-3.67.0-signed.zip",
     "h": "LK3IHJ8Z8wVvC2bdhT0Xe2+JQwnOm0IpTUGj21Gdlj8="
   },
-  "com.metalbear.mirrord/--/3.67.1": {
-    "p": "files/19772/693808/mirrord-3.67.1-signed.zip",
-    "h": "h2DQY8vbUWF3XgRedmXfwaS/7xdfR/90ObM7leMsGZg="
+  "com.metalbear.mirrord/--/3.67.2": {
+    "p": "files/19772/700313/mirrord-3.67.2-signed.zip",
+    "h": "31CdQXC706iWZTBBICPz9PyqL/rRqwehlTTPQfmQYkU="
   },
   "com.metalbear.mirrord/--/3.9.0": {
     "p": "files/19772/250278/mirrord-3.9.0-signed.zip",
@@ -47959,9 +48235,9 @@
     "p": "files/20161/684008/meterian_heidi_idea.zip",
     "h": "nrnGBj8mo/kianFjy52WjWynxG89Okgb5ukobkXYeDc="
   },
-  "com.meterian.heidi-plugin-intellij/--/0.0.12": {
-    "p": "files/20161/687631/meterian_heidi_idea.zip",
-    "h": "b2P8gRMEj2j7fbHupbj7FGCTowqMAYgjKbVDkYDnB6c="
+  "com.meterian.heidi-plugin-intellij/--/0.0.13": {
+    "p": "files/20161/700891/meterian_heidi_idea.zip",
+    "h": "NSyjm3O9Zd9gq373WueDy6K1rcJrbQlXfLVAwYLFBk4="
   },
   "com.meterian.heidi-plugin-intellij/--/0.0.5": {
     "p": "files/20161/591493/meterian_heidi_idea.zip",
@@ -48239,6 +48515,10 @@
     "p": "files/19484/569302/FLutterHelper-1.0.5.zip",
     "h": "PQHXSNjtwwV5T3jIjR0q5NOejuWZhNzfKMvCJg2KJq8="
   },
+  "com.mkprogs.FlutterHelper/--/1.0.6": {
+    "p": "files/19484/701985/FLutterHelper-1.0.6.zip",
+    "h": "Q915AbN7TDqXzN0QLCn68nQ0Sh9hkVnHWl5muIegVcU="
+  },
   "com.mladich.lastactionnote/--/1.0.0": {
     "p": "files/22115/351359/lastactionnote-1.0.0.zip",
     "h": "tsIfxggoWgTpgmUVKxa9zgdlc5UIg2fWF5JhAfDvDLE="
@@ -48491,6 +48771,14 @@
     "p": "files/18274/332261/murphysec-3.0.6-release.zip",
     "h": "SW6jqHxbbYsuKTZSTVaD5UIsFVkt+mBOYMG9P1U5vQo="
   },
+  "com.muskan.TODOManager/--/1.0-SNAPSHOT": {
+    "p": "files/26853/699954/TODOPlugin-1.0-SNAPSHOT.zip",
+    "h": "6YwMbYQ7pGwJc3I86DVpu2N1+0uCdQJU9QvnXgVE70I="
+  },
+  "com.muskan.TODOManager/--/1.1-SNAPSHOT": {
+    "p": "files/26853/701665/TODOPlugin-1.1-SNAPSHOT.zip",
+    "h": "Hx98nfDvJKZASDIo2jRtNSddE+i/VmVxk4CH2JJg1IE="
+  },
   "com.muyun.intellij.plugin.background.image.rotation/--/1.1.7": {
     "p": "files/14929/227470/background-image-rotation-1.1.7.jar",
     "h": "ZxyqeNX/D7sI1tNix/FJ0fcdPAb0oENeXnIq79eJtCE="
@@ -48519,9 +48807,9 @@
     "p": "files/21435/317720/codeTag-1.0-SNAPSHOT.zip",
     "h": "lLjfb32x2hzwAZdlkTHkOCo+TwK5aEitK0y1cCSLkr8="
   },
-  "com.my.deep.over/--/1.0.4": {
-    "p": "files/26800/698024/DeepSeek-Assistant-1.0.4.zip",
-    "h": "DjLX72UNCyUku6bA1LTkV+DcanMmCQ5jyU1NYKsskyU="
+  "com.my.deep.over/--/1.0.5": {
+    "p": "files/26800/699206/DeepSeek-Assistant-1.0.5.zip",
+    "h": "LJQVkZF3QTo54kHwsS/yTB5yJP+dtr1NXj0GitIPN2Y="
   },
   "com.myaos.xmind-to-excel/--/1.2-SNAPSHOT": {
     "p": "files/26438/674540/xmind-to-excel-1.2-SNAPSHOT.zip",
@@ -49367,6 +49655,10 @@
     "p": "files/24522/681577/Copilot_Metrics-1.2.0.zip",
     "h": "AxcIp6Ox5xKfrJByBdSAwiTbS8xjfkljYhdOq1c/OT4="
   },
+  "com.nttdata.copilot/--/1.2.0-242": {
+    "p": "files/24522/701529/Copilot_Metrics-1.2.0-242.zip",
+    "h": "bHcu4dh/byFp3v6OxmuMrGricma4qf5ctkFcjUF0QC4="
+  },
   "com.nttdata.dedalowcoding.plugin/--/1.0.3": {
     "p": "files/20174/307336/dedalowcoding-plugin-1.0.3-signed.zip",
     "h": "y8aWXaQYy0wyC635QGyZAhDLJsbdaNr9TkrHdAK7nnE="
@@ -49766,6 +50058,10 @@
   "com.pawsql.jetbrain/--/0.1.2": {
     "p": "files/26467/683620/pawsql-intellij-0.1.2.zip",
     "h": "UXIuiTy3DO56zhGG9ZCyP6mI54KN24u2orueXORvEBU="
+  },
+  "com.pawsql.jetbrain/--/0.1.3": {
+    "p": "files/26467/701358/pawsql-intellij-0.1.3.zip",
+    "h": "eVqPNb3dANNugn3o8X16ZCmMZL/2UofvSTZCkhETmwo="
   },
   "com.pawsql.jetbrain/--/2025.1.01": {
     "p": "files/26467/676281/pawsql-intellij-2025.1.01.zip",
@@ -50231,9 +50527,9 @@
     "p": "files/14636/692266/pest-243.25659.59.zip",
     "h": "uaqZfDLaO7N9/yOOQptQPTtRtUZEW2YzeeTrZCCLcGo="
   },
-  "com.pestphp.pest-intellij/--/243.26053.13": {
-    "p": "files/14636/697634/pest-243.26053.13.zip",
-    "h": "/r0S6S35vkSIiAo+EbhyMNSafSOv5IQ/RRxXKxecMiQ="
+  "com.pestphp.pest-intellij/--/243.26053.27": {
+    "p": "files/14636/700121/pest-243.26053.27.zip",
+    "h": "Z+hVHizii0nygYiVv1GxTR0e9RGsK63ft9VBYXCU0tQ="
   },
   "com.peter.dependencyPlugin/--/1.0-SNAPSHOT": {
     "p": "files/24422/537134/dependencyPlugin-1.0-SNAPSHOT.jar",
@@ -50406,6 +50702,10 @@
   "com.platform.auto/--/2.1.8": {
     "p": "files/25141/662578/auto-generate-2.1.8.zip",
     "h": "KLHdIIRRy6uhbapZQNsckUGcd9QkS3dVl3mpOo+F098="
+  },
+  "com.platform.auto/--/2.2.0": {
+    "p": "files/25141/702119/auto-generate-2.2.0.zip",
+    "h": "xWHUmjR5uqTvwRzGqlJ+nH2WfBEoEe1V28TBbQXFRxU="
   },
   "com.platform.gen/--/1.5": {
     "p": "files/12294/62810/platform-gen.zip",
@@ -50627,6 +50927,14 @@
     "p": "files/19984/671013/pricefx-studio-14.0.1-243.zip",
     "h": "3Kw++ave/eee1qS8KG8APzfXz2DhSC95/cR5zyoGAHs="
   },
+  "com.pricefx.studio/--/14.1.0-241": {
+    "p": "files/19984/702265/pricefx-studio-14.1.0-241.zip",
+    "h": "qxfZu6UgHQPwxhVnjLKaHPCLK847ta9LU++7qKxTRuI="
+  },
+  "com.pricefx.studio/--/14.1.0-243": {
+    "p": "files/19984/702267/pricefx-studio-14.1.0-243.zip",
+    "h": "q7VZ6AWoEoRfjKmx9zh+Qd0zwCHdVJwGgtN/kluNcjU="
+  },
   "com.pricefx.studio/--/9.3.1451-223": {
     "p": "files/19984/268652/pricefx-studio-9.3.1451-223.zip",
     "h": "LGCx1zajaPH6p2w2lSoly7c1jHmtKn5pqxVVlwq4ICE="
@@ -50690,6 +50998,10 @@
   "com.promyze.promyze_plugin/--/8.6.5": {
     "p": "files/15503/684258/promyze_plugin-8.6.5.zip",
     "h": "/Bl5Me5e4Do7Gphas2Boh3Vby5083Kets5rRGtecBmA="
+  },
+  "com.promyze.promyze_plugin/--/8.6.6": {
+    "p": "files/15503/701398/promyze_plugin-8.6.6.zip",
+    "h": "jdiy0QPa/4R2q5LcM0OBuA9RXUtuTzKGYcS2Xg3sU/w="
   },
   "com.proteo.intellij.burnt/--/1.3": {
     "p": "files/14889/105361/burnt.jar",
@@ -50823,9 +51135,9 @@
     "p": "files/13264/622541/pycrunch-intellij-connector-1.6.4.zip",
     "h": "wI7OgKRfws6umuAO4trnstBLhnPbSp53mE5hREnTi14="
   },
-  "com.pycrunch.intellijconnector/--/1.6.5-pro": {
-    "p": "files/13264/623998/pycrunch-intellij-connector-1.6.5-pro.zip",
-    "h": "eqoRe/2/ykHxLlFypORahlnGPYwH+H9YtuNSyhz1bB4="
+  "com.pycrunch.intellijconnector/--/1.6.6-pro": {
+    "p": "files/13264/697693/pycrunch-intellij-connector-1.6.6-pro.zip",
+    "h": "4DbtOGWquGRBQMx8q3WO3KcTb0pECaC+gxgKttHHVn8="
   },
   "com.pyfips.intellij.custominspections/--/2.0.2": {
     "p": "files/14313/386840/custominspections-2.0.2.jar",
@@ -50975,9 +51287,9 @@
     "p": "files/26699/691495/intellij-plugin-2.0.3.zip",
     "h": "nt/hX5iljIJi6R8c8NcooKX/l639sRsvyacXJBW4iqo="
   },
-  "com.r0adkll.danger/--/2.0.6": {
-    "p": "files/26699/697504/intellij-plugin-2.0.6.zip",
-    "h": "LV1lSl2JDg+4z78JXWdW0eSbeEvQsp4fUbHQKLYcJRk="
+  "com.r0adkll.danger/--/2.0.7": {
+    "p": "files/26699/701186/intellij-plugin-2.0.7.zip",
+    "h": "6xg9zwq43yAEyYIhbo3V8rhEA4EEPctbGil8OW8qEgk="
   },
   "com.rafaelheid.fluidcomponents/--/0.0.1": {
     "p": "files/25501/615120/fluid-components-jbplugin-0.0.1.zip",
@@ -51023,9 +51335,9 @@
     "p": "files/19499/655440/unix-timestamp-6.5.0.zip",
     "h": "qp+I5l9R0nd3zryfBGXFMDMebu7GdT7buKevO9nEZbs="
   },
-  "com.ramusthastudio.plugin.unixtimestamp/--/6.6.0": {
-    "p": "files/19499/687184/unix-timestamp-6.6.0-signed.zip",
-    "h": "VaxBl2GI+jvBJVTk1F4IVRVw0qo+D0bnVpgZQEYs+oo="
+  "com.ramusthastudio.plugin.unixtimestamp/--/7.0.1": {
+    "p": "files/19499/701386/unix-timestamp-7.0.1-signed.zip",
+    "h": "lxyc4KM5MstT7zS9NegPpepqiezW0PhRSq7D8N/jJH8="
   },
   "com.randlly.TextToolWindow/--/1.0.5": {
     "p": "files/26555/692701/Text_Tools-1.0.5.jar",
@@ -51227,9 +51539,9 @@
     "p": "files/7687/20520/Zipper_IDEA_Plugin.jar",
     "h": "xzL56Ty0f6gahL5eO1R1BpwRMFrr2X2TaCuy9OO0Ghk="
   },
-  "com.report.tools.aicodereview/--/5.0.2": {
-    "p": "files/26728/694749/DeepSeek-Code-Report-5.0.2.zip",
-    "h": "ecT5G8fi6v1hKsmajBvt9z0Qpgoo2B3vi5tEK0P/eU0="
+  "com.report.tools.aicodereview/--/5.0.3": {
+    "p": "files/26728/700141/DeepSeek-Code-Report-5.0.3.zip",
+    "h": "0T2mRNdBh2cvScfWjEsrlV6zpMm97NoUSEtFWt8KTU0="
   },
   "com.reshiftsecurity.plugins.intellij/--/2.6.2": {
     "p": "files/14538/131875/reshiftsecurity-intellij-2.6.2.zip",
@@ -51287,9 +51599,9 @@
     "p": "files/22481/694550/kmp-nativecoroutines-idea-plugin-1.0.0-ALPHA-40.zip",
     "h": "+yCsNOsfkzOc5dY6+9aX7ZdWqe8y1m1Ab9sq5TOxQhQ="
   },
-  "com.rios.codeawaretypo/--/1.0.3": {
-    "p": "files/26793/696759/CodeAwareTypo-1.0.3.zip",
-    "h": "BIWX+fHFsgS81IO45T2WGTgIfKx0K1STnZyvIeYrFqI="
+  "com.rios.codeawaretypo/--/1.0.4": {
+    "p": "files/26793/700172/CodeAwareTypo-1.0.4.zip",
+    "h": "PbxT/WpGHioD7A/NImYLG8aLjPH73slhH4CsiNAaIL0="
   },
   "com.ripstech.intellij/--/2.2.2": {
     "p": "files/10447/69874/rips-intellij-2.2.2.jar",
@@ -51474,6 +51786,10 @@
   "com.ruiyu.ruiyu/--/5.2.2": {
     "p": "files/11415/657442/FlutterJsonBeanFactory-5.2.2.zip",
     "h": "rdcmeAo3p7UB2YfoKaWVRM9EAVl5Hx28ti4BIDycAp8="
+  },
+  "com.ruiyu.ruiyu/--/5.2.4": {
+    "p": "files/11415/701338/FlutterJsonBeanFactory-5.2.4.zip",
+    "h": "oF4gsrv0IiWn6w35caC1vq0ANGlHxwBNB0/d0/roivU="
   },
   "com.runtime.pivot.plugin/--/1.1.2": {
     "p": "files/24781/571731/runtime-pivot-1.1.2.zip",
@@ -52039,6 +52355,10 @@
     "p": "files/22201/680763/sherloqData-1.0.0.23.zip",
     "h": "IC0K4uaAhwrB0L4L2U4RJqvzvI9wU7bgq3vNtFhKLuc="
   },
+  "com.sherloqrnd.sherloq_data_plugin/--/1.0.0.24": {
+    "p": "files/22201/699619/sherloqData-1.0.0.24-production.zip",
+    "h": "pIuS7FJpuo24hnRx+IQxpIHcYR1sljIUOap4FGaWZ2A="
+  },
   "com.sherloqrnd.sherloq_data_plugin/--/1.0.0.9": {
     "p": "files/22201/478343/sherloqData-1.0.0.9.zip",
     "h": "ewpfHOCuGQIyq9NHS0SusABT6rlCmpJHtT6NCsB6Ywo="
@@ -52591,13 +52911,13 @@
     "p": "files/23172/684984/com.stackspot.codebuddy-2023.2-1.8.63.1.zip",
     "h": "NmUbuCt4/aZV4f6am3t33SqjOSIkil6oknASmRtUMU0="
   },
-  "com.stackspot.codebuddy/--/1.8.67": {
-    "p": "files/23172/696903/com.stackspot.codebuddy-2024.2-1.8.67.zip",
-    "h": "fQ/AXWVpiVMF8qO5DirFw56wr2zQgmqVui7oNao31+o="
+  "com.stackspot.codebuddy/--/1.8.69": {
+    "p": "files/23172/700169/com.stackspot.codebuddy-2024.2-1.8.69.zip",
+    "h": "r05b0vb/sepBN1sYkK2qwqFso6Tzh6ai/eEDKLUv12A="
   },
-  "com.stackspot.codebuddy/--/1.8.68.1": {
-    "p": "files/23172/698240/com.stackspot.codebuddy-2023.2-1.8.68.1.zip",
-    "h": "/N9/VZFfBoH1nCKQKd+A6PmezGqPjVYr3+b6oeWxysI="
+  "com.stackspot.codebuddy/--/1.8.69.1": {
+    "p": "files/23172/700170/com.stackspot.codebuddy-2023.2-1.8.69.1.zip",
+    "h": "RzJAYP8kDk73T2bo14No23PFz/8Nt7P2JzVOTrD5Nsc="
   },
   "com.star.easy_generate/--/3.0.1": {
     "p": "files/15564/153086/easy_generate-3.0.1.jar",
@@ -52943,9 +53263,9 @@
     "p": "files/18944/682142/symflower.zip",
     "h": "KuhyULhH3YuNpgULC9ZcJAxrBDlcQ52Rjtbha+4Y/X8="
   },
-  "com.symflower.symflower/--/47912": {
-    "p": "files/18944/696754/symflower.zip",
-    "h": "+EiCh3F9wqOBTHeM24nVbYvVdAQnlYC2NruuvBm6wmM="
+  "com.symflower.symflower/--/48361": {
+    "p": "files/18944/702254/symflower.zip",
+    "h": "SnDQYOlJg52TFcQtmEdiKATzj4dgGqadA7xYbdP5v7k="
   },
   "com.syndatis.idea.showandhide/--/1.2": {
     "p": "files/7803/20614/showandhide.jar",
@@ -53179,9 +53499,9 @@
     "p": "files/13136/177368/TechniaPlugin-1.4.jar",
     "h": "4S97Ta9QkUs7rJ8kR7vtBRQh3fC7A595gWpvAe74IpU="
   },
-  "com.technology.ncode/--/2.0-SNAPSHOT": {
-    "p": "files/26614/688939/ncode-2.0-SNAPSHOT.zip",
-    "h": "CwNr4o4ie0LW+bpOg3b+zSKpahDtkbkCe7bqHjUIHBA="
+  "com.technology.ncode/--/3.0-SNAPSHOT": {
+    "p": "files/26614/701348/ncode-3.0-SNAPSHOT.zip",
+    "h": "h8Dl63bQDKTXM7fzbkEINgSeWZBzgVM4u/prPRo2vds="
   },
   "com.techx.fastdroid/--/1.1.2": {
     "p": "files/24953/580629/Fast_Droid-signed.zip",
@@ -53367,6 +53687,14 @@
     "p": "files/15442/103199/thief-book-idea.jar",
     "h": "Az/CGw7oJoXQru73UKJvQZy0i64V3doZKM1guab45Dc="
   },
+  "com.thinksure.SqlToJson/--/2025.3.3": {
+    "p": "files/26799/700090/SqlToJson-2025.3.3.zip",
+    "h": "jQ/iGBAqAigelnRuEW6OIzM3g6K3822BiFT0dp+6bj0="
+  },
+  "com.thinksure.smart_ddl/--/2025.3.3": {
+    "p": "files/26802/699617/smart_ddl-2025.3.3.zip",
+    "h": "r73BncGUWuJIvcAuwTMkxN6HxL3eb13KyjwWYjgauHw="
+  },
   "com.thomas.checkMate/--/2.2": {
     "p": "files/8157/41089/CheckMate.jar",
     "h": "ZIGmZC2TgM/MceVMtNnpsoaIo4Kso5GflrTwFdsmbfI="
@@ -53494,6 +53822,10 @@
   "com.thoughtworks.gauge/--/243.25659.59": {
     "p": "files/7535/692261/gauge-243.25659.59.zip",
     "h": "ZEaTxDpnRsZP4b+FXyxz2+pBHuGx10PFJuA5LwV4MGc="
+  },
+  "com.thoughtworks.gauge/--/243.26053.27": {
+    "p": "files/7535/700113/gauge-243.26053.27.zip",
+    "h": "AAcs8lWfvxEMpMARvu49oI9xzULPWuQJiEE7ub7vG5w="
   },
   "com.thoughtworks.hash-defaults/--/2.4.2": {
     "p": "files/22180/463584/hash-defaults-2.4.2.zip",
@@ -53651,6 +53983,10 @@
     "p": "files/22311/367279/MarkdownQuote-1.0.3.jar",
     "h": "p96tEeViSqfByet9smzxrcJgToa1WcN1ZfrBtg5zF0U="
   },
+  "com.toscl.markdownquote/--/1.0.4": {
+    "p": "files/22311/699448/MarkdownQuote-1.0.4.jar",
+    "h": "0hi5IZjxvxYxJsAIreZ5Rxx6X4WGwl6NVYEKIVd+WRM="
+  },
   "com.totrit.modulemold/--/0.5": {
     "p": "files/24143/542839/module-mold-0.5.zip",
     "h": "dPINmS7nN38z+sie0gLZKNzbuv/bsgVgaNpOj/HbcK0="
@@ -53754,6 +54090,10 @@
   "com.tsf.plugin.tsf-idea-plugin/--/1.6.2": {
     "p": "files/15653/426470/Tencent_Cloud_Toolkit-1.6.2.zip",
     "h": "wYjydBgsjakU0vupTFWB1SwVIcAuIeTOiFy5Xd5Lles="
+  },
+  "com.tsingin.kt2ts/--/1.0.1": {
+    "p": "files/26835/699161/kt2ts-1.0.1.zip",
+    "h": "kYltw0qbEmjLoleKa9jKvXKZQ6/dJ4d2RFRta3vlRdQ="
   },
   "com.tsintergy.ssc.database.generator/--/0.1.1": {
     "p": "files/21181/306897/TSIE_Code_Generator-0.1.1.zip",
@@ -53967,9 +54307,9 @@
     "p": "files/26463/684269/YimiCodeGen-2025.2.4-signed.zip",
     "h": "ej587YQVMgWv1edadOtcivVNQyBDgToQVVgdnYHKy3k="
   },
-  "com.uublue.yimi.codegen/--/2025.3.4": {
-    "p": "files/26463/692072/YimiCodeGen-2025.3.4-signed.zip",
-    "h": "iMvV5zW4MBzQ4rIJR1o4DaLCE9HRw2jcUH4zp6FT0lE="
+  "com.uublue.yimi.codegen/--/2025.3.5": {
+    "p": "files/26463/700149/YimiCodeGen-2025.3.5-signed.zip",
+    "h": "RQ/kBBjP3pOXyBf9OH5OBBgTvI5yDM2SGmRJuVtD02Y="
   },
   "com.vaadin.designer.intellij/--/1.4.3": {
     "p": "files/8621/37794/vaadin-designer-intellij-1.4.3.zip",
@@ -54583,9 +54923,9 @@
     "p": "files/26760/693605/yaml-helper-1.0.1.zip",
     "h": "60zqtzMtPKpqr84B5PDXagnQaDC8keDOUhAcSdckcNY="
   },
-  "com.wd.yaml-helper/--/1.0.4": {
-    "p": "files/26760/697112/YamlHelper-1.0.4.zip",
-    "h": "THncHQffgRMNS8XFbK3W+e16iMv/RiR1zLfFLQUMcCQ="
+  "com.wd.yaml-helper/--/1.0.5": {
+    "p": "files/26760/700726/YamlHelper-1.0.5.zip",
+    "h": "K2hqP39NHsbX8T9B2yY/+zu/m5LqY/BFwpObAYKhzGw="
   },
   "com.wdf.api/--/212.1.7.9-IC": {
     "p": "files/19269/388725/FuDoc-212.1.7.9-IC.zip",
@@ -54610,6 +54950,10 @@
   "com.weakviord.filetagger/--/1.0.7": {
     "p": "files/26361/681581/jetbrains-file-tag-1.0.7.zip",
     "h": "bvB3fY8e92ythtDBPZqTRgsKjV2waTcPuoNuAsGw08c="
+  },
+  "com.weakviord.filetagger/--/1.0.8": {
+    "p": "files/26361/699201/jetbrains-file-tag-1.0.8.zip",
+    "h": "i0E5ieOpQoxAKWbG7ODCvfm7eZ0llGRaUpa7Md1MPIA="
   },
   "com.webfont.ideaplugin/--/3.0": {
     "p": "files/7172/274473/FontStorageFinal.zip",
@@ -55070,10 +55414,6 @@
   "com.xiaolvpuzi.tool.smartinputpro/--/2.0.6-pycharm": {
     "p": "files/25280/682002/Smart_Input_Pro-2.0.6-pycharm.zip",
     "h": "pgexZQvw0QZqLoSpftZPZ6B/fePWGIUb6ZSa1tuIfck="
-  },
-  "com.xiaolvpuzi.tool.smartinputpro/--/2.1.0-pycharm": {
-    "p": "files/25280/696768/Smart_Input_Pro-2.1.0-pycharm.zip",
-    "h": "plyIbn1qtyGwHxCEaC+Bh4u1fjuptd7u4zpPlKbHL38="
   },
   "com.xiaomi.dsg.dimenify/--/1.6": {
     "p": "files/17216/154822/MiDimenify.jar",
@@ -56167,9 +56507,9 @@
     "p": "files/20500/684798/intellij-plugin-0.11.9.zip",
     "h": "V3M/AhVIFcZTRLVvvXtT87gfulXY3DQgrKY9UT3gRos="
   },
-  "community.flock.wirespec.lsp.intellij_plugin/--/0.12.2": {
-    "p": "files/20500/698399/intellij-plugin-0.12.2.zip",
-    "h": "ysSMkZmtRFImUIjXEoGpaNDX+hsgWtvfusvVc4I/DLk="
+  "community.flock.wirespec.lsp.intellij_plugin/--/0.12.4": {
+    "p": "files/20500/701834/intellij-plugin-0.12.4.zip",
+    "h": "31YUqh+tYMlk0NBk0xqU3hzf0r9GLiCCSS1Tyxhy7gU="
   },
   "community.flock.wirespec.lsp.intellij_plugin/--/0.7.3": {
     "p": "files/20500/374733/intellij-plugin-0.7.3.zip",
@@ -56579,6 +56919,10 @@
     "p": "files/25087/674858/GutterCoverageDisplay-1.0.3.zip",
     "h": "rf6V3awwb5jxfvhcrLnI5KtDAStKkXYq27FvlXvJKlk="
   },
+  "cx.eri.gutter-coverage-display/--/1.0.4": {
+    "p": "files/25087/702111/GutterCoverageDisplay-1.0.4.zip",
+    "h": "caWh8raivRIG1/bNb8vy1Cwli0/mFpzsXEWua47zV4Q="
+  },
   "cz.ackee.localizer/--/1.1.0": {
     "p": "files/11159/503380/SpreadsheetLocalizer-1.1.0.zip",
     "h": "vLMpYM/fjNmOlGg5Ljo9e+bDkV31N1E4zXm11Qi4TVI="
@@ -56931,13 +57275,13 @@
     "p": "files/26327/680261/HotPreviewPlugin.zip",
     "h": "kGTFsv7vk8YD+b1W6ETwTwc+Ac2OBmO2j5bQ9V+6YMM="
   },
-  "de.drick.compose.hotpreview.plugin/--/0.4.0-2024.2.5": {
-    "p": "files/26327/690274/HotPreviewPlugin.zip",
-    "h": "Ziz4Aki7lCluhz+CMBC11St6unxb+l/Q5ZHZE4eo6Bs="
+  "de.drick.compose.hotpreview.plugin/--/0.5.0-2024.2.5": {
+    "p": "files/26327/700147/HotPreviewPlugin.zip",
+    "h": "PBePOe/AIDZp4qZptnEkYZUlepFgK6q6JnWv3r7eu88="
   },
-  "de.drick.compose.hotpreview.plugin/--/0.4.0-2024.3.2": {
-    "p": "files/26327/690275/HotPreviewPlugin.zip",
-    "h": "/crtsq1aIOFNnWAIqV6BI3B4i9s7LKGZ0iUHVob8qzs="
+  "de.drick.compose.hotpreview.plugin/--/0.5.0-2024.3.2": {
+    "p": "files/26327/700146/HotPreviewPlugin.zip",
+    "h": "M1XayhzytvTlNT7YLT4z0/2nGooeGw5BmedM54Derho="
   },
   "de.ehmkah.projects.imgdiff/--/1.9.0": {
     "p": "files/12691/112341/imgdiff-1.9.0.zip",
@@ -56998,6 +57342,10 @@
   "de.espend.idea.php.annotation/--/11.1.1": {
     "p": "files/7320/630497/PHP_Annotations-11.1.1.zip",
     "h": "05aBYbqNIuwe/JTwntFdIqML8NHbTOwVusl1P9FzuYY="
+  },
+  "de.espend.idea.php.annotation/--/11.2.0": {
+    "p": "files/7320/701175/PHP_Annotations-11.2.0.zip",
+    "h": "qUgbbG+S7RVt7zLU8ngnp7NzJUb23AuKM7KLAWYQLUs="
   },
   "de.espend.idea.php.annotation/--/8.3.0": {
     "p": "files/7320/259551/PHP_Annotations-8.3.0.zip",
@@ -58547,6 +58895,10 @@
     "p": "files/10761/621940/Detekt_IntelliJ_Plugin-2.4.2.zip",
     "h": "9dGFZkrovtu7vawAOJe0AL8fNQXu/mkyha1RXoorXD8="
   },
+  "detekt/--/2.4.3": {
+    "p": "files/10761/700573/Detekt_IntelliJ_Plugin-2.4.3.zip",
+    "h": "9tefRKNPnK6yzFS5cyad4UW5NhYQJcBeJSVE/mjxe8o="
+  },
   "dev.adamko.problemIgnorer/--/0.0.7": {
     "p": "files/25023/611246/ij-problem-ignorer-0.0.7.zip",
     "h": "R6w3F+yAZ+QAIfNZXsptiVlbu0HPuTs6oJGh975NB7I="
@@ -59055,6 +59407,10 @@
     "p": "files/21898/377003/marcelosdartplugin.jar",
     "h": "05w+REpj4DNK7D2k+0u/W5uFSNzCi8haEB5Fzd1yF3s="
   },
+  "dev.gorokhov.smoothcaret/--/1.2.1": {
+    "p": "files/26838/702419/smoothcaret-1.2.1.zip",
+    "h": "v5U3cCYgHhhEtMoincrdKiYtX2JUR94IWu/mSA4uH+o="
+  },
   "dev.hagios.BuildTimes/--/1.0.0": {
     "p": "files/25930/639696/BuildTimes-1.0.0-signed.zip",
     "h": "M/Vvkwbag/yA+2fdoWBCn8eAR9Jitr0DWGcx0AOXJX4="
@@ -59379,9 +59735,9 @@
     "p": "files/17681/275892/lens4j-intellij-plugin-v0.1.9_2022.3.zip",
     "h": "l1LZlswxWfSM9H2GiSwKOwGX88zWSsvR/pdEkTRXdUA="
   },
-  "dev.kikugie.stonecutter/--/0.1.2": {
-    "p": "files/25044/695629/stonecutter-intellij-0.1.2.zip",
-    "h": "rmVeX8WcXlxEsoCEgW71VTMdqmxnhVTRldhi4bHbCDo="
+  "dev.kikugie.stonecutter/--/0.1.3": {
+    "p": "files/25044/698401/stonecutter-intellij-0.1.3.zip",
+    "h": "U0O8hUd0y/meABTV9NaQbuJ7s6paxyDTTYy4Xyg1bxc="
   },
   "dev.kolychev.jetbrains-cyberpunk-neon-theme/--/1.0.5": {
     "p": "files/21120/586620/cyberpunk-neon-theme-1.0.5.zip",
@@ -59459,9 +59815,9 @@
     "p": "files/18280/678728/nginx-intellij-plugin-2025.3.zip",
     "h": "z324z8gtI4E7doq3lyq/JijExXOYoWc+NeNHqMZdmtU="
   },
-  "dev.meanmail.plugin.nginx-intellij-plugin-pro/--/2025.4": {
-    "p": "files/18280/686936/nginx-intellij-plugin-2025.4.zip",
-    "h": "bvaHSZztug8aj9JoPyot429fCYM7OIWNNjNqxPfbnp8="
+  "dev.meanmail.plugin.nginx-intellij-plugin-pro/--/2025.5.1": {
+    "p": "files/18280/699005/nginx-intellij-plugin-2025.5.1.zip",
+    "h": "euUwiK21PGgttrPYCPfIaiPsVSgOi8uNsUonKld/GNA="
   },
   "dev.meanmail.plugin.nginx-intellij-plugin/--/2022.1.1": {
     "p": "files/15461/238997/nginx-intellij-plugin-2022.1.1.zip",
@@ -59478,6 +59834,10 @@
   "dev.meanmail.plugin.nginx-intellij-plugin/--/2024.5.1": {
     "p": "files/15461/660844/nginx-intellij-plugin-2024.5.1.zip",
     "h": "rM4WPxWzVY37RCew8zmUkpQYdUlwZLbbEeCw5+w/Zl8="
+  },
+  "dev.meanmail.plugin.nginx-intellij-plugin/--/2025.5.1": {
+    "p": "files/15461/699007/nginx-intellij-plugin-2025.5.1.zip",
+    "h": "lCsin9qe2nYTfxX4pcsOC7Y+mylCYAUWldidsst1zzY="
   },
   "dev.meanmail.plugin.plugin-dev-assistant/--/1.1.0": {
     "p": "files/26325/678406/plugin_dev_assistant-1.1.0.zip",
@@ -59743,9 +60103,9 @@
     "p": "files/26216/678943/robotcode4ij-0.109.0.zip",
     "h": "R2WDSubgLlIRdLXx04zI2xNplEXJ38yYh4Hl2l/nERk="
   },
-  "dev.robotcode.robotcode4ij/--/0.109.2": {
-    "p": "files/26216/685568/robotcode4ij-0.109.2.zip",
-    "h": "OYoGZu3g9kIrvkR/UbqWNVMGzk+GRq91JjXjP4+jbyI="
+  "dev.robotcode.robotcode4ij/--/1.0.3": {
+    "p": "files/26216/699879/robotcode4ij-1.0.3.zip",
+    "h": "FLs28ZdN17moYbuqOtMR2fbcqeE1VfhFlIk24bckzN4="
   },
   "dev.rollczi.litecommands.intellijplugin/--/2.7.0-SNAPSHOT": {
     "p": "files/20799/274250/LiteCommands-IntelliJPlugin-2.7.0-SNAPSHOT.zip",
@@ -59879,13 +60239,17 @@
     "p": "files/17966/144656/styledart.zip",
     "h": "5Gz1+vY1sU31DAiN5qXwiTsyjZcMTPqdeoKds6KLur0="
   },
+  "dev.sweep.assistant.cloud/--/1.8.23": {
+    "p": "files/26860/700579/cloud-sweepai-1.8.23.zip",
+    "h": "hSLVNfPlNrszhL6ZwAWN+hfjKhOemfjegYJEw5JPvuM="
+  },
   "dev.sweep.assistant/--/1.6.15": {
     "p": "files/26275/683637/cloud-sweepai-1.6.15.zip",
     "h": "7giwvCFIHvev9BxBSndT8qZ8Dx2rlz3pL0VRzOTpCg4="
   },
-  "dev.sweep.assistant/--/1.7.23": {
-    "p": "files/26275/696969/cloud-sweepai-1.7.23.zip",
-    "h": "578c+ZP74Bu4O+UA3qkAa3/1htm4mq40TGtdcJZcn8s="
+  "dev.sweep.assistant/--/1.8.2": {
+    "p": "files/26275/698408/sweepai-1.8.2.zip",
+    "h": "I0fyBXc2ExRbTXWQhleOS4RWuD5XQyotcxBvGtA/G20="
   },
   "dev.testify/--/2.0.0-rc03": {
     "p": "files/19166/392761/IntelliJ-2.0.0-rc03.zip",
@@ -60050,6 +60414,10 @@
   "dev.xframe.protoc4j/--/1.0.4": {
     "p": "files/18176/560594/protoc4j-1.0.4.jar",
     "h": "WiNZ4ZuoMHvhZs/Vy8LYlEMPcwfR5xof+/M4aMpArbs="
+  },
+  "dev.xframe.protoc4j/--/1.0.5": {
+    "p": "files/18176/699191/protoc4j-1.0.5.jar",
+    "h": "78KofvMgpeyR7venyaiDFO+pCfiWQIpq303UE2VTGiM="
   },
   "dev.yanisk/--/1.0.7": {
     "p": "files/21641/507867/TDD_Predict-1.0.7.zip",
@@ -60251,9 +60619,9 @@
     "p": "files/21589/668223/EasyTool-2.2.4.zip",
     "h": "XNIjrXv4KfU9hU7+tYDrTxwu6un07HWezjG6U2/uQKM="
   },
-  "easy.char/--/2.2.6": {
-    "p": "files/21589/690540/EasyTool-2.2.6.zip",
-    "h": "dDEX/ET8Zsom3c3mJuOcVTv94YwpKjhu5was2Kd492M="
+  "easy.char/--/2.2.7": {
+    "p": "files/21589/699200/EasyTool-2.2.7.zip",
+    "h": "4dL3SNhUVQ9OGQu3eFpNoH/kjuCz47DlAwegfKjAvnY="
   },
   "easy.plugin.translation/--/1.3": {
     "p": "files/10142/52029/easy-translation.zip",
@@ -60339,9 +60707,9 @@
     "p": "files/21056/581658/CodeGPT-2.9.0-241.1.zip",
     "h": "WKYKlIGLzMtQVSZyg5tfT4e1LVqsXMvMWgGPqmd7mog="
   },
-  "ee.carlrobert.chatgpt/--/3.0.0-241.1": {
-    "p": "files/21056/690615/ProxyAI-3.0.0-241.1.zip",
-    "h": "a53/5cXoggXGAhtgAbk17ttV3S0/RWHVs2pyDVGSybE="
+  "ee.carlrobert.chatgpt/--/3.1.0-241.1": {
+    "p": "files/21056/701644/ProxyAI-3.1.0-241.1.zip",
+    "h": "h1zrOs7RKnZpcXyvXbeCg28IuFHGiaFhl8ZsxRWtE+A="
   },
   "ee.developest.gtm/--/1.1.0-stable": {
     "p": "files/15794/280242/gtm-enhanced-1.1.0-stable.jar",
@@ -61119,6 +61487,10 @@
     "p": "files/14688/99145/gsonGnenrator.jar",
     "h": "Y5FrOk8IzztgmfoZG5so0MBZU6GerSJwEPu1RDas2Ek="
   },
+  "generator.TemplateGenerator/--/1.0.1-SNAPSHOT": {
+    "p": "files/26850/701326/TemplateGenerator-1.0.1-SNAPSHOT.zip",
+    "h": "3CXnKKWtYO516N+AEXkzez2luxcjNlXLbO+1toGfCLU="
+  },
   "generic-inlay-hints-rider/--/0.4-preview": {
     "p": "files/21165/309769/ReSharperPlugin.GenericsInlayHints-0.4-preview.zip",
     "h": "ZJh5KTiBnUuaK/e9OM2LhfyYV/YJ/Ma8KABHoLbV5+I="
@@ -61351,6 +61723,14 @@
     "p": "files/25284/604905/Victoria3ModSupport-1.0.2.jar",
     "h": "Q0v/hKpNqNBwqqUpQ1PTcsPHMZiGiJYhzi7cW2Hgn98="
   },
+  "gitlab.lordcrekit.victoria3modsupport/--/1.0.3": {
+    "p": "files/25284/698824/Victoria3ModSupport-1.0.3.jar",
+    "h": "jCX6WXrNc+KiGEmFtZ8/b2rPOC3BykBlTopOZL6CV9g="
+  },
+  "gitlab.lordcrekit.victoria3modsupport/--/1.0.4": {
+    "p": "files/25284/698837/Victoria3ModSupport-1.0.4.jar",
+    "h": "Flk/IRI8+OCH5/4l3OvSuL1IBqd7rvqXC8pvs3wmQM4="
+  },
   "global.genesis.igenesis/--/1.1.5": {
     "p": "files/21131/548697/igenesis-1.1.5.zip",
     "h": "/ypXZniaTWxgt1kp4vkdjsJYffyH4s0yf1HjZ6VDssQ="
@@ -61466,6 +61846,10 @@
   "guru.ide.gitlab/--/2024.5.1.243": {
     "p": "files/22202/633878/gitlab-plugin-2024.5.1.243-signed.zip",
     "h": "JlEp27MNOYsN3AoRo1hw9sUbujwVZ7Yhma5HAvGt594="
+  },
+  "guru.ide.gitlab/--/2025.1.0.243": {
+    "p": "files/22202/700153/gitlab-plugin-2025.1.0.243-signed.zip",
+    "h": "fatqG0xRNILQGBiJ5uh7LYk3kUa97MG1JLeZQuCK6b8="
   },
   "gw.gosu.ij/--/9.0.0": {
     "p": "files/14128/592749/ij-gosu-dev24-latest-SNAPSHOT-plugin.zip",
@@ -61779,9 +62163,9 @@
     "p": "files/10275/692262/hunspell-243.25659.59.zip",
     "h": "LVS3BjBxj20fluCibauIMoGng81Rz/NKT3eY9Jzwxck="
   },
-  "hunspell/--/243.26053.20": {
-    "p": "files/10275/697698/hunspell-243.26053.20.zip",
-    "h": "bbtTFJjiWd4rsWiA0AIfUl2A0pUh0s5StDMZxZ5yvW4="
+  "hunspell/--/243.26053.29": {
+    "p": "files/10275/700432/hunspell-243.26053.29.zip",
+    "h": "jrJ2vkMJXFKPZCJ/wys/xnK8jPnKNABG3noX7QfFjDw="
   },
   "i-views/--/1.11.1": {
     "p": "files/14302/311386/iviews-plugin-1.11.1.zip",
@@ -62399,6 +62783,10 @@
     "p": "files/25628/636267/instant-invoke.zip",
     "h": "hHPHA5uhMydTu6oT0XljwFnlEbBBlgFR3xLsbcgQaFQ="
   },
+  "insyncwithfoo.pyrefly/--/0.1.0": {
+    "p": "files/26829/698425/pyrefly-0.1.0.zip",
+    "h": "JYXn7V2EZVndDtmvEP4XsdFfWwNlseqHonxD3sVsSVM="
+  },
   "insyncwithfoo.ryecharm/--/0.1.0-alpha-3": {
     "p": "files/25230/606562/ryecharm-0.1.0-alpha-3.zip",
     "h": "f5CIi9Pm3xp7NdzyLTHmnD0jP5qDFp/ZjmlzTcMOSTQ="
@@ -62406,10 +62794,6 @@
   "insyncwithfoo.ryecharm/--/0.1.0-alpha-4": {
     "p": "files/25230/637474/ryecharm-0.1.0-alpha-4.zip",
     "h": "aStwdhYe+oPUKSJxEt8WpOqA8eR87EOKOBAA1DCLoUI="
-  },
-  "insyncwithfoo.ryecharm/--/0.1.0-alpha-6": {
-    "p": "files/25230/668237/ryecharm-0.1.0-alpha-6.zip",
-    "h": "xEpMbYQw2UyVo4ZdRyc3xCHu88NRvVZAZNQJyarO6Ic="
   },
   "insyncwithfoo.ryecharm/--/0.1.0-alpha-8": {
     "p": "files/25230/682157/ryecharm-0.1.0-alpha-8.zip",
@@ -63451,6 +63835,10 @@
     "p": "files/18628/684390/IdeaPlugin-0.9.1-signed.zip",
     "h": "B6IJx6z+ArKXUdWgttTj/uV2qP01jodOgHoONT77GD0="
   },
+  "io.axoniq.ide.intellij/--/0.9.2": {
+    "p": "files/18628/701661/IdeaPlugin-0.9.2-signed.zip",
+    "h": "i6PPZ3cCJ1xJ93/ABffrLCxtRm1jQuaq6MzgtTdHnNw="
+  },
   "io.ayfri.jetbrainsplugincopysave/--/0.0.1": {
     "p": "files/21186/302100/copy-current-file-on-save-0.0.1.zip",
     "h": "HMHa28IwxrnnC0+G9QD3VhWrEGxyW5j8fB0QGCJtyDc="
@@ -63911,6 +64299,10 @@
     "p": "files/25219/595543/jetbrains-code-runner-1.0.0-SNAPSHOT.zip",
     "h": "ex730F1AtcRMQCVEwwRD2ifEcUGTWEK5JHEeAYf5yZQ="
   },
+  "io.github.eskibear.jetbrains-code-runner/--/1.0.0-SNAPSHOT.1": {
+    "p": "files/25219/701357/jetbrains-code-runner-1.0.0-SNAPSHOT.1.zip",
+    "h": "ZYcpHei27KcfzMExAx1Td7NtJpcycP7h49m/MAxDid4="
+  },
   "io.github.estivensh4.kotlin-multiplatform-wizard/--/0.1.0": {
     "p": "files/24691/560382/kotlin-multiplatform-wizard-0.1.0.zip",
     "h": "CXIIs56PqR+0tauUEUU2mXdWQv8A5gd+8hZkIwVN/ms="
@@ -64003,9 +64395,9 @@
     "p": "files/24463/684209/DebugTools-3.4.0.zip",
     "h": "BCUtbiX/K9pL4Mp+LVmnIpF8ngYv81HpR5MtGufb/XY="
   },
-  "io.github.future0923.DebugPower/--/3.4.1": {
-    "p": "files/24463/687677/DebugTools-3.4.1.zip",
-    "h": "U0cvbTUt6WwQlICpmWKzbnuykvZA99un47JCL8yn+Xc="
+  "io.github.future0923.DebugPower/--/3.4.2": {
+    "p": "files/24463/699199/DebugToolsIdeaPlugin.zip",
+    "h": "KCscVkX7Egfjk5jmM0d8W+ZKqTx4B5wBDQfNr8ydLZ4="
   },
   "io.github.gdutxiaoxu.gitreview.fx/--/1.01-SNAPSHOT": {
     "p": "files/20520/261425/GitReview-1.01-SNAPSHOT.zip",
@@ -64022,6 +64414,10 @@
   "io.github.gerardorodriguezdev.chamaleon/--/1.0.8": {
     "p": "files/26310/679139/plugin-1.0.8.zip",
     "h": "czuv//Ql/z5QiDLN3jGyNev8gbpNPlQ79kIkjmR0woM="
+  },
+  "io.github.gerardorodriguezdev.chamaleon/--/1.0.9": {
+    "p": "files/26310/700314/plugin-1.0.9.zip",
+    "h": "6i0grcLWbeJO0VyWK1AGsnUFEE+NXwMuLlRMSzCv4Qk="
   },
   "io.github.godfather1103.alibaba.p3c/--/1.6-2022.1-2.1.1-ext-6": {
     "p": "files/22381/471005/Alibaba_Java_Coding_Guidelines_Fix_Some_Bug_-1.6-2022.1-2.1.1-ext-6-signed.zip",
@@ -64146,6 +64542,10 @@
   "io.github.kituin.ModMultiVersion/--/0.19.0": {
     "p": "files/24872/681891/ModMultiVersion-0.19.0.zip",
     "h": "VW2uQ0n+pDHp29GFZjmJfwGrMAcYWc8XfYi4baDI2aQ="
+  },
+  "io.github.kituin.ModMultiVersion/--/0.19.1": {
+    "p": "files/24872/698960/ModMultiVersion-0.19.1.zip",
+    "h": "r1j/MLFLeXhvSzMo2yXgjg7WoBNA3E63aMtC/WWdJdA="
   },
   "io.github.lgp547.any-door-plugin/--/2.1.2": {
     "p": "files/20385/452019/any-door-plugin.zip",
@@ -64595,9 +64995,9 @@
     "p": "files/18580/161514/LatexSymbol-0.3.zip",
     "h": "KVey5YKU4x1IUu7Ey8QJqbW5HYJ5KRCecKAJc+x1mrA="
   },
-  "io.github.timetrackerx/--/2025.1.4": {
-    "p": "files/26761/696149/timetrackerx-2025.1.4.zip",
-    "h": "LWJ7jBduE5hO5ivPfPYS7T9Vyt0784g8umGN6tsemn4="
+  "io.github.timetrackerx/--/2025.1.5": {
+    "p": "files/26761/699452/timetrackerx-2025.1.5.zip",
+    "h": "8YT/VqKG4sggkFdilFKLDtFObLDtLw0+vLhfBXNjyiA="
   },
   "io.github.turansky.seskar/--/0.0.5": {
     "p": "files/24268/529002/seskar-0.0.5.zip",
@@ -64867,6 +65267,10 @@
     "p": "files/21173/664777/JetClient-2024.3.26-243-signed.zip",
     "h": "Z/1rZphhnTsqcXhSvrraFyHhRThoSFkpll4sXdRwS6M="
   },
+  "io.jetclient/--/2024.3.27-243": {
+    "p": "files/21173/698254/JetClient-2024.3.27-243-signed.zip",
+    "h": "0ull5b6YbAPneUY/puClZ9uVO864QjspLAoA0sgKdrU="
+  },
   "io.jetclient/--/2024.3.8-231": {
     "p": "files/21173/593798/JetClient-2024.3.8-231-signed.zip",
     "h": "6BouTpUxNKcXEVqdDl95fN8xwQm1s4pmHSEPG3+zKSA="
@@ -64938,6 +65342,10 @@
   "io.jmix.studio/--/2.5.0-243": {
     "p": "files/14340/688212/jmix-studio-2.5.0-243.zip",
     "h": "lv2j9Am7cO/I6H1w3bY9jCiVx8QboBIXgSV+QajM0xk="
+  },
+  "io.joswlv.jirabranch/--/0.1.0": {
+    "p": "files/26848/699644/jira-branch-creator-0.1.0.zip",
+    "h": "4FUAPr2rODz5AJx68JEsFszRzQl9SKzAvAlFPNAIGcg="
   },
   "io.joy.theme.asiimov/--/1.0.0": {
     "p": "files/15700/106574/asiimov.jar",
@@ -65227,9 +65635,9 @@
     "p": "files/26365/681719/actionate-2025.1.3.zip",
     "h": "ZTbanTf/M1Hj0WxlE6Nf3H7bt/cu3GIujd1PbFFU65U="
   },
-  "io.revenate.actionate/--/2025.1.4": {
-    "p": "files/26365/689903/actionate-2025.1.4.zip",
-    "h": "inGUBQHmxIQbeYWGigQA+nD7X8agaUjGplHDPX5nzsc="
+  "io.revenate.actionate/--/2025.1.5": {
+    "p": "files/26365/700428/actionate-2025.1.5.zip",
+    "h": "Cc3tAskWv2ZZ0p01iryL/bIq1/SS8fAVRxZxj8G2dqQ="
   },
   "io.ringle.ij.cmakedocs/--/1.0.0": {
     "p": "files/8486/27194/cmakeDocPlugin-1.0.0.jar",
@@ -65991,9 +66399,9 @@
     "p": "files/26504/681584/intellij-rustowl-0.1.1.zip",
     "h": "uXRZEtOpZKJYoaZ5e0nH4m5kEWM1FZpDAP4tB4kYyYc="
   },
-  "jp.s6n.idea.rustowl/--/0.2.1": {
-    "p": "files/26504/694572/intellij-rustowl-0.2.1.zip",
-    "h": "gywWNCKnM5x9P5cBfAMjuiL7s2y6tFx06YnML3Mk5FE="
+  "jp.s6n.idea.rustowl/--/0.2.2": {
+    "p": "files/26504/698685/intellij-rustowl-0.2.2.zip",
+    "h": "+N+yzjze7wZW0XVONn2sSssk4gApq44B58ZtLd4TZf8="
   },
   "jp.s6n.idea.typespec/--/0.2.2": {
     "p": "files/25850/639222/intellij-typespec-plugin-0.2.2.zip",
@@ -66219,6 +66627,10 @@
     "p": "files/16533/678004/kvision-project-wizard-0.9.1.zip",
     "h": "PGvljc1gDusz2o4fah78MS0p58UzXo02aXDKF6/5DY8="
   },
+  "kz.kolesa.branch-adder/--/2.4": {
+    "p": "files/26855/701397/branch-adder-2.4.zip",
+    "h": "JCaS9gwOOeFBFkUr4efj2O/0sYy8fhcOk6h6D2zfKeQ="
+  },
   "kz.shaykemelov.navigate-exceptions/--/1.0.5": {
     "p": "files/26117/654023/navigate-exceptions-plugin-1.0.5.zip",
     "h": "ky0LiuLRvCyJnyFivUdy7KmJdV7c1Oiu7zyCMoEDcM0="
@@ -66259,9 +66671,9 @@
     "p": "files/25104/683558/lean4ij-0.2.1.zip",
     "h": "jrNJGRtAOPh17w3meVbhrmT1TDIWRClWgoatIfqr8bc="
   },
-  "lean4ij/--/0.2.2": {
-    "p": "files/25104/690056/lean4ij-0.2.2.zip",
-    "h": "SJpupnpRVezv9mbTTz213SWxwSonk+hp8kT9ogiPA80="
+  "lean4ij/--/0.2.4": {
+    "p": "files/25104/699222/lean4ij-0.2.4.zip",
+    "h": "cpEGg3kE+hTTOH+swXdFX4wPMXq5qZ7Q9X6cN+RKU/w="
   },
   "lechuck.intellij-plugin.task/--/1.4.0": {
     "p": "files/17058/154063/task-intellij-plugin-1.4.0.zip",
@@ -66375,9 +66787,9 @@
     "p": "files/26404/671361/Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.3.zip",
     "h": "snuznw0RMhu/U++3RXGrU9Ku0URUOMOhI0uPfOtpWW4="
   },
-  "lermitage.extratci.lifetime/--/2025.1.4": {
-    "p": "files/26404/686933/Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.4.zip",
-    "h": "qewpAXZnHmpWwbbL6eEwssqotcl7p9kK7tB6dmLfndU="
+  "lermitage.extratci.lifetime/--/2025.1.5": {
+    "p": "files/26404/699179/Extra_ToolWindow_Colorful_Icons_Lifetime-2025.1.5.zip",
+    "h": "J50NaDizPLTFQ95HSZZzIvqBAPWr5/7JuvvIPdAybYU="
   },
   "lermitage.ij.all.pack/--/2024.12.2": {
     "p": "files/24559/635985/Extra_Tools_Pack-2024.12.2.zip",
@@ -66399,9 +66811,9 @@
     "p": "files/24559/672148/Extra_Tools_Pack-2025.1.2.zip",
     "h": "U3gxwqLNGWNM26gTLJ7Q/9pBf9hbriSPvMvrE8EZVmc="
   },
-  "lermitage.ij.all.pack/--/2025.1.3": {
-    "p": "files/24559/686931/Extra_Tools_Pack-2025.1.3.zip",
-    "h": "r5oFljG92OTPbXRXqbXDI4KD2dyMp2onKTWQcdftU2k="
+  "lermitage.ij.all.pack/--/2025.1.4": {
+    "p": "files/24559/699180/Extra_Tools_Pack-2025.1.4.zip",
+    "h": "avn3oqi6KgMQ73Q7rj7AUKzytD0dxtW2k772OWtW/mM="
   },
   "lermitage.ij.extraidetweaks/--/2024.17.2": {
     "p": "files/23927/635983/Extra_IDE_Tweaks-2024.17.2.zip",
@@ -66423,9 +66835,9 @@
     "p": "files/23927/668616/Extra_IDE_Tweaks-2025.1.1.zip",
     "h": "nOPYnvLuApgpQwHBhRE3MJLDl2pE4bCz/6XHQQTZfA8="
   },
-  "lermitage.ij.extraidetweaks/--/2025.1.2": {
-    "p": "files/23927/686932/Extra_IDE_Tweaks-2025.1.2.zip",
-    "h": "S9XvXtNadkb5geuar40+y5cARMgWp+vJELj7hk3Y4EY="
+  "lermitage.ij.extraidetweaks/--/2025.1.3": {
+    "p": "files/23927/699176/Extra_IDE_Tweaks-2025.1.3.zip",
+    "h": "8Q0S6Iqv880JKscoiNfdYnKHFcwQV0raOpOsNe6tgO4="
   },
   "lermitage.intellij.battery.status/--/1.9.201": {
     "p": "files/12321/83166/ij-battery-status-1.9.201.jar",
@@ -66467,9 +66879,9 @@
     "p": "files/11058/668614/Extra_Icons-2025.1.1.zip",
     "h": "bQHgzbSUh7cZEzVGrZQxUJ+fGY7GB4Sy5izwadkkQiQ="
   },
-  "lermitage.intellij.extra.icons/--/2025.1.2": {
-    "p": "files/11058/686929/Extra_Icons-2025.1.2.zip",
-    "h": "wJgDPYDCCzehOOaXLVnHSBgpPfaNeh+uNoNHe9BBNn0="
+  "lermitage.intellij.extra.icons/--/2025.1.3": {
+    "p": "files/11058/699177/Extra_Icons-2025.1.3.zip",
+    "h": "suQxHLMgY0x/XHI1EikPI1mBpsTn4bkKO6HgCBb+OmA="
   },
   "lermitage.intellij.extratci/--/2024.5.1": {
     "p": "files/16604/604419/Extra_ToolWindow_Colorful_Icons-2024.5.1.zip",
@@ -66487,9 +66899,9 @@
     "p": "files/16604/671364/Extra_ToolWindow_Colorful_Icons_Subscription-2025.1.3.zip",
     "h": "U2kNQtumZ71+G3maxxXPVsLL8Q+8YonpC4ejr1DYMbo="
   },
-  "lermitage.intellij.extratci/--/2025.1.4": {
-    "p": "files/16604/686930/Extra_ToolWindow_Colorful_Icons_Subscription-2025.1.4.zip",
-    "h": "W/oeD2vRxxyrjHuw+4hGcPEER6K1kzkDGRkxvEotOaw="
+  "lermitage.intellij.extratci/--/2025.1.5": {
+    "p": "files/16604/699178/Extra_ToolWindow_Colorful_Icons_Subscription-2025.1.5.zip",
+    "h": "ycstNSciTV1LAsvJ3fTXN3NmQ259nkrAeX6MASjdmag="
   },
   "lermitage.intellij.iconviewer/--/1.9.0.193": {
     "p": "files/13995/118994/Icon_Viewer_2-1.9.0.193.zip",
@@ -66719,6 +67131,10 @@
     "p": "files/25800/684197/Morpheus-0.9.8-2024.2_02.20.16.jar",
     "h": "desKfpYkYY+u01kiIkInUVz8YL+m+2jVa4vcNzOpFn8="
   },
+  "m.client.ide.morpheus/--/0.9.9-2024.3_03.17.14": {
+    "p": "files/25800/699337/Morpheus-0.9.9-2024.3_03.17.14.jar",
+    "h": "x/AR0/WwmqPFXUZpes/aJQh/1ZB6YGZTAwUO448iqDU="
+  },
   "m2mobi.m2plugin/--/0.0.2": {
     "p": "files/12237/62263/m2plugin-0.0.2.jar",
     "h": "y2cvekMCqWJKSfgMUKgksOZRjxfgu9nnOw9cRQA4/Xw="
@@ -66783,9 +67199,9 @@
     "p": "files/10057/669144/manifold-ij-2024.1.20.zip",
     "h": "uJwJgCImUe4VpCik9Dlay7CGuIzp6gl0mh5U6tbjsIA="
   },
-  "manifold.ij/--/2024.1.24": {
-    "p": "files/10057/696136/manifold-ij-2024.1.24.zip",
-    "h": "BSuEUgqdWck44lcZnPC7Szz9dmScAmAXF4SRmFOL11I="
+  "manifold.ij/--/2024.1.27": {
+    "p": "files/10057/701334/manifold-ij-2024.1.27.zip",
+    "h": "aq8HuRrH+OMnlgEPtxEui+2e9RoDCeF7ujLpmLGrxdk="
   },
   "manifold.ij/--/2024.1.9": {
     "p": "files/10057/599345/manifold-ij-2024.1.9.zip",
@@ -66979,9 +67395,9 @@
     "p": "files/23441/676513/metadata-toolkit-1.2.31-signed.zip",
     "h": "s55faTj+EKbH+PEf++0BpmLyKkNwxOpG9pPi1GMAf7g="
   },
-  "me.alvin.dev.metadata-toolkit/--/1.2.36": {
-    "p": "files/23441/698072/metadata-toolkit-1.2.36-signed.zip",
-    "h": "Bh9/4oL46fVpLh0W4vX4oH6M3XNfBS5f0ZWfy9VJDDI="
+  "me.alvin.dev.metadata-toolkit/--/1.2.37": {
+    "p": "files/23441/699194/metadata-toolkit-1.2.37-signed.zip",
+    "h": "6o5idNRGG2ulcCBQqSoAJR2HrmdHGLpAf1QbumTX4io="
   },
   "me.alvin.dev.metadata-toolkit/--/1.2.9": {
     "p": "files/23441/555434/metadata-toolkit-1.2.9-signed.zip",
@@ -67303,9 +67719,9 @@
     "p": "files/22587/559406/idea-plugin.zip",
     "h": "o+Aat/pNhKM12AyQ81IZa7gVBPvb/HPvlQfZ+RGaO18="
   },
-  "me.jaffe2718.devkit/--/1.3.4": {
-    "p": "files/22587/694521/idea-plugin.zip",
-    "h": "0hF0miuTRpARLYOq1WxrzTkf26Ij4UEZT9RzDnPI8wQ="
+  "me.jaffe2718.devkit/--/1.3.5": {
+    "p": "files/22587/698974/idea-plugin.zip",
+    "h": "NnKE0gsx1Qw6mbB4puf65TEP5QedSPzXQEbgfwqjm7Y="
   },
   "me.jinghong.restful.toolkit/--/2.0.8": {
     "p": "files/16788/257728/RestfulToolkit-fix-2.0.8.zip",
@@ -68699,6 +69115,10 @@
     "p": "files/9405/663159/FRC-5.1.0-2024.3-signed.zip",
     "h": "pjDdKFlv0DoI9ll3hlpxLflyUL2g8Vq25MC0eKlmcPk="
   },
+  "net.justonedev.codestyle/--/1.0-SNAPSHOT": {
+    "p": "files/26845/699466/codestyle-0.1.0-SNAPSHOT.zip",
+    "h": "GYf8oY5zqJau88pcEoWYMuJKDnxp5TyKhpjL/j3ia98="
+  },
   "net.kenro.ji.jin.intellij.crystal-2/--/1.3.0": {
     "p": "files/11232/51084/Intellij-Crystal-1.3.0.jar",
     "h": "GR37DcDZz7FR2YQftyQ5DeENBlgWBO13cmK93dIxIBY="
@@ -68843,9 +69263,9 @@
     "p": "files/8115/642316/intellij-dlanguage.zip",
     "h": "P/PidKXbaa5+yvP6exz7OBRWf/hjpEH1JftLT2t9pgk="
   },
-  "net.masterthought.dlanguage/--/1.36.2": {
-    "p": "files/8115/689180/intellij-dlanguage.zip",
-    "h": "SqVj2UCkk/A7D2bErv/G7u2k7jX7DOKsYzDZ4Ll2WX0="
+  "net.masterthought.dlanguage/--/1.36.3": {
+    "p": "files/8115/698976/intellij-dlanguage.zip",
+    "h": "ElpxYFTjgUwBsvbErg8r7jHkNhbRn0SCIwa2Zbx+/4E="
   },
   "net.modulo3.robot/--/0.0.1": {
     "p": "files/24447/540621/robotframework-intellij-0.0.1.zip",
@@ -69643,6 +70063,10 @@
     "p": "files/23463/491122/PlatformNote-202-signed.zip",
     "h": "dY7GHN+h7D4P6ClSeEEzKQzwTymng3fCXE3WUA6n+uY="
   },
+  "one.tain.jbp.code-screenshoter/--/2.0.1": {
+    "p": "files/26843/699943/code-screenshoter-jb-plugin-2.0.1.zip",
+    "h": "e4iDN2Q4Di+A6AztmmZIA29NLcY9zDVv8obxY9M7Q1M="
+  },
   "onedev-tasks/--/0.0.8": {
     "p": "files/25928/642027/intellij-onedev-plugin-0.0.8.zip",
     "h": "WJcQhp+uGGpmjD46621U1+BTSTJWZWVPGhRube5Ai48="
@@ -69891,6 +70315,10 @@
     "p": "files/26154/674368/codespellai-1.1.0.zip",
     "h": "qEsfn/Grm6VYcXm1vHTE+dYtRkG756J1QhnK2rfSQVY="
   },
+  "org.aspiresys.codespellai/--/2.0.3": {
+    "p": "files/26154/700165/codespellai-2.0.3.zip",
+    "h": "/r4PbuHLiLwa1MbYpaO8wEZ5NXfASutLRqVXNvcqR28="
+  },
   "org.atheesh.umd-submitserverplugin/--/1.0.3": {
     "p": "files/23727/481540/umd-submitserverplugin-1.0.3.zip",
     "h": "ZUv0GGBOe8lfvfdjg90c1ByBZUEORosw0I21eBWltzk="
@@ -70075,9 +70503,9 @@
     "p": "files/21619/672814/c3intellij-0.0.23.jar",
     "h": "yWGxofx3wkVE7iUvLsZ5NHSOJDnbldC9eGXgoFgxP5s="
   },
-  "org.c3lang.c3intellij/--/0.0.25": {
-    "p": "files/21619/697718/c3intellij-0.0.25.jar",
-    "h": "KfeCGotYylO5WcAnnLIZhktXhfC2aMIWdr5hjGNEK4k="
+  "org.c3lang.c3intellij/--/0.0.26": {
+    "p": "files/21619/698823/c3intellij-0.0.26.jar",
+    "h": "PG92mW3h4JFehIjAbFFRNyiq6rjQOCk1w11O/Lkl+4E="
   },
   "org.c3lang.c3intellij/--/0.0.9": {
     "p": "files/21619/351910/c3intellij-0.0.9.jar",
@@ -70839,6 +71267,10 @@
     "p": "files/23609/670074/firebase-intellij-plugin-1.0.4-243.zip",
     "h": "OykOxiuNoH5AJzOegVdxrA2pnjaW7ssHRzMGykIogco="
   },
+  "org.flosum.Flosum/--/0.0.10": {
+    "p": "files/14531/698385/Flosum-0.0.10.zip",
+    "h": "eLHqxrjFsSr7sceSBESCihXuHxf+ekpP8cSTx8HkoqM="
+  },
   "org.flosum.Flosum/--/0.0.9": {
     "p": "files/14531/160891/Flosum-0.0.9.zip",
     "h": "mPr1JwpwuEddJNKW9i2/N6Gjm1+eA9xjMj5veLbxnzU="
@@ -70991,9 +71423,9 @@
     "p": "files/26180/679727/domain-translator-1.2.0.zip",
     "h": "qzHSr+E2mDJ8a2GGRlKbjT+YqpCJbx4V03SWZkzHCy4="
   },
-  "org.hugopalma.domaintranslator/--/1.2.1": {
-    "p": "files/26180/698094/domain-translator-1.2.1.zip",
-    "h": "P+9KvYerYtRX+SgIi9mw2/+9TuWp+d772fsdKAgpQLM="
+  "org.hugopalma.domaintranslator/--/1.2.3": {
+    "p": "files/26180/700446/domain-translator-1.2.3.zip",
+    "h": "qXpzb3XubYc/EM8nns+JnOfrwVZ+8qq+D9CFj+hfvEA="
   },
   "org.hurricup.profiler.perf/--/2023.2": {
     "p": "files/22927/417663/intellij-perf-viewer-2023.2.jar",
@@ -71943,9 +72375,9 @@
     "p": "files/26352/684233/HttpRequest-2.0.0.zip",
     "h": "aNBEhn21GxXPHA6ePG+0pIIKewfW37nMlajNpboqpsU="
   },
-  "org.javamaster.HttpRequest/--/2.5.1": {
-    "p": "files/26352/695752/HttpRequest-2.5.1.zip",
-    "h": "mpeh90/43eWUGzJpFmWiIl/dt5YpqZElWdLa5ZMP/+o="
+  "org.javamaster.HttpRequest/--/2.7.0": {
+    "p": "files/26352/701368/HttpRequest-2.7.0.zip",
+    "h": "GbbKgkBAVgi/Dzmz3a9h04H/wMHy9SSnqiZd1COYF9k="
   },
   "org.javapro.idea/--/1.0.3": {
     "p": "files/11370/79478/regextester-idea-1.0.3-jar-with-dependencies.jar",
@@ -72150,6 +72582,10 @@
   "org.jetbrains.android/--/243.25659.59": {
     "p": "files/22989/692254/android-243.25659.59.zip",
     "h": "HCIJ0v0TFtFFaoCzGJxe0+6L20QOeswnP47pCfdZFfk="
+  },
+  "org.jetbrains.android/--/243.26053.27": {
+    "p": "files/22989/700114/android-243.26053.27.zip",
+    "h": "/UNYcZwQThiHwBym9IbyxZoOlDW19dBn8ZoAgWgp4s8="
   },
   "org.jetbrains.bazel/--/2024.3.3": {
     "p": "files/22977/642006/intellij-bazel.zip",
@@ -72379,9 +72815,9 @@
     "p": "files/26104/655144/ej-0.31.9.zip",
     "h": "b8H9IcZea4ZtJ8FCcK1S9r10MV6UG76JIFU8ep9Smq8="
   },
-  "org.jetbrains.junie/--/0.31.99": {
-    "p": "files/26104/696779/ej-0.31.99.zip",
-    "h": "Zk2oZ/WdBBy9a4sfX4yzAK82KpicOzr5Vj958to/w5A="
+  "org.jetbrains.junie/--/243.41.1": {
+    "p": "files/26104/702407/ej-243.41.1.zip",
+    "h": "IrkRT0oq9nLF/9ke7h964BTldRTLeWHuXjKpbgj4oao="
   },
   "org.jetbrains.kannotator/--/0.2.1205": {
     "p": "files/7205/14852/kannotator-plugin-0.2.1205.zip",
@@ -72958,6 +73394,10 @@
   "org.jetbrains.plugins.go/--/243.24978.46": {
     "p": "files/9568/680198/go-plugin-243.24978.46.zip",
     "h": "H2zxIwMN/m7s7Ewhy55QO45lQcUOhG/xD29wj6V/vIM="
+  },
+  "org.jetbrains.plugins.go/--/243.26053.27": {
+    "p": "files/9568/700127/go-plugin-243.26053.27.zip",
+    "h": "SqFl1ArPLi/Bc43n0u+pMCAw+8hyqM/D41w4k1DJQcA="
   },
   "org.jetbrains.plugins.haml/--/221.5080.20": {
     "p": "files/13116/162996/haml-221.5080.20.zip",
@@ -74175,6 +74615,10 @@
     "p": "files/1293/692283/ruby-243.25659.59.zip",
     "h": "3MtrStasQ+E+ymObwqkRf3ma68/UgVQT/zC4+8XIhiU="
   },
+  "org.jetbrains.plugins.ruby/--/243.26053.27": {
+    "p": "files/1293/700107/ruby-243.26053.27.zip",
+    "h": "izjMBFyhA6kbycXBKszSdO3xY9Or59TcHpYsq5W7aYM="
+  },
   "org.jetbrains.plugins.sass/--/221.5080.20": {
     "p": "files/11449/163028/sass-221.5080.20.zip",
     "h": "A/SCgNu3MjLX2+0OgrJU3wn9vg4A5nlH9IF38awhY+k="
@@ -75075,9 +75519,9 @@
     "p": "files/18337/692276/packageChecker-243.25659.59.zip",
     "h": "bHJb2I26i/s2vnnt+6NAq36zaLwIx+3YQvO6KLRi2pU="
   },
-  "org.jetbrains.security.package-checker/--/243.26053.17": {
-    "p": "files/18337/697102/packageChecker-243.26053.17.zip",
-    "h": "JPdqDK579a3x1avYssIueha7MIrkP6Z3laMwrXVnJEM="
+  "org.jetbrains.security.package-checker/--/243.26053.27": {
+    "p": "files/18337/700132/packageChecker-243.26053.27.zip",
+    "h": "ybz0RhtirZHjFeQ2po5DDRfmuGX484wEub29g5e1sJA="
   },
   "org.jetbrains.settingsRepository/--/221.5080.20": {
     "p": "files/7566/163030/settings-repository-221.5080.20.zip",
@@ -75355,9 +75799,9 @@
     "p": "files/16746/677886/KdbInsideBrains-5.14.3.zip",
     "h": "oPkH4q2xz8idwmXJ/2Qe+jKe9LUdfdUR1O6jrlCkenE="
   },
-  "org.kdb.inside.brains.KdbInsideBrains/--/5.15.2": {
-    "p": "files/16746/695961/KdbInsideBrains-5.15.2.zip",
-    "h": "eihQffxkpRFjNfdCTqRcNLe0BoF2IQoR3OO8bCohBIo="
+  "org.kdb.inside.brains.KdbInsideBrains/--/5.15.3": {
+    "p": "files/16746/701168/KdbInsideBrains-5.15.3.zip",
+    "h": "1+LnaXdKr4aBiybiYbUAgSFcr6u+6V2uVC3lse6Kb4w="
   },
   "org.kdb.inside.brains.KdbInsideBrains/--/5.9.2": {
     "p": "files/16746/604577/KdbInsideBrains-5.9.2.zip",
@@ -75454,6 +75898,10 @@
   "org.lff.plugin.dupfinder/--/0.2": {
     "p": "files/9845/37014/dupFinder-0.2.zip",
     "h": "VOWCD2u+jVU2FFUxrUhoydSC2UCdfW7OVdZjhYWjSjs="
+  },
+  "org.li.ma.spring-navi/--/2025.1.3": {
+    "p": "files/26854/701858/spring-navi-2025.1.3.zip",
+    "h": "cAuRnk2ZwcKmgFOYYdESp04jLWN0DHyroEBr/z6fgYw="
   },
   "org.liamjwang.yamlconfig-idea.yamlconfig-idea/--/0.0.3": {
     "p": "files/12016/58663/yamlconfig-idea-0.0.3.zip",
@@ -76003,9 +76451,9 @@
     "p": "files/21380/518713/Solon-0.0.9.zip",
     "h": "kjnqmARZ9uX+f4VZTyjjflMqUiqy3sWg/3KqgHH2+aw="
   },
-  "org.noear.solon.idea.plugin/--/0.1.0": {
-    "p": "files/21380/695801/Solon-0.1.0.zip",
-    "h": "fbAe39EpWRs4tpYXG4hg2Mm5ExBuTuw2E7BuZRO420U="
+  "org.noear.solon.idea.plugin/--/0.1.1": {
+    "p": "files/21380/698692/Solon-0.1.1.zip",
+    "h": "hj6w2zXqDrfE9Ahk6yTxX2UMZeF8NidsbMlO27KB0bU="
   },
   "org.norbye.tor.kdocformatter/--/1.5.9": {
     "p": "files/15734/280247/kdoc-formatter-ide-plugin-1.5.9.zip",
@@ -76751,9 +77199,9 @@
     "p": "files/25909/694368/zen_editor-1.0.3.zip",
     "h": "gD9XNLt/OIqthSIlnAM4KAO7heA8zLfO/Uj9FC0dSWk="
   },
-  "org.tiktok.plugin.arthas.enhance.mybatis/--/2.0.2-SNAPSHOT": {
-    "p": "files/26817/698088/arthas-enhance-mybatis-2.0.2-SNAPSHOT.zip",
-    "h": "bvn0J8OATSCy5iKQVQV/7y255zSHLN9l0yH1WewJWzM="
+  "org.tiktok.plugin.arthas.enhance.mybatis/--/2.0.3-SNAPSHOT": {
+    "p": "files/26817/699489/arthas-enhance-mybatis-2.0.3-SNAPSHOT.zip",
+    "h": "KunvRCNUhkpWpXF3qRipYPpsKQ0DhdVKsPP3kaK0UXc="
   },
   "org.tiktok.plugin.base/--/1.0.16-SNAPSHOT": {
     "p": "files/26776/694234/mybatis-log-base-1.0.16-SNAPSHOT.jar",
@@ -76763,9 +77211,9 @@
     "p": "files/26550/684968/mybatis-log-ultra-1.0.10-SNAPSHOT.zip",
     "h": "/FJEdnUEfEBz+KDk0ldAIBUhQlsmTPAjDvJE9ynzxvA="
   },
-  "org.tiktok.plugin/--/1.0.18-SNAPSHOT": {
-    "p": "files/26550/695631/mybatis-log-ultra-1.0.18-SNAPSHOT.zip",
-    "h": "QMpcCJKQLGfL5+O2k+0SXZzDkItVTxy0u1wymqNQpBs="
+  "org.tiktok.plugin/--/2.0.3-SNAPSHOT": {
+    "p": "files/26550/699611/mybatis-log-ultra-2.0.3-SNAPSHOT.zip",
+    "h": "dhNvMIjeHZUaDFGJO7kvhBJMirFeYqoJ8LVDM36REiM="
   },
   "org.tmm.data-mapper/--/1.3.2": {
     "p": "files/17029/124532/data-transform-1.3.2.zip",
@@ -76899,9 +77347,9 @@
     "p": "files/23382/672830/intellij-ton-2.5.1.jar",
     "h": "deApGoYP0sVf5k10jWlFp87Q8P32HCx159Z6P8DLQ+A="
   },
-  "org.ton.intellij-ton/--/2.5.2": {
-    "p": "files/23382/694912/intellij-ton-2.5.2.jar",
-    "h": "QfumL9xkn4Y6kT8tiBLJFVfTA8TQQXFEjbZYplAOqTo="
+  "org.ton.intellij-ton/--/2.5.3": {
+    "p": "files/23382/700737/intellij-ton-2.5.3.jar",
+    "h": "TmSp7dZvEVejHD6Z9ecFc0JzfBu+GfhKekyipftKelA="
   },
   "org.tony.liu.gradle.tree/--/1.0.7": {
     "p": "files/22631/448645/Gradle_Tree-1.0.7.zip",
@@ -77319,13 +77767,21 @@
     "p": "files/18688/675517/zowe-explorer-2.1.0-2023.3-signed.zip",
     "h": "LTumh4daizpdyc4avw00Jw6+bTi3Rc4qpOM72iCxKKE="
   },
-  "org.zowe.explorer/--/2.1.0-242": {
-    "p": "files/18688/675518/zowe-explorer-2.1.0-2024.2-signed.zip",
-    "h": "204ANavjxgfN4SYtUmU3PnXP7tob+QrQeFhIyioGLXM="
-  },
   "org.zowe.explorer/--/2.1.0-243": {
     "p": "files/18688/675519/zowe-explorer-2.1.0-2024.3-signed.zip",
     "h": "ME5CJXwj2t/RSPldhFMW6Gm9EqVO+7GeiTl0KczShis="
+  },
+  "org.zowe.explorer/--/2.1.1-233": {
+    "p": "files/18688/699635/zowe-explorer-2.1.1-2023.3-signed.zip",
+    "h": "rne2san17bd4TjH/d3K1i/gdwV3cVDZMeK7Z9U1lSUA="
+  },
+  "org.zowe.explorer/--/2.1.1-242": {
+    "p": "files/18688/699637/zowe-explorer-2.1.1-2024.2-signed.zip",
+    "h": "D9o1lcdrwwG+ZDQLsJULkUuuuXiSJ79UDuIkNbaC+HQ="
+  },
+  "org.zowe.explorer/--/2.1.1-243": {
+    "p": "files/18688/699636/zowe-explorer-2.1.1-2024.3-signed.zip",
+    "h": "j1yNV8ZGUW31jcIKoY8WIDzVTd+1DLZ6GJMiynx/3ZM="
   },
   "org.zowe.jcl/--/0.1.0-221": {
     "p": "files/21906/340148/jcl-0.1.0-221.zip",
@@ -77603,9 +78059,9 @@
     "p": "files/26426/675830/bts-2.1.51.zip",
     "h": "cv4ZV3d/2p7zlIRD7BIJ3SkHPBCZZqAtC/LZnx8jAWE="
   },
-  "pl.atingo.bts/--/2.1.53": {
-    "p": "files/26426/694697/bts-2.1.53.zip",
-    "h": "HIMXI7Fl5K2qOVm0W7Eg2mQX96CAPwS0SvfxLzNdrnE="
+  "pl.atingo.bts/--/2.1.57": {
+    "p": "files/26426/702248/bts-2.1.57.zip",
+    "h": "7/vbXQ0L5ka2NAiFoeJ0PZKjpJgwN2F3Y8fhDQO5p8g="
   },
   "pl.becmer.dev.mdbook/--/2024.1.0": {
     "p": "files/25245/597077/mdbook-jetbrains-2024.1.0.zip",
@@ -78126,6 +78582,10 @@
   "ro.mingle.mingletoolkit/--/0.0.4": {
     "p": "files/17549/212855/mingle-toolkit-0.0.4.zip",
     "h": "WalkoA9Jt6vF+ICC/5i4c78pYwwCwPwzp5IQQqEM0OQ="
+  },
+  "ro.raicabogdan.translationi18n/--/2025-3.20.1": {
+    "p": "files/26857/701399/translation-i18n-2025-3.20.1.zip",
+    "h": "keTZlX7ofau3bBNXXJK91UYjXg7mpuxQ63ysvHsV9UM="
   },
   "robert.AndroidLayoutsHelper/--/1.3": {
     "p": "files/23959/625149/AndroidLayoutsHelper-1.3.jar",
@@ -78875,9 +79335,9 @@
     "p": "files/18986/690586/FlutterX-5.3.2.242-signed.zip",
     "h": "FsFVDOIyh2op0HQ8qqr8KpAGeg4u0Fb0JOGaZFT+/f4="
   },
-  "shop.itbug.FlutterCheckVersionX/--/5.3.3.243": {
-    "p": "files/18986/696959/FlutterX-5.3.3.243-signed.zip",
-    "h": "rhhqavNZqOa1NOqk29f/B2Q4aZgkncTaUGHJrGjiDrU="
+  "shop.itbug.FlutterCheckVersionX/--/5.3.4.243": {
+    "p": "files/18986/699186/FlutterX-5.3.4.243-signed.zip",
+    "h": "3d5XdxunKC31yOK4TwKMQACJ1cCL385s8NT7uPazIpg="
   },
   "shop.itbug.SalvoRsTool/--/2.0.0": {
     "p": "files/24142/574305/SalvoRsTool-2.0.0.zip",
@@ -79419,9 +79879,9 @@
     "p": "files/18910/166568/superGenerator-1.0.0.zip",
     "h": "Wz03rzSZ4oZCYS7ixOqTwiGH1hP4RgtbFfVTZlObeaU="
   },
-  "svelte-themes/--/1.0.4": {
-    "p": "files/26657/686513/svelte.jar",
-    "h": "fbpVIb8J8KFb+E3bXf34ppB3/bDd+Y/WC/X1hjrvoio="
+  "svelte-themes/--/1.0.6": {
+    "p": "files/26657/699645/svelte.jar",
+    "h": "fKAOU3iKdsyBDxsgMlfyP/Y+QMi+ydWijkemIM1JImA="
   },
   "swingexplorer-plugin-v2/--/2020.1-1.6.1": {
     "p": "files/8385/86285/SwingExplorer_Integration_v2-2020.1-1.6.1.zip",
@@ -79486,6 +79946,10 @@
   "tamas_g_barna.whalelint/--/0.0.8": {
     "p": "files/16284/438526/whalelint-0.0.8.zip",
     "h": "fBuZAp8UbL0Zx8tHqlHrEvONr64ocZdDFPnYLzNFznU="
+  },
+  "tangzeqi.com.chatplugin/--/1.0.3": {
+    "p": "files/26646/699458/chat-1.0.3.zip",
+    "h": "upvhtdkXjo9LWjGciBn+9omHJmV2juVC4irYRtRYf/c="
   },
   "tanvd.grazi/--/221.5080.74": {
     "p": "files/12175/164803/grazie-221.5080.74.zip",
@@ -79623,9 +80087,9 @@
     "p": "files/23928/606716/contextive-1.12.1.zip",
     "h": "twIS7gvYptagXGGPSCpdTwKpSuh8rn+1f09J9onyRXs="
   },
-  "tech.contextive.contextive/--/1.14.1": {
-    "p": "files/23928/696111/contextive-1.14.1.zip",
-    "h": "sTD9rc8tYR4H23p1g/HxeiW6ohwnruYJKTWnDivjxro="
+  "tech.contextive.contextive/--/1.15.0": {
+    "p": "files/23928/701311/contextive-1.15.0.zip",
+    "h": "XiBvjxkaqyGk1OMeklreT4pIj/KkkNkAO+rsamog8iY="
   },
   "tech.dentest/--/0.1.6": {
     "p": "files/19626/372029/Dentest-0.1.6.zip",
@@ -79983,9 +80447,9 @@
     "p": "files/26193/698241/bookmark-helper-1.1.4.zip",
     "h": "XbHIZtPrYp+0KwJJ606eXwDG0qORYqQKFCtZ8G6AQQI="
   },
-  "top.forwardxiang.jetbrains.input/--/0.0.7.beta": {
-    "p": "files/26695/698237/input-helper-0.0.7.beta.zip",
-    "h": "t9eMy/zSi6v7diNHDnUbAc+57mZrA55E5NBHX/lrmus="
+  "top.forwardxiang.jetbrains.input/--/0.0.8.beta-fix": {
+    "p": "files/26695/699629/input-helper-0.0.8.beta-fix.zip",
+    "h": "E+QzoSKUyhFxbqP8Z2UztNRskEgS+cGm1DZxMWDduVo="
   },
   "top.forwardxiang.jetbrains.obfuscator/--/0.0.4.beta": {
     "p": "files/26741/698113/obfuscator-helper-0.0.4.beta.zip",
@@ -80006,6 +80470,10 @@
   "top.forwardxiang.jetbrains/--/0.1.2": {
     "p": "files/25923/682169/bookmark-enhancer-0.1.2.zip",
     "h": "Rr5/YoJxtjArLy9AHBW0ZMjY6k06/LlQEqXD59qmS38="
+  },
+  "top.forwardxiang.jetbrains/--/0.1.2-fix": {
+    "p": "files/25923/698820/bookmark-enhancer-0.1.2-fix.zip",
+    "h": "jt04kRUM4hSDEdNPQJM3agLm0ksF8hmfci41hLocdNw="
   },
   "top.nobodycares.quicksearch/--/1.1.0": {
     "p": "files/21337/312602/idea-quick-search-v1.1.0.jar",
@@ -80679,6 +81147,10 @@
     "p": "files/19087/259700/Gotham_Theme-0.0.7.jar",
     "h": "JS3WVm+bTz8wmM7HLxdXrMSEO0wrleADUVdbExgmV74="
   },
+  "vin.howe.themeGotham/--/0.0.8": {
+    "p": "files/19087/699938/Gotham-0.0.8.zip",
+    "h": "X9BQy7hY1ITVBRinxj2rCnY+diOlgNW7/hz6hHXlV0Q="
+  },
   "vip.guco.stylusassist/--/2.2.0": {
     "p": "files/10329/385815/Stylus.Assist-2.2.0.jar",
     "h": "DPcG9yq9ZIpfkvu4t+WdoiWIpABedoMq+fPullRTBlQ="
@@ -80891,9 +81363,9 @@
     "p": "files/25888/675376/MyPy_PyCharm_Plugin-1.0.14-signed.zip",
     "h": "SWGQzoHadEFoxmkTzD2RN358BNPNQJbgPx7rawYzYfg="
   },
-  "works.szabope.mypy/--/1.0.16": {
-    "p": "files/25888/695301/MyPy_PyCharm_Plugin-1.0.16-signed.zip",
-    "h": "IPsYAIjIa/GaS5dufiHR5JGJjTyHIy86C8stEQg6qZ8="
+  "works.szabope.mypy/--/1.0.18": {
+    "p": "files/25888/701339/Mypy_PyCharm_Plugin-1.0.18-signed.zip",
+    "h": "2fiW2kItaBFV5jhsDrswfU/dHKfpQ9EeqHbTXKAt1i8="
   },
   "works.szabope.mypy/--/1.0.7": {
     "p": "files/25888/648180/MyPy_PyCharm_Plugin-1.0.7.zip",
@@ -81171,6 +81643,10 @@
     "p": "files/20268/627695/restlite-i18n-plugin-2.2.3.zip",
     "h": "/hOQ1JgT3BOhaZdPaidVCJ9ZpO6i/U4R3t6/auUkypk="
   },
+  "yeamy.restlite.i18n/--/2.2.4": {
+    "p": "files/20268/699622/restlite-i18n-plugin.zip",
+    "h": "mbERLI3YFg0TDq4c4bkg/+NkI8PaxAKRzje/GjkLZgw="
+  },
   "yij.ie.i18ner/--/0.0.3": {
     "p": "files/24188/546186/i18ner-0.0.3.zip",
     "h": "dtHnO5ugRFbZBlsw7zMuU+p+/uJCDhPG5BXmoDGuc4s="
@@ -81206,6 +81682,10 @@
   "you.thiago.PhraseDroid/--/1.5": {
     "p": "files/24332/673322/PhraseDroid-1.5.zip",
     "h": "7TPhBfUo2q7F5MiYsTzwHrLnMfzVYic4U/L6cpTnqXs="
+  },
+  "you.thiago.PhraseDroid/--/1.7": {
+    "p": "files/24332/701300/PhraseDroid-1.7.zip",
+    "h": "T9mlr7hnjOIJRnDa7MhG05b0bx3C0RTGBYcYKH0X4D4="
   },
   "youngstead.relative-line-numbers/--/1.0.2": {
     "p": "files/19193/314911/idea-relative-line-numbers-1.0.2.jar",
