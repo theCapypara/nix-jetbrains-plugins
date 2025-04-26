@@ -12,7 +12,7 @@ they might break and need manual fixing in this repository.
 The plugins exported by this Flake are indexed by their IDE, version and then plugin ID. 
 You can find the plugin IDs at the bottom of Marketplace pages.
 
-The plugin list is only updated for IDEs from the current and previous year, for other IDEs the list may be stale.
+The plugin list is only updated for IDEs from the current year, as well as the last minor release line from the previous year, for other IDEs the list may be stale.
 
 Supported IDEs:
 - IntelliJ Ultimate (`jetbrains.idea-ultimate`)
