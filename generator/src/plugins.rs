@@ -293,8 +293,16 @@ async fn process_plugin(
         return Ok(());
     };
 
-    let mut versions = category.idea_plugin;
-    versions.sort_by(|a, b| b.version.cmp(&a.version));
+    let versions = category.idea_plugin;
+    // TODO: This doesn't work as compare_versions's order is somehow not always total.
+    //       We will rely on the order in the response being correct for now.
+    //       Just naively sorting the strings is NOT correct!
+    //versions.sort_by(|a, b| {
+    //    Version::from(&b.version)
+    //        .unwrap()
+    //        .partial_cmp(&Version::from(&a.version).unwrap())
+    //        .unwrap_or(Ordering::Equal)
+    //});
 
     for ide in ides {
         match supported_version(ide, &versions) {
