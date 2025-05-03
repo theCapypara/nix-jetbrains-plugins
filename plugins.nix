@@ -2,23 +2,11 @@
   lib,
   fetchurl,
   fetchzip,
-  stdenv,
 }:
 with builtins;
 with lib;
 let
   SEPARATOR = "/--/";
-
-  fetchPluginSrc =
-    { url, hash }:
-    let
-      isJar = hasSuffix ".jar" url;
-      fetcher = if isJar then fetchurl else fetchzip;
-    in
-    fetcher {
-      executable = isJar;
-      inherit url hash;
-    };
 
   downloadPlugin =
     {
@@ -29,25 +17,12 @@ let
     }:
     let
       isJar = hasSuffix ".jar" url;
-      installPhase =
-        if isJar then
-          ''
-            runHook preInstall
-            mkdir -p $out && cp $src $out
-            runHook postInstall
-          ''
-        else
-          ''
-            runHook preInstall
-            mkdir -p $out && cp -r . $out
-            runHook postInstall
-          '';
+      fetcher = if isJar then fetchurl else fetchzip;
     in
-    stdenv.mkDerivation {
-      inherit name version;
-      src = fetchPluginSrc { inherit url hash; };
-      dontUnpack = isJar;
-      inherit installPhase;
+    fetcher {
+      name = if isJar then "${name}-${version}.jar" else "${name}-${version}";
+      executable = isJar;
+      inherit url hash;
     };
 
   readGeneratedDir = attrNames (
