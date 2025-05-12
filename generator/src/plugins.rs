@@ -112,9 +112,9 @@ pub struct PluginDetailsIdeaPlugin {
 
 #[derive(Debug, PartialEq, Deserialize)]
 pub struct PluginDetailsIdeaVersion {
-    #[serde(rename = "since-build")]
+    #[serde(rename = "@since-build")]
     since_build: Option<String>,
-    #[serde(rename = "until-build")]
+    #[serde(rename = "@until-build")]
     until_build: Option<String>,
 }
 

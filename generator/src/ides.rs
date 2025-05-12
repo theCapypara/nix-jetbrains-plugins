@@ -157,13 +157,16 @@ pub struct Product {
 
 #[derive(Debug, PartialEq, Deserialize, Clone)]
 pub struct Channel {
-    build: Vec<Build>,
+    #[serde(rename = "@id")]
     id: String,
+    build: Vec<Build>,
 }
 
 #[derive(Debug, PartialEq, Deserialize, Clone)]
 pub struct Build {
+    #[serde(rename = "@number")]
     number: String,
+    #[serde(rename = "@version")]
     version: String,
 }
 
