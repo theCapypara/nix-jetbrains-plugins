@@ -1,12 +1,11 @@
 use crate::ides::IdeVersion;
 use anyhow::anyhow;
-use base64::prelude::BASE64_STANDARD;
 use base64::Engine;
+use base64::prelude::BASE64_STANDARD;
 use futures::stream::iter;
 use futures::{StreamExt, TryStreamExt};
 use lazy_static::lazy_static;
-use log::Level::Debug;
-use log::{debug, info, log_enabled, warn};
+use log::{debug, info, warn};
 use reqwest::{Client, StatusCode};
 use serde::{Deserialize, Serialize};
 use std::borrow::Cow;
@@ -460,7 +459,7 @@ async fn get_nix32_hash(
     };
 
     // We forget the store path again to save disk space
-    let child = Command::new(&*NIX_STORE)
+    Command::new(&*NIX_STORE)
         .args(["--delete", path])
         .stdout(Stdio::piped())
         .spawn()?;

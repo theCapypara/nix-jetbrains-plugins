@@ -921,7 +921,7 @@ checksum = "d2628953ed836273ee4262e3708a8ef63ca38bd8a922070626eef7f9e5d8d536"
 
 [[package]]
 name = "nix-jebrains-plugins-generator"
-version = "0.1.0"
+version = "0.3.0"
 dependencies = [
  "anyhow",
  "base64",

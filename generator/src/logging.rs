@@ -1,7 +1,7 @@
 use log::LevelFilter;
 use log4rs::append::console::{ConsoleAppender, Target};
 use log4rs::config::{Appender, Root};
-use log4rs::{init_config, Config, Handle};
+use log4rs::{Config, Handle, init_config};
 
 pub fn setup_logging() -> anyhow::Result<Handle> {
     let threshold = if cfg!(debug_assertions) {
