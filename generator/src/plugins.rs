@@ -5,7 +5,8 @@ use base64::Engine;
 use futures::stream::iter;
 use futures::{StreamExt, TryStreamExt};
 use lazy_static::lazy_static;
-use log::{debug, info, warn};
+use log::Level::Debug;
+use log::{debug, info, log_enabled, warn};
 use reqwest::{Client, StatusCode};
 use serde::{Deserialize, Serialize};
 use std::borrow::Cow;
@@ -32,6 +33,7 @@ const ALL_PLUGINS_JSON: &str = "all_plugins.json";
 lazy_static! {
     static ref NIX_PREFETCH_URL: PathBuf =
         which("nix-prefetch-url").expect("nix-prefetch-url not in PATH");
+    static ref NIX_STORE: PathBuf = which("nix-store").expect("nix-store not in PATH");
 }
 
 #[derive(Clone, Debug, Deserialize, Serialize, PartialOrd, PartialEq, Ord, Eq, Hash)]
@@ -427,6 +429,7 @@ async fn get_nix32_hash(
     executable: bool,
 ) -> anyhow::Result<String> {
     let mut parameters = Vec::with_capacity(8);
+    parameters.push("--print-path");
     parameters.push("--type");
     parameters.push("sha256");
     parameters.push("--name");
@@ -450,8 +453,19 @@ async fn get_nix32_hash(
         return Err(anyhow!("nix-prefetch-url failed for {url}"));
     }
     let out = String::from_utf8(result.stdout)?.trim().to_string();
+    let Some((hash, path)) = &out.split_once('\n') else {
+        return Err(anyhow!(
+            "nix-prefetch-url generated invalid output to stdout: {out}"
+        ));
+    };
 
-    Ok(out)
+    // We forget the store path again to save disk space
+    let child = Command::new(&*NIX_STORE)
+        .args(["--delete", path])
+        .stdout(Stdio::piped())
+        .spawn()?;
+
+    Ok(hash.to_string())
 }
 
 pub async fn db_save(output_folder: &Path, db: PluginDb) -> anyhow::Result<()> {
