@@ -81,7 +81,7 @@ The plugins can be used with ``jetbrains.plugins.addPlugins``:
 {
   environment.systemPackages = [
     # See "How to setup" for definition of `pluginList`.
-    pkgs.jetbrains.plugins.addPlugins pkgs.jetbrains.idea-ultimate pluginList
+    (pkgs.jetbrains.plugins.addPlugins pkgs.jetbrains.idea-ultimate pluginList)
   ];
 }
 ```
@@ -109,7 +109,7 @@ will automatically figure out what IDE and version the plugin needs to be for.
 {
   environment.systemPackages = with nix-jetbrains-plugins.lib."${system}"; [
     # Adds the latest IDEA Ultimate version with the latest compatible version of "com.intellij.plugins.watcher".
-    buildIdeWithPlugins pkgs.jetbrains "idea-ultimate" ["com.intellij.plugins.watcher"]
+    (buildIdeWithPlugins pkgs.jetbrains "idea-ultimate" ["com.intellij.plugins.watcher"])
   ];
 }
 ```
