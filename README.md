@@ -99,9 +99,8 @@ will automatically figure out what IDE and version the plugin needs to be for.
 
 #### Arguments:
 
-1. `pkgs.jetbrains` from nixpkgs.
-2. The `pkgs.jetbrains` key of the IDE to build or download.
-3. A list of plugin IDs to install.
+1. The IDE to build or downloads, from `pkgs.jetbrains`.
+2. A list of plugin IDs to install.
 
 #### Example:
 
@@ -109,7 +108,7 @@ will automatically figure out what IDE and version the plugin needs to be for.
 {
   environment.systemPackages = with nix-jetbrains-plugins.lib."${system}"; [
     # Adds the latest IDEA Ultimate version with the latest compatible version of "com.intellij.plugins.watcher".
-    (buildIdeWithPlugins pkgs.jetbrains "idea-ultimate" ["com.intellij.plugins.watcher"])
+    (buildIdeWithPlugins pkgs.jetbrains.idea-ultimate ["com.intellij.plugins.watcher"])
   ];
 }
 ```

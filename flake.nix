@@ -36,11 +36,8 @@
           # will automatically figure out what IDE and version the plugin needs to be for.
           # See README.
           buildIdeWithPlugins =
-            jetbrains: ide-name: plugin-ids:
-            let
-              ide = jetbrains."${ide-name}";
-            in
-            jetbrains.plugins.addPlugins ide (
+            ide: plugin-ids:
+            pkgs.jetbrains.plugins.addPlugins ide (
               builtins.map (p: plugins."${ide.pname}"."${ide.version}"."${p}") plugin-ids
             );
         };
