@@ -166,6 +166,8 @@ pub struct Channel {
 pub struct Build {
     #[serde(rename = "@number")]
     number: String,
+    #[serde(rename = "@fullNumber")]
+    full_number: Option<String>,
     #[serde(rename = "@version")]
     version: String,
 }
@@ -189,7 +191,10 @@ pub async fn collect_ids() -> anyhow::Result<Vec<IdeVersion>> {
                                         versions.push(IdeVersion {
                                             ide: ideobj,
                                             version: build.version.clone(),
-                                            build_number: build.number.clone(),
+                                            build_number: build
+                                                .full_number
+                                                .as_ref()
+                                                .map_or_else(|| build.number.clone(), Clone::clone),
                                         })
                                     } else {
                                         warn!(
