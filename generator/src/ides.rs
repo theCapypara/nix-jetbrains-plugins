@@ -183,30 +183,27 @@ pub async fn collect_ids() -> anyhow::Result<Vec<IdeVersion>> {
         for code in product.code {
             if let Some(ideobj) = IdeProduct::try_from_code(&code)
                 && already_processed.insert(ideobj)
-                    && let Some(channels) = product.channel.as_ref() {
-                        for channel in channels {
-                            if channel.id.ends_with("RELEASE-licensing-RELEASE") {
-                                for build in &channel.build {
-                                    if allowed_build_version(&build.version) {
-                                        versions.push(IdeVersion {
-                                            ide: ideobj,
-                                            version: build.version.clone(),
-                                            build_number: build
-                                                .full_number
-                                                .as_ref()
-                                                .map_or_else(|| build.number.clone(), Clone::clone),
-                                        })
-                                    } else {
-                                        warn!(
-                                            "Ignoring {} {}: too old",
-                                            ideobj.nix_key(),
-                                            build.version
-                                        );
-                                    }
-                                }
+                && let Some(channels) = product.channel.as_ref()
+            {
+                for channel in channels {
+                    if channel.id.ends_with("RELEASE-licensing-RELEASE") {
+                        for build in &channel.build {
+                            if allowed_build_version(&build.version) {
+                                versions.push(IdeVersion {
+                                    ide: ideobj,
+                                    version: build.version.clone(),
+                                    build_number: build
+                                        .full_number
+                                        .as_ref()
+                                        .map_or_else(|| build.number.clone(), Clone::clone),
+                                })
+                            } else {
+                                warn!("Ignoring {} {}: too old", ideobj.nix_key(), build.version);
                             }
                         }
                     }
+                }
+            }
         }
     }
 
