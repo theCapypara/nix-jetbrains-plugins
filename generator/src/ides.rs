@@ -181,9 +181,9 @@ pub async fn collect_ids() -> anyhow::Result<Vec<IdeVersion>> {
 
     for product in products.product {
         for code in product.code {
-            if let Some(ideobj) = IdeProduct::try_from_code(&code) {
-                if already_processed.insert(ideobj) {
-                    if let Some(channels) = product.channel.as_ref() {
+            if let Some(ideobj) = IdeProduct::try_from_code(&code)
+                && already_processed.insert(ideobj)
+                    && let Some(channels) = product.channel.as_ref() {
                         for channel in channels {
                             if channel.id.ends_with("RELEASE-licensing-RELEASE") {
                                 for build in &channel.build {
@@ -207,8 +207,6 @@ pub async fn collect_ids() -> anyhow::Result<Vec<IdeVersion>> {
                             }
                         }
                     }
-                }
-            }
         }
     }
 

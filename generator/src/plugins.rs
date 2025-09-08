@@ -328,16 +328,14 @@ fn supported_version<'a>(
 ) -> Option<&'a PluginDetailsIdeaPlugin> {
     let build_version = Version::from(&ide.build_number).unwrap();
     for version in versions {
-        if let Some(min) = version.idea_version.since_build.as_ref() {
-            if build_version < Version::from(&min.replace(".*", ".0")).unwrap() {
+        if let Some(min) = version.idea_version.since_build.as_ref()
+            && build_version < Version::from(&min.replace(".*", ".0")).unwrap() {
                 continue;
             }
-        }
-        if let Some(max) = version.idea_version.until_build.as_ref() {
-            if build_version > Version::from(&max.replace(".*", ".99999999")).unwrap() {
+        if let Some(max) = version.idea_version.until_build.as_ref()
+            && build_version > Version::from(&max.replace(".*", ".99999999")).unwrap() {
                 continue;
             }
-        }
         return Some(version);
     }
     None
