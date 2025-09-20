@@ -95,7 +95,9 @@ impl PluginDb {
 
 #[derive(Debug, PartialEq, Deserialize)]
 pub struct PluginDetails {
-    category: Option<PluginDetailsCategory>,
+    // Somehow sometimes the plugin list returns other unrelated plugins along with
+    // the response...
+    category: Vec<PluginDetailsCategory>,
 }
 
 #[derive(Debug, PartialEq, Deserialize)]
@@ -106,6 +108,7 @@ pub struct PluginDetailsCategory {
 
 #[derive(Debug, PartialEq, Deserialize)]
 pub struct PluginDetailsIdeaPlugin {
+    id: String,
     version: String,
     #[serde(rename = "idea-version")]
     idea_version: PluginDetailsIdeaVersion,
@@ -287,9 +290,18 @@ async fn process_plugin(
             req.status()
         ));
     }
-    let details: PluginDetails = serde_xml_rs::from_str(&req.text().await?)?;
+    let all_details: PluginDetails = serde_xml_rs::from_str(&req.text().await?)?;
 
-    let Some(category) = details.category else {
+    // Somehow sometimes the plugin list returns other unrelated plugins along with
+    // the response...
+    // This means we have to check which result is actually correct.
+    let category = 'a: {
+        for candidate in all_details.category {
+            if let Some(first_version) = candidate.idea_plugin.first()
+                && first_version.id.to_lowercase() == pluginkey.to_lowercase() {
+                    break 'a candidate
+                }
+        }
         warn!("{pluginkey}: No plugin details available. Skipping!");
         return Ok(());
     };
