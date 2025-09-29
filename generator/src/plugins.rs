@@ -290,7 +290,19 @@ async fn process_plugin(
             req.status()
         ));
     }
-    let all_details: PluginDetails = serde_xml_rs::from_str(&req.text().await?)?;
+    let request_text = req.text().await?;
+    let all_details: PluginDetails = match serde_xml_rs::from_str(&request_text) {
+        Ok(all_details) => all_details,
+        Err(error) => {
+            let empty_response: Result<(), _> =  serde_xml_rs::from_str(&request_text);
+            return if empty_response.is_ok() {
+                warn!("{pluginkey}: No plugin details available. Skipping!");
+                Ok(())
+            } else {
+                Err(error.into())
+            }
+        }
+    };
 
     // Somehow sometimes the plugin list returns other unrelated plugins along with
     // the response...
