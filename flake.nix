@@ -36,9 +36,9 @@
           # will automatically figure out what IDE and version the plugin needs to be for.
           # See README.
           buildIdeWithPlugins =
-            jetbrains: ide-name: plugin-ids:
+            jetbrains: ide-or-name: plugin-ids:
             let
-              ide = jetbrains."${ide-name}";
+              ide = if builtins.typeOf ide-or-name == "string" then jetbrains."${ide-or-name}" else ide-or-name;
             in
             jetbrains.plugins.addPlugins ide (
               builtins.map (p: plugins."${ide.pname}"."${ide.version}"."${p}") plugin-ids
