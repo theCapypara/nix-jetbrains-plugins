@@ -32,6 +32,7 @@ Supported IDEs:
 - Aqua (`jetbrains.aqua`)
 - Writerside (`jetbrains.writerside`)
 - Mps (`jetbrains.mps`)
+- Android Studio
 
 ## How to setup
 
