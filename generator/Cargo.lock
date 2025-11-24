@@ -1588,9 +1588,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-retry2"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7de2537bbad4f8b2d4237cdab9e7c4948a1f74744e45f54144eeccd05d3ad955"
+checksum = "ae5ed96d30859f64c721d9155b66c53c39867e2ced2f0614ba61da5665440b0a"
 dependencies = [
  "pin-project",
  "tokio",
