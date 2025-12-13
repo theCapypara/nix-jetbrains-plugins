@@ -51,7 +51,7 @@ let
       hash = "sha256-${match.h}";
     };
 
-  allPluginsRaw = fromJSON (readFile ./generated/all_plugins.json);
+  allPlugins = fromJSON (readFile ./generated/all_plugins.json);
 
   pluginsGrouped = (
     groupBy' buildIdeVersionMap { } (x: x.ideName) (
