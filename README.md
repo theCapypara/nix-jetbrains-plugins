@@ -5,22 +5,19 @@ This repository contains derivations for ALL plugins from the Jetbrains Marketpl
 
 It is regularly updated to include all current plugins in their latest compatible version.
 
-If any derivations fail to build or plugins are missing, please open an issue. 
-We asume that plugins are not re-released with the same version number, so if a plugin does this for any reason, 
-they might break and need manual fixing in this repository.
+If any derivations fail to build or plugins are missing, please open an issue.
 
 The plugins exported by this Flake are indexed by their IDE, version and then plugin ID. 
 You can find the plugin IDs at the bottom of Marketplace pages.
 
-The plugin list is only updated for IDEs from the current year, as well as the last minor release line from the previous year, for other IDEs the list may be stale.
+The plugin list is only updated for IDEs from the current year, as well as the last minor 
+release line from the previous year, for other IDEs the list may be stale.
 
 Supported IDEs:
-- IntelliJ Ultimate (`jetbrains.idea-ultimate`)
-- IntelliJ Community (`jetbrains.idea-community`)
+- IntelliJ IDEA (`jetbrains.idea`, `jetbrains.idea-oss`*)
 - PhpStorm (`jetbrains.phpstorm`)
 - WebStorm (`jetbrains.webstorm`)
-- PyCharm Professional (`jetbrains.pycharm-professional`)
-- PyCharm Community (`jetbrains.pycharm-community`)
+- PyCharm (`jetbrains.pycharm`, `jetbrains.pycharm-oss`*)
 - RubyMine (`jetbrains.ruby-mine`)
 - CLion (`jetbrains.clion`)
 - GoLand (`jetbrains.goland`)
@@ -29,10 +26,14 @@ Supported IDEs:
 - Rider (`jetbrains.rider`)
 - Android Studio (`android-studio`)
 - RustRover (`jetbrains.rust-rover`)
-- Aqua (`jetbrains.aqua`)
-- Writerside (`jetbrains.writerside`)
 - Mps (`jetbrains.mps`)
 - Android Studio
+
+Supported legacy IDEs:
+- PyCharm Community & Professional (`pycharm-community`, `pycharm-professional`)
+- IntelliJ IDEA Community & Ultimate (`idea-community`, `idea-ultimate`)
+- Aqua (`jetbrains.aqua`)
+- Writerside (`jetbrains.writerside`)
 
 ## How to setup
 

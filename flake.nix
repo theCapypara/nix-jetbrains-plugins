@@ -4,6 +4,8 @@
     flake-utils.url = "github:numtide/flake-utils";
     flake-utils.inputs.systems.follows = "systems";
     systems.url = "github:nix-systems/default";
+    flake-compat.url = "github:NixOS/flake-compat";
+    flake-compat.flake = false;
   };
 
   outputs =
@@ -12,6 +14,7 @@
       nixpkgs,
       systems,
       flake-utils,
+      ...
     }:
     flake-utils.lib.eachSystem (import systems) (
       system:
