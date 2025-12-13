@@ -42,7 +42,7 @@ Supported legacy IDEs:
 #### Inputs:
 
 ```nix
-inputs.nix-jetbrains-plugins.url = "github:theCapypara/nix-jetbrains-plugins";
+inputs.nix-jetbrains-plugins.url = "github:nix-community/nix-jetbrains-plugins";
 ```
 
 #### Usage:
@@ -63,7 +63,7 @@ let
   system = builtins.currentSystem;
   plugins =
     (import (builtins.fetchGit {
-      url = "https://github.com/theCapypara/nix-jetbrains-plugins";
+      url = "https://github.com/nix-community/nix-jetbrains-plugins";
       ref = "refs/heads/main";
       rev = "<latest commit hash>";
     })).plugins."${system}";
