@@ -52,20 +52,33 @@ let
     };
 
   allPlugins = fromJSON (readFile ./generated/all_plugins.json);
+
+  pluginsGrouped = (
+    groupBy' buildIdeVersionMap { } (x: x.ideName) (
+      map (
+        jsonFile:
+        let
+          # Split the JSON filename into IDENAME-VERSION and remove json suffix
+          parts = splitString "-" (removeSuffix ".json" jsonFile);
+        in
+        {
+          ideName = concatStrings (intersperse "-" (init parts));
+          version = elemAt parts ((length parts) - 1);
+          value = mapAttrs (k: v: downloadPlugin (findPlugin allPlugins k v)) (
+            fromJSON (readFile (./generated/ides + "/${jsonFile}"))
+          );
+        }
+      ) readGeneratedDir
+    )
+  );
 in
-(groupBy' buildIdeVersionMap { } (x: x.ideName) (
-  map (
-    jsonFile:
-    let
-      # Split the JSON filename into IDENAME-VERSION and remove json suffix
-      parts = splitString "-" (removeSuffix ".json" jsonFile);
-    in
-    {
-      ideName = concatStrings (intersperse "-" (init parts));
-      version = elemAt parts ((length parts) - 1);
-      value = mapAttrs (k: v: downloadPlugin (findPlugin allPlugins k v)) (
-        fromJSON (readFile (./generated/ides + "/${jsonFile}"))
-      );
-    }
-  ) readGeneratedDir
-))
+# Add aliases for -oss and the deprecated -community and -ultimate
+pluginsGrouped
+// {
+  idea-community = pluginsGrouped.idea;
+  idea-ultimate = pluginsGrouped.idea;
+  idea-oss = pluginsGrouped.idea;
+  pycharm-community = pluginsGrouped.pycharm;
+  pycharm-professional = pluginsGrouped.pycharm;
+  pycharm-oss = pluginsGrouped.pycharm;
+}

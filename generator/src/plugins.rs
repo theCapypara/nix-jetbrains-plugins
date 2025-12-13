@@ -294,13 +294,13 @@ async fn process_plugin(
     let all_details: PluginDetails = match serde_xml_rs::from_str(&request_text) {
         Ok(all_details) => all_details,
         Err(error) => {
-            let empty_response: Result<(), _> =  serde_xml_rs::from_str(&request_text);
+            let empty_response: Result<(), _> = serde_xml_rs::from_str(&request_text);
             return if empty_response.is_ok() {
                 warn!("{pluginkey}: No plugin details available. Skipping!");
                 Ok(())
             } else {
                 Err(error.into())
-            }
+            };
         }
     };
 
@@ -310,9 +310,10 @@ async fn process_plugin(
     let category = 'a: {
         for candidate in all_details.category {
             if let Some(first_version) = candidate.idea_plugin.first()
-                && first_version.id.to_lowercase() == pluginkey.to_lowercase() {
-                    break 'a candidate
-                }
+                && first_version.id.to_lowercase() == pluginkey.to_lowercase()
+            {
+                break 'a candidate;
+            }
         }
         warn!("{pluginkey}: No plugin details available. Skipping!");
         return Ok(());
