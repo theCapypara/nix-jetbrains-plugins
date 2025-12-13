@@ -14,10 +14,10 @@ The plugin list is only updated for IDEs from the current year, as well as the l
 release line from the previous year, for other IDEs the list may be stale.
 
 Supported IDEs:
-- IntelliJ IDEA (`jetbrains.idea`, `jetbrains.idea-oss`*)
+- IntelliJ IDEA (`jetbrains.idea`, `jetbrains.idea-oss`)
 - PhpStorm (`jetbrains.phpstorm`)
 - WebStorm (`jetbrains.webstorm`)
-- PyCharm (`jetbrains.pycharm`, `jetbrains.pycharm-oss`*)
+- PyCharm (`jetbrains.pycharm`, `jetbrains.pycharm-oss`)
 - RubyMine (`jetbrains.ruby-mine`)
 - CLion (`jetbrains.clion`)
 - GoLand (`jetbrains.goland`)
