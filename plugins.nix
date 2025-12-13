@@ -79,6 +79,6 @@ pluginsGrouped
   idea-ultimate = pluginsGrouped.idea;
   idea-oss = pluginsGrouped.idea;
   pycharm-community = pluginsGrouped.pycharm;
-  pycharm-ultimate = pluginsGrouped.pycharm;
+  pycharm-professional = pluginsGrouped.pycharm;
   pycharm-oss = pluginsGrouped.pycharm;
 }
