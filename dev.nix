@@ -47,16 +47,15 @@ mkShell {
 
   nativeBuildInputs = [ ];
 
-  buildInputs =
-    [
-      openssl
-      zlib
-      pkg-config
-    ]
-    ## RUST
-    ++ [
-      clang
-      llvmPackages_latest.bintools
-      rustup
-    ];
+  buildInputs = [
+    openssl
+    zlib
+    pkg-config
+  ]
+  ## RUST
+  ++ [
+    clang
+    llvmPackages_latest.bintools
+    rustup
+  ];
 }

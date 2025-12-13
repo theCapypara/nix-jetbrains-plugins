@@ -5,12 +5,10 @@ const PROCESSED_VERSION_PREFIXES: &[&str] = &["2027.", "2026.", "2025.", "2024.3
 
 #[derive(Debug, PartialEq, Eq, Hash, Clone, Copy)]
 pub enum IdeProduct {
-    IntelliJUltimate,
-    IntelliJCommunity,
+    IntelliJIdea,
     PhpStorm,
     WebStorm,
-    PyCharmProfessional,
-    PyCharmCommunity,
+    PyCharm,
     RubyMine,
     CLion,
     GoLand,
@@ -26,12 +24,10 @@ pub enum IdeProduct {
 impl IdeProduct {
     fn try_from_code(code: &str) -> Option<Self> {
         Some(match code {
-            "IU" => IdeProduct::IntelliJUltimate,
-            "IC" => IdeProduct::IntelliJCommunity,
+            "IU" => IdeProduct::IntelliJIdea,
             "PS" => IdeProduct::PhpStorm,
             "WS" => IdeProduct::WebStorm,
-            "PY" => IdeProduct::PyCharmProfessional,
-            "PC" => IdeProduct::PyCharmCommunity,
+            "PY" => IdeProduct::PyCharm,
             "RM" => IdeProduct::RubyMine,
             "CL" => IdeProduct::CLion,
             "GO" => IdeProduct::GoLand,
@@ -50,12 +46,10 @@ impl IdeProduct {
     #[allow(unused)] // maybe useful later
     pub fn product_code(&self) -> &str {
         match self {
-            IdeProduct::IntelliJUltimate => "IU",
-            IdeProduct::IntelliJCommunity => "IC",
+            IdeProduct::IntelliJIdea => "IU",
             IdeProduct::PhpStorm => "PS",
             IdeProduct::WebStorm => "WS",
-            IdeProduct::PyCharmProfessional => "PY",
-            IdeProduct::PyCharmCommunity => "PC",
+            IdeProduct::PyCharm => "PY",
             IdeProduct::RubyMine => "RM",
             IdeProduct::CLion => "CL",
             IdeProduct::GoLand => "GO",
@@ -72,12 +66,10 @@ impl IdeProduct {
 
     fn try_from_nix_key(code: &str) -> Option<Self> {
         Some(match code {
-            "idea-ultimate" => IdeProduct::IntelliJUltimate,
-            "idea-community" => IdeProduct::IntelliJCommunity,
+            "idea" => IdeProduct::IntelliJIdea,
             "phpstorm" => IdeProduct::PhpStorm,
             "webstorm" => IdeProduct::WebStorm,
-            "pycharm-professional" => IdeProduct::PyCharmProfessional,
-            "pycharm-community" => IdeProduct::PyCharmCommunity,
+            "pycharm" => IdeProduct::PyCharm,
             "ruby-mine" => IdeProduct::RubyMine,
             "clion" => IdeProduct::CLion,
             "goland" => IdeProduct::GoLand,
@@ -95,12 +87,10 @@ impl IdeProduct {
 
     pub fn nix_key(&self) -> &str {
         match self {
-            IdeProduct::IntelliJUltimate => "idea-ultimate",
-            IdeProduct::IntelliJCommunity => "idea-community",
+            IdeProduct::IntelliJIdea => "idea",
             IdeProduct::PhpStorm => "phpstorm",
             IdeProduct::WebStorm => "webstorm",
-            IdeProduct::PyCharmProfessional => "pycharm-professional",
-            IdeProduct::PyCharmCommunity => "pycharm-community",
+            IdeProduct::PyCharm => "pycharm",
             IdeProduct::RubyMine => "ruby-mine",
             IdeProduct::CLion => "clion",
             IdeProduct::GoLand => "goland",

@@ -49,7 +49,7 @@ inputs.nix-jetbrains-plugins.url = "github:theCapypara/nix-jetbrains-plugins";
 ```nix
 let
   pluginList = [
-    nix-jetbrains-plugins.plugins."${system}".idea-ultimate."2024.3"."com.intellij.plugins.watcher"
+    nix-jetbrains-plugins.plugins."${system}".idea."2025.3"."com.intellij.plugins.watcher"
   ];
 in {
   # ... see "How to use"
@@ -68,7 +68,7 @@ let
       rev = "<latest commit hash>";
     })).plugins."${system}";
   pluginList = [
-      plugins.idea-ultimate."2024.3"."com.intellij.plugins.watcher"
+      plugins.idea."2025.3"."com.intellij.plugins.watcher"
   ];
 in {
   # ... see "How to use"
@@ -83,7 +83,7 @@ The plugins can be used with ``jetbrains.plugins.addPlugins``:
 {
   environment.systemPackages = [
     # See "How to setup" for definition of `pluginList`.
-    (pkgs.jetbrains.plugins.addPlugins pkgs.jetbrains.idea-ultimate pluginList)
+    (pkgs.jetbrains.plugins.addPlugins pkgs.jetbrains.idea pluginList)
   ];
 }
 ```
@@ -110,8 +110,8 @@ will automatically figure out what IDE and version the plugin needs to be for.
 ```nix
 {
   environment.systemPackages = with nix-jetbrains-plugins.lib."${system}"; [
-    # Adds the latest IDEA Ultimate version with the latest compatible version of "com.intellij.plugins.watcher".
-    (buildIdeWithPlugins pkgs.jetbrains "idea-ultimate" ["com.intellij.plugins.watcher"])
+    # Adds the latest IDEA version with the latest compatible version of "com.intellij.plugins.watcher".
+    (buildIdeWithPlugins pkgs.jetbrains "idea" ["com.intellij.plugins.watcher"])
   ];
 }
 ```
